@@ -1,0 +1,30 @@
+Name: ProGraph
+Description: >-
+  ProGraph was developed in Prolog and relies on bipartite graphs to partition
+  the set of arguments in two classes: in and out.
+Found in: ICCMA 2015
+Implementation Language(s): NA
+Type of Tool: Prolog
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2015-03-01'
+Logic Solver Approach: '2015'
+Region: Labelling
+Bibtex Entry: NA
+Argumentation Approach: |-
+  @article{groza2015prograph,
+    title={ProGraph: towards enacting bipartite graphs for abstract argumentation frameworks},
+    author={Groza, Serban and Groza, Adrian},
+    journal={System Descriptions of the First International Competition on Computational Models of Argumentation (ICCMA’15)},
+    pages={29--32},
+    year={2015}
+  }
+URL: Labelling argumentation
+Bug Tracker: >-
+  https://www.researchgate.net/profile/Adrian-Groza?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlQ29udGVudCJ9fQ
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

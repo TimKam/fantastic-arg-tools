@@ -1,0 +1,31 @@
+Name: CPrAA
+Description: >-
+  CPrAA is a Python tool and package for various tasks in probabilistic abstract
+  argumentation
+Found in: COMMA 2022
+Implementation Language(s): 'Yes'
+Type of Tool: Python
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: MIT
+Year of Update: '2024-09-17'
+Logic Solver Approach: '2024'
+Region: SMT solvers, convex optimization solvers
+Bibtex Entry: Germany
+Argumentation Approach: >-
+  @inproceedings{Kafer2022,   title     = {CPrAA -- A Checker for Probabilistic
+  Abstract Argumentation},   booktitle = {Frontiers in Artificial Intelligence
+  and Applications},   author    = {Käfer, Nikolai},   editor    = {Toni,
+  Francesca and Polberg, Sylwia and Booth, Richard and Caminada, Martin and
+  Kido, Hiroyuki},   date      = {2022-09-07},   year      = {2022},   publisher
+  = {{IOS Press}},   doi       = {10.3233/FAIA220172},   url       =
+  {https://ebooks.iospress.nl/doi/10.3233/FAIA220172},   urldate   =
+  {2023-01-20},   isbn      = {978-1-64368-306-5 978-1-64368-307-2},   langid   
+  = {english} }
+URL: Probabilistic abstract argumentation
+Bug Tracker: https://dgit.cs.uni-saarland.de/Nikolai/cpraa/-/tree/master
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Benchmarks: NA

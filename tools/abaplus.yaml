@@ -1,0 +1,27 @@
+Name: ABAplus
+Description: Implementation of reasoning with the argumentation formalism ABA+
+Found in: PRIMA 2017
+Implementation Language(s): 'Yes'
+Type of Tool: Python
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: Apache 2.0
+Year of Update: '2020-02-06'
+Logic Solver Approach: '2020'
+Region: ASP solver
+Bibtex Entry: UK
+Argumentation Approach: >-
+  @InProceedings{10.1007/978-3-319-69131-2_25, author="Bao, Ziyi and
+  {\v{C}}yras, Kristijonas and Toni, Francesca", editor="An, Bo and Bazzan, Ana
+  and Leite, Jo{\~a}o and Villata, Serena and van der Torre, Leendert",
+  title="ABAplus: Attack Reversal in Abstract and Structured Argumentation with
+  Preferences", booktitle="PRIMA 2017: Principles and Practice of Multi-Agent
+  Systems", year="2017", publisher="Springer International Publishing",
+  address="Cham", pages="420--437", isbn="978-3-319-69131-2" }
+URL: Assumption-Based Argumentation with Preferences
+Bug Tracker: https://github.com/kcyras/ABAplus
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Benchmarks: NA

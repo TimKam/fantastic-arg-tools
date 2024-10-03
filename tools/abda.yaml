@@ -1,0 +1,30 @@
+Name: ABDA
+Description: |-
+  implementation of the
+   Grounded Discussion Game
+Found in: COMMA 2020
+Implementation Language(s): 'Yes'
+Type of Tool: Python
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2021-05-01'
+Logic Solver Approach: '2021'
+Region: ASPIC solver
+Bibtex Entry: UK
+Argumentation Approach: |-
+  @incollection{caminada2020implementation,
+    title={An implementation of argument-based discussion using ASPIC},
+    author={Caminada, Martin and Uebis, S{\"o}ren},
+    booktitle={Computational Models of Argument},
+    pages={455--456},
+    year={2020},
+    publisher={IOS Press}
+   }
+URL: Grounded Discussion Game
+Bug Tracker: https://github.com/Schirmi136/ABDA
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Benchmarks: NA

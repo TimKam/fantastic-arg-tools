@@ -1,0 +1,29 @@
+Name: PyArg
+Description: >-
+  PyArg is an open-source software implementation in Python that provides
+  practical algorithms for theoretical problems in various argumentation
+  formalisms and makes (potential) applications of these algorithms visible in a
+  web interface.
+Found in: COMMA 2022
+Implementation Language(s): NA
+Type of Tool: Python
+Tests?: Solver, visualiser, benchmark generator, exercise generator
+Source Code: 'Yes'
+License: 'Yes'
+Last Update: MIT
+Year of Update: '2024-04-15'
+Logic Solver Approach: '2024'
+Region: Various techniques, ASP
+Bibtex Entry: Netherlands
+Argumentation Approach: >-
+  @inproceedings{odekerken2023demonstrating,   title={Demonstrating PyArg
+  2.0.},   author={Odekerken, Daphne and Borg, AnneMarie and Berthold, Matti},  
+  booktitle={AI$^3$@ AI* IA},   year={2023} }
+URL: >-
+  Abstract Argumentation Frameworks, ASPIC+, ABA, Incomplete Argumentation
+  Frameworks, ASPIC+ with incomplete knowledge bases
+Bug Tracker: https://daphneodekerken.github.io/PyArg/
+Application: NA
+Dependencies: 'Yes'
+Continuous Integration: NA
+Benchmarks: NA

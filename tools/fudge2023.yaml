@@ -1,0 +1,23 @@
+Name: FUDGE 2023
+Description: >-
+  Fudge is an abstract argumentation solver that tightly integrates
+  satisfiability solving technology to solve a series of abstract argumentation
+  problems.
+Found in: ICCMA 2023
+Implementation Language(s): NA
+Type of Tool: C++
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: GPL-3
+Year of Update: '2023-11-10'
+Logic Solver Approach: '2023'
+Region: SAT solver
+Bibtex Entry: Germany
+Argumentation Approach: ''
+URL: Tailored SAT solution
+Bug Tracker: https://argumentationcompetition.org/2023/solvers/fudge.zip
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

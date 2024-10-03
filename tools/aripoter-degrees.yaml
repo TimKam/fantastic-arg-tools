@@ -1,0 +1,30 @@
+Name: ARIPOTER-Degrees
+Description: >-
+  ARIPOTER is based on the idea of ARIPOTER-Degrees by comparing the in-degree
+  (i.e. the number of direct attackers) and the out-degree (i.e. the number of
+  attackees) of an argument to decide whether it should be accepted or not.
+Found in: ICCMA 2023
+Implementation Language(s): NA
+Type of Tool: Java
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2023-06-19'
+Logic Solver Approach: '2023'
+Region: Tailored graph-oriented approach
+Bibtex Entry: France
+Argumentation Approach: |-
+  @article{delobelle2023aripoter,
+    title={ARIPOTER-Degrees: ARgumentatIon apPrOximaTE Reasoning using In/Out Degrees of Arguments},
+    author={Delobelle, J{\'e}r{\^o}me and Mailly, Jean-Guy and Rossit, Julien},
+    journal={ICCMA 2023},
+    year={2023},
+    pages={10}
+  }
+URL: Graph-oriented argumentation approach
+Bug Tracker: https://argumentationcompetition.org/2023/solvers/aripoter_degrees.zip
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

@@ -1,0 +1,29 @@
+Name: CoQuiAAS v3.0
+Description: >-
+  CoQuiAAS v3 uses different Constraint Programming for argumentation reasoning,
+  specifically, it uses Boolean Satisfiability (SAT) and Maximal Satisfiable
+  Sets
+Found in: ICCMA 2019
+Implementation Language(s): NA
+Type of Tool: C++
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2019-03-27'
+Logic Solver Approach: '2019'
+Region: SAT solver
+Bibtex Entry: France
+Argumentation Approach: |-
+  @article{lagniez2019coquiaas,
+    title={CoQuiAAS v3. 0 ICCMA 2019 solver description},
+    author={Lagniez, Jean-Marie and Lonca, Emmanuel and Mailly, Jean-Guy},
+    journal={System descriptions of the Third International Competition on Computational Models of Argumentation (ICCMA’19)},
+    year={2019}
+  }
+URL: Constraint programming
+Bug Tracker: https://hub.docker.com/r/lonca/coquiaas_iccma2019
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

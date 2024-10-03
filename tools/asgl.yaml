@@ -1,0 +1,30 @@
+Name: ASGL
+Description: >-
+  ASGL is a solver for argumentation semantics, capable of answering queries
+  with respect to grounded, complete, preferred, and stable semantics. It is
+  built based on GECODE, a generic CSP solver.
+Found in: ICCMA 2015
+Implementation Language(s): NA
+Type of Tool: LISP, CLOS, C++
+Tests?: Solver
+Source Code: 'Yes'
+License: 'Yes'
+Last Update: NA
+Year of Update: '2019-01-01'
+Logic Solver Approach: '2019'
+Region: Constraint-based solver
+Bibtex Entry: Germany
+Argumentation Approach: |-
+  @article{sprotte2015asgl,
+    title={ASGL: Argumentation Semantics in Gecode and Lisp},
+    author={Sprotte, Kilian},
+    journal={System Descriptions of the First International Competition on Computational Models of Argumentation (ICCMA’15)},
+    pages={41--44},
+    year={2015}
+  }
+URL: Constraint programming
+Bug Tracker: https://github.com/kisp/asgl
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

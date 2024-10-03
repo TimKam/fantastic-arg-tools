@@ -1,0 +1,22 @@
+Name: prefMaxSAT
+Description: >-
+  It's an efficient encoding for preferred extensions search using unweighted
+  MaxSAT, which is a generalization of the well-known SAT problem.
+Found in: ICCMA 2015
+Implementation Language(s): NA
+Type of Tool: C++
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: MIT
+Year of Update: '2015-03-01'
+Logic Solver Approach: '2015'
+Region: SAT solver
+Bibtex Entry: UK
+Argumentation Approach: ''
+URL: ASP satisfiability
+Bug Tracker: https://sourceforge.net/projects/prefmaxsat/
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

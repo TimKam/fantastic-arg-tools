@@ -1,0 +1,29 @@
+Name: DiArg
+Description: >-
+  Argumentation-based reasoning engine that focuses on automating sequential
+  argumentation for inquiry and deliberation dialogues.
+Found in: SAFA 2020
+Implementation Language(s): 'Yes'
+Type of Tool: Java
+Tests?: Solver, Utility
+Source Code: 'Yes'
+License: 'Yes'
+Last Update: BSD 2-Clause License
+Year of Update: '2024-02-11'
+Logic Solver Approach: '2024'
+Region: Tweety's argumentation solvers
+Bibtex Entry: Sweden
+Argumentation Approach: |-
+  @inproceedings{kampik2020diarg,
+    title={Towards DiArg: An Argumentation-based Dialogue Reasoning Engine},
+    pages = {14-21},
+    author={Timotheus Kampik and Dov Gabbay},
+    booktitle={SAFA@ COMMA},
+    year={2020}
+  }
+URL: Abstract argumentation
+Bug Tracker: https://github.com/Interactive-Intelligent-Systems/diarg
+Application: 'Yes'
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: NA

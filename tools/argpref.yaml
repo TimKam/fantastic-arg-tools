@@ -1,0 +1,30 @@
+Name: Argpref
+Description: >-
+  Argpref focuses on computation of the ideal semantics. The solver implements a
+  recently-proposed SAT-with-preferences to computing the backbone of a
+  propositional encoding of admissible sets of a given argumentation framework
+Found in: ICCMA 2019
+Implementation Language(s): NA
+Type of Tool: Python
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2019-03-14'
+Logic Solver Approach: '2019'
+Region: SAT solver
+Bibtex Entry: Finland
+Argumentation Approach: |-
+  @article{argpref,
+    title={Argpref:
+  A SAT-with-Preferences Approach to Ideal Semantics},
+    author={Previti, Alessandro and arvisalo, Matti},
+    journal={The 3rd International Competition on Computational Models of Argumentation (ICCMA’19)},
+    year={2019}
+  }
+URL: Tailored SAT solution
+Bug Tracker: https://hub.docker.com/r/elsandp/argpref
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

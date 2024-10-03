@@ -1,0 +1,29 @@
+Name: SETAFs via Answer-Set Programming
+Description: >-
+  Answer-set programming encodings for the main semantics of argumentation
+  frameworks with collective attacks (also known as SETAFs).
+Found in: SAFA 2018
+Implementation Language(s): 'Yes'
+Type of Tool: ASP
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2018-01-01'
+Logic Solver Approach: '2018'
+Region: ASP solver
+Bibtex Entry: Austria
+Argumentation Approach: |-
+  @inproceedings{dvorak2018evaluating,
+    title={Evaluating SETAFs via answer-set programming},
+    author={Dvor{\'a}k, Wolfgang and Gre{\ss}ler, Alexander and Woltran, Stefan},
+    booktitle={SAFA@ COMMA},
+    pages={10--21},
+    year={2018}
+  }
+URL: Argumentation frameworks with collective attacks (SETAFs), Dung style.
+Bug Tracker: https://www.dbai.tuwien.ac.at/research/argumentation/aspartix/setaf.html
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Benchmarks: NA

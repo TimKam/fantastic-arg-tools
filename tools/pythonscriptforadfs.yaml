@@ -1,0 +1,27 @@
+Name: Python script for ADFs
+Description: A Python Script for Abstract Dialectical Frameworks
+Found in: SAFA 2020
+Implementation Language(s): NA
+Type of Tool: Python
+Tests?: Solver
+Source Code: 'Yes'
+License: 'Yes'
+Last Update: GPL-3
+Year of Update: '2021-09-01'
+Logic Solver Approach: '2021'
+Region: ''
+Bibtex Entry: Germany
+Argumentation Approach: |-
+  @inproceedings{baumann2020python,
+    title={A Python Script for Abstract Dialectical Frameworks.},
+    author={Baumann, Ringo and Heinrich, Maximilian},
+    booktitle={SAFA@ COMMA},
+    pages={74--79},
+    year={2020}
+  }
+URL: Abstract Dialectical Frameworks
+Bug Tracker: https://github.com/kmax-tech/ADF
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: NA

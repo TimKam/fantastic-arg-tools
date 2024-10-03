@@ -1,0 +1,31 @@
+Name: EqArgSolver
+Description: >-
+  EqArgSolver requires the decomposition of the framework into SCCs and the
+  arrangement of these into layers following the direction of attacks.
+Found in: ICCMA 2019
+Implementation Language(s): NA
+Type of Tool: C++
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2019-03-15'
+Logic Solver Approach: '2019'
+Region: Tailored labelling solver
+Bibtex Entry: UK
+Argumentation Approach: >-
+  @inbook{b01aa916e2fe4c84a68788edc44cf57e, title = "EqArgSolver – System
+  Description", abstract = "This paper provides a general overview of
+  EqArgSolver, a solver forenumeration and decision problems in argumentation
+  theory. The solveris implemented from the ground up as aself-contained
+  application in C++ without the use of any otherexternal solver (e.g., SAT,
+  ASP, CSP) or libraries.", author = "Rodrigues, {Odinaldo Teixeira}", year =
+  "2017", language = "English", booktitle = "Proceedings of the 4th Intl.
+  Conference on Theory and Applications of Formal Argumentation", publisher =
+  "Springer"}
+URL: Tailored graph-oriented approach
+Bug Tracker: https://hub.docker.com/r/odinaldo/eqargsolver
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

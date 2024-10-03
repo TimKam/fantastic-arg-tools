@@ -1,0 +1,23 @@
+Name: argmat-mpg
+Description: >-
+  argmat-mpg models an argumentation problem as Boolean constraint satisfaction
+  problem based on Boolean matrix algebra, and a variable selection strategy to
+  speed up the calculation process.
+Found in: ICCMA 2017
+Implementation Language(s): NA
+Type of Tool: C++
+Tests?: Solver
+Source Code: NA
+License: NA
+Last Update: NA
+Year of Update: NA
+Logic Solver Approach: '2017'
+Region: Constraint-based solver
+Bibtex Entry: China
+Argumentation Approach: ''
+URL: Constraint programming
+Bug Tracker: NA
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

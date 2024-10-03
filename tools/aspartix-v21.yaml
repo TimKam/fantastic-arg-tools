@@ -1,0 +1,31 @@
+Name: ASPARTIX-V21
+Description: >-
+  ASPARTIX-V19 solves several reasoning tasks on argumentation frameworks (AFs)
+  by delegating the main reasoning to an answer set programming (ASP) solver
+  with answer set programs encoding the argumentation semantics and reasoning
+  tasks
+Found in: ICCMA 2021
+Implementation Language(s): NA
+Type of Tool: ASP
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2021-03-31'
+Logic Solver Approach: '2021'
+Region: ASP solver
+Bibtex Entry: Austria
+Argumentation Approach: |-
+  @inproceedings{dvovrak2021aspartix,
+    title={ASPARTIX-V-A Solver for Argumentation Tasks Using ASP},
+    author={Dvo{\v{r}}{\'a}k, Wolfgang and K{\"o}nig, Matthias and Rapberger, Anna and Wallner, Johannes P and Woltran, Stefan},
+    booktitle={14th Workshop on Answer Set Programming and Other Computing Paradigms},
+    pages={1--12},
+    year={2021}
+  }
+URL: ASP-based argumentation
+Bug Tracker: https://www.dbai.tuwien.ac.at/research/argumentation/aspartix/
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

@@ -1,0 +1,29 @@
+Name: deliberate
+Description: webapp for sharing argument graphs
+Found in: COMMA 2020
+Implementation Language(s): NA
+Type of Tool: NA
+Tests?: Visualizer
+Source Code: NA
+License: NA
+Last Update: NA
+Year of Update: NA
+Logic Solver Approach: '2020'
+Region: NA
+Bibtex Entry: Germany
+Argumentation Approach: |-
+  @article{prakken2020deliberate,
+    title={deliberate--online argumentation with collaborative filtering},
+    author={Prakken, H and others},
+    journal={Computational Models of Argument: Proceedings of COMMA 2020},
+    volume={326},
+    pages={453},
+    year={2020},
+    publisher={IOS Press}
+   }
+URL: AF Visualization
+Bug Tracker: NA
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Benchmarks: NA

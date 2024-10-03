@@ -1,0 +1,30 @@
+Name: AFGCNv2
+Description: >-
+  It approximates solutions to the credulous or sceptical acceptance of
+  arguments using an approximation method based on a Graph Convolutional Network
+  model.
+Found in: ICCMA 2023
+Implementation Language(s): NA
+Type of Tool: Python
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2023-06-26'
+Logic Solver Approach: '2023'
+Region: Graph Convolutional Network
+Bibtex Entry: UK
+Argumentation Approach: |-
+  @article{malmqvist2021afgcn,
+    title={AFGCN: An approximate abstract argumentation solver},
+    author={Malmqvist, Lars},
+    journal={Fourth International Competition on Computational Models of Argumentation (ICCMA’21)},
+    pages={1--3},
+    year={2021}
+  }
+URL: Learning approach
+Bug Tracker: https://argumentationcompetition.org/2023/solvers/afgcnv2.zip
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

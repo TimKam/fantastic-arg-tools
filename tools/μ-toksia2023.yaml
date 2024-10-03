@@ -1,0 +1,30 @@
+Name: μ-toksia 2023
+Description: >-
+  The μ-toksia system is a SAT-based implementation supporting both the
+  classical and dynamic reasoning tasks
+Found in: ICCMA 2023
+Implementation Language(s): NA
+Type of Tool: C++
+Tests?: Solver
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2023-03-16'
+Logic Solver Approach: '2023'
+Region: SAT solver
+Bibtex Entry: Finland
+Argumentation Approach: |-
+  @inproceedings{niskanen2020mu,
+    title={$\mu$-toksia: an efficient abstract argumentation reasoner},
+    author={Niskanen, Andreas and J{\"a}rvisalo, Matti},
+    booktitle={International Conference on Principles of Knowledge Representation and Reasoning},
+    pages={800--804},
+    year={2020},
+    organization={International Joint Conference on Artificial Intelligence, Inc}
+  }
+URL: Tailored SAT solution
+Bug Tracker: https://argumentationcompetition.org/2023/solvers/mu-toksia.zip
+Application: NA
+Dependencies: NA
+Continuous Integration: 'Yes'
+Benchmarks: 'Yes'

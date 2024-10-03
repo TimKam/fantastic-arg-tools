@@ -1,0 +1,27 @@
+Name: AFBenchGen2
+Description: Random generator of argumentation graph for Dung AFs
+Found in: COMMA 2016
+Implementation Language(s): NA
+Type of Tool: JavaScript
+Tests?: Utility
+Source Code: NA
+License: 'Yes'
+Last Update: NA
+Year of Update: '2014-09-01'
+Logic Solver Approach: '2017'
+Region: NA
+Bibtex Entry: UK
+Argumentation Approach: |-
+  @inproceedings{cerutti2016generating,
+    title={Generating Structured Argumentation Frameworks: AFBenchGen2.},
+    author={Cerutti, Federico and Giacomin, Massimiliano and Vallati, Mauro and others},
+    booktitle={COMMA},
+    pages={467--468},
+    year={2016}
+   }
+URL: Dung AF
+Bug Tracker: https://sourceforge.net/projects/afbenchgen/
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Benchmarks: NA
