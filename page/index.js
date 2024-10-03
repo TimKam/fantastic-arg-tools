@@ -67,18 +67,10 @@ $(document).ready(function(){
 })
 
 function renderCharts(toolData){
-    const ctx = document.getElementById('countries');
-    const countries = { }
-    toolData.forEach(tool => {
-       country = tool['Region']
-       if(!countries[country]) {
-        countries[country] = 1
-       } else {
-        countries[country] +=1
-       }
-    })
-    console.log(countries)
-    new Chart(ctx, {
+    /* COUNTRIES */
+    const countryCtx = document.getElementById('countries');
+    countries = aggregatePie(toolData, 'Region')
+    new Chart(countryCtx, {
     type: 'pie',
     data: {
         labels: Object.keys(countries),
@@ -89,6 +81,50 @@ function renderCharts(toolData){
         }]
     }
     })
+
+    /* DOCUMENTATION */
+    const documentationCtx = document.getElementById('documentation');
+    documentations = aggregatePie(toolData, 'Documentation')
+    new Chart(documentationCtx, {
+    type: 'pie',
+    data: {
+        labels: Object.keys(documentations),
+        datasets: [{
+        label: '# Tools by Documentation Availability',
+        data: Object.values(documentations),
+        borderWidth: 1
+        }]
+    }
+    })
+
+    /* DOCUMENTATION */
+    const licenseCtx = document.getElementById('license');
+    licenses = aggregatePie(toolData, 'License')
+    new Chart(licenseCtx, {
+    type: 'pie',
+    data: {
+        labels: Object.keys(licenses),
+        datasets: [{
+        label: '# Tools by License',
+        data: Object.values(licenses),
+        borderWidth: 1
+        }]
+    }
+    })
+
+}
+
+function aggregatePie(toolData, id) {
+    const aggregate = { }
+    toolData.forEach(tool => {
+       value = tool[id]
+       if(!aggregate[value]) {
+        aggregate[value] = 1
+       } else {
+        aggregate[value] +=1
+       }
+    })
+    return aggregate
 }
 
 
