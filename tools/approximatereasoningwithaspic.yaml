@@ -3,17 +3,17 @@ Description: >-
   Approximation algorithms for reasoning in structured argumentation approaches
   such as ASPIC+
 Found in: SAFA 2020
-Implementation Language(s): NA
-Type of Tool: Java
-Tests?: Solver
+Documentation: NA
+Implementation Language(s): Java
+Type of Tool: Solver
+Tests?: NA
 Source Code: NA
 License: NA
 Last Update: NA
-Year of Update: NA
-Logic Solver Approach: '2020'
-Region: Tweety's argumentation solvers
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Year of Update: '2020'
+Logic Solver Approach: Tweety's argumentation solvers
+Region: Germany
+Bibtex Entry: |-
   @article{thimm2020approximate,
     title={Approximate Reasoning with ASPIC+ by Argument Sampling.},
     author={Thimm, Matthias and Rienstra, Tjitze},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     pages={22--33},
     year={2020}
   }
-URL: Structured argumentation, ASPIC
-Bug Tracker: http://tweetyproject.org/r/?r=aspic_reasoner
+Argumentation Approach: Structured argumentation, ASPIC
+URL: http://tweetyproject.org/r/?r=aspic_reasoner
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

@@ -3,17 +3,17 @@ Description: >-
   Solver for weighted bipolar argumentation problems with continuous dynamical
   systems
 Found in: COMMA 2022
-Implementation Language(s): NA
-Type of Tool: Java
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2022-01-01'
-Logic Solver Approach: '2022'
-Region: Gradual semantics
-Bibtex Entry: UK
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Java
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2022-01-01'
+Year of Update: '2022'
+Logic Solver Approach: Gradual semantics
+Region: UK
+Bibtex Entry: |-
   @inproceedings{potyka2022attractor,
     title={Attractor-A Java Library for Gradual Bipolar Argumentation.},
     author={Potyka, Nico},
@@ -21,9 +21,11 @@ Argumentation Approach: |-
     pages={369--370},
     year={2022}
    }
-URL: Weighted bipolar argumentation
-Bug Tracker: https://sourceforge.net/projects/attractorproject/
+Argumentation Approach: Weighted bipolar argumentation
+URL: https://sourceforge.net/projects/attractorproject/
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

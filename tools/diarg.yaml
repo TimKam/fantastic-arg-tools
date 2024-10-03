@@ -3,17 +3,17 @@ Description: >-
   Argumentation-based reasoning engine that focuses on automating sequential
   argumentation for inquiry and deliberation dialogues.
 Found in: SAFA 2020
-Implementation Language(s): 'Yes'
-Type of Tool: Java
-Tests?: Solver, Utility
+Documentation: 'Yes'
+Implementation Language(s): Java
+Type of Tool: Solver, Utility
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: BSD 2-Clause License
-Year of Update: '2024-02-11'
-Logic Solver Approach: '2024'
-Region: Tweety's argumentation solvers
-Bibtex Entry: Sweden
-Argumentation Approach: |-
+License: BSD 2-Clause License
+Last Update: '2024-02-11'
+Year of Update: '2024'
+Logic Solver Approach: Tweety's argumentation solvers
+Region: Sweden
+Bibtex Entry: |-
   @inproceedings{kampik2020diarg,
     title={Towards DiArg: An Argumentation-based Dialogue Reasoning Engine},
     pages = {14-21},
@@ -21,9 +21,11 @@ Argumentation Approach: |-
     booktitle={SAFA@ COMMA},
     year={2020}
   }
-URL: Abstract argumentation
-Bug Tracker: https://github.com/Interactive-Intelligent-Systems/diarg
-Application: 'Yes'
+Argumentation Approach: Abstract argumentation
+URL: https://github.com/Interactive-Intelligent-Systems/diarg
+Bug Tracker: 'Yes'
+Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: NA

@@ -3,26 +3,28 @@ Description: >-
   HARPER++ is an approximate solver and makes use of the information provided by
   the grounded extension to answer queries with respect to other semantics.
 Found in: ICCMA 2023
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: GPL-3
-Year of Update: '2022-07-19'
-Logic Solver Approach: '2022'
-Region: Tailored labelling solver
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: GPL-3
+Last Update: '2022-07-19'
+Year of Update: '2022'
+Logic Solver Approach: Tailored labelling solver
+Region: Germany
+Bibtex Entry: |-
   @article{thimm2021harper++,
     title={Harper++: Using grounded semantics for approximate reasoning in abstract argumentation},
     author={Thimm, Matthias},
     journal={The Fourth International Competition on Computational Models of Argumentation (ICCMA’21)},
     year={2021}
   }
-URL: Tailored grounded semantics solution
-Bug Tracker: https://github.com/aig-hagen/taas-harperpp
+Argumentation Approach: Tailored grounded semantics solution
+URL: https://github.com/aig-hagen/taas-harperpp
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
+Dependencies: CaDiCaL
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: 'Yes'

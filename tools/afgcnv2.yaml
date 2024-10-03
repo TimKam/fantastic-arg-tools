@@ -4,17 +4,17 @@ Description: >-
   arguments using an approximation method based on a Graph Convolutional Network
   model.
 Found in: ICCMA 2023
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2023-06-26'
-Logic Solver Approach: '2023'
-Region: Graph Convolutional Network
-Bibtex Entry: UK
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2023-06-26'
+Year of Update: '2023'
+Logic Solver Approach: Graph Convolutional Network
+Region: UK
+Bibtex Entry: |-
   @article{malmqvist2021afgcn,
     title={AFGCN: An approximate abstract argumentation solver},
     author={Malmqvist, Lars},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     pages={1--3},
     year={2021}
   }
-URL: Learning approach
-Bug Tracker: https://argumentationcompetition.org/2023/solvers/afgcnv2.zip
+Argumentation Approach: Learning approach
+URL: https://argumentationcompetition.org/2023/solvers/afgcnv2.zip
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: GraphConv, Torch
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

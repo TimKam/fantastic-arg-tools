@@ -1,24 +1,25 @@
-Name: prefMaxSAT
+Name: Chimærarg
 Description: >-
-  It's an efficient encoding for preferred extensions search using unweighted
-  MaxSAT, which is a generalization of the well-known SAT problem.
-Found in: ICCMA 2015
+  Chimærarg is an approach for combining solvers into static sequential
+  portfolios for solving the problems of enumerating preferred and stable
+  extensions
+Found in: ICCMA 2017
 Documentation: NA
 Implementation Language(s): C++
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
 License: MIT
-Last Update: '2015-03-01'
-Year of Update: '2015'
+Last Update: '2017-05-09'
+Year of Update: '2017'
 Logic Solver Approach: SAT solver
 Region: UK
 Bibtex Entry: ''
 Argumentation Approach: ASP satisfiability
-URL: https://sourceforge.net/projects/prefmaxsat/
+URL: https://github.com/federicocerutti/Chimaerarg
 Bug Tracker: NA
 Application: NA
-Dependencies: MaxSAT solver. STLSoft
+Dependencies: AFBenchGen2. Probo
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

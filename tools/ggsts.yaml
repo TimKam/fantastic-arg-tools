@@ -1,0 +1,26 @@
+Name: gg-sts
+Description: GG-Sts is a solver on top of Sat-to-Sat
+Found in: ICCMA 2017
+Documentation: 'Yes'
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2017-03-16'
+Year of Update: '2017'
+Logic Solver Approach: SAT solver
+Region: Finland
+Bibtex Entry: |-
+  @article{tasharrofigg,
+    title={GG-Sts: Argumentation Solver from Aalto University in ICCMA 2017},
+    author={Tasharrofi, Shahab and Janhunen, Tomi}
+   }
+Argumentation Approach: Tailored SAT solution
+URL: https://research.ics.aalto.fi/software/sat/gg-sts
+Bug Tracker: NA
+Application: NA
+Dependencies: SAT-TO-SAT
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'

@@ -3,20 +3,22 @@ Description: >-
   ArgTools is based on a backtracking procedure that traverses an abstract
   binary tree in a depth-first manner and labelling
 Found in: ICCMA 2017
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: GPL-3
-Year of Update: '2015-03-21'
-Logic Solver Approach: '2015'
-Region: Tailored labelling solver
-Bibtex Entry: Jordan
-Argumentation Approach: ''
-URL: Labelling argumentation
-Bug Tracker: https://sourceforge.net/projects/argtools/files/
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: GPL-3
+Last Update: '2015-03-21'
+Year of Update: '2015'
+Logic Solver Approach: Tailored labelling solver
+Region: Jordan
+Bibtex Entry: ''
+Argumentation Approach: Labelling argumentation
+URL: https://sourceforge.net/projects/argtools/files/
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

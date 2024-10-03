@@ -4,26 +4,28 @@ Description: >-
   specifically, it uses Boolean Satisfiability (SAT) and Maximal Satisfiable
   Sets
 Found in: ICCMA 2019
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2019-03-27'
-Logic Solver Approach: '2019'
-Region: SAT solver
-Bibtex Entry: France
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2019-03-27'
+Year of Update: '2019'
+Logic Solver Approach: SAT solver
+Region: France
+Bibtex Entry: |-
   @article{lagniez2019coquiaas,
     title={CoQuiAAS v3. 0 ICCMA 2019 solver description},
     author={Lagniez, Jean-Marie and Lonca, Emmanuel and Mailly, Jean-Guy},
     journal={System descriptions of the Third International Competition on Computational Models of Argumentation (ICCMA’19)},
     year={2019}
   }
-URL: Constraint programming
-Bug Tracker: https://hub.docker.com/r/lonca/coquiaas_iccma2019
+Argumentation Approach: Constraint programming
+URL: https://hub.docker.com/r/lonca/coquiaas_iccma2019
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

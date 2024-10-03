@@ -1,17 +1,17 @@
 Name: PORTSAT
 Description: ''
 Found in: ICCMA 2023
-Implementation Language(s): NA
-Type of Tool: Rust, C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2023-03-17'
-Logic Solver Approach: '2023'
-Region: SAT solver
-Bibtex Entry: France
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Rust, C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2023-03-17'
+Year of Update: '2023'
+Logic Solver Approach: SAT solver
+Region: France
+Bibtex Entry: |-
   @article{declercq2023portsat,
     title={PORTSAT: A Portfolio of SAT Solvers for Abstract Argumentation},
     author={Declercq, Sylvain and Capellini, Quentin Januel and Yang, Christophe and Delobelle, J{\'e}r{\^o}me and Mailly, Jean-Guy},
@@ -19,9 +19,11 @@ Argumentation Approach: |-
     pages={32},
     year={2023}
   }
-URL: Tailored SAT solution
-Bug Tracker: https://argumentationcompetition.org/2023/solvers/portsat.zip
+Argumentation Approach: Tailored SAT solution
+URL: https://argumentationcompetition.org/2023/solvers/portsat.zip
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: MiniSAT, ManySAT, MappleSAT, Glucose
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

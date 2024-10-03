@@ -4,17 +4,17 @@ Description: >-
   flexible dispute
    derivations for assumption-based argumentation (ABA).
 Found in: SAFA 2022
-Implementation Language(s): 'Yes'
-Type of Tool: Prolog
-Tests?: Solver
+Documentation: 'Yes'
+Implementation Language(s): Prolog
+Type of Tool: Solver
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: NA
-Year of Update: '2023-04-26'
-Logic Solver Approach: '2023'
-Region: NA
-Bibtex Entry: Germany
-Argumentation Approach: |-
+License: NA
+Last Update: '2023-04-26'
+Year of Update: '2023'
+Logic Solver Approach: NA
+Region: Germany
+Bibtex Entry: |-
   @inproceedings{diller2022strategies,
     title={Strategies in Flexible Dispute Derivations for Assumption-Based Argumentation.},
     author={Diller, Martin and Gaggl, Sarah Alice and Gorczyca, Piotr},
@@ -22,9 +22,14 @@ Argumentation Approach: |-
     pages={59--72},
     year={2022}
   }
-URL: Assumption-based argumentation
-Bug Tracker: https://github.com/gorczyca/aba-dd-rule-based
+Argumentation Approach: Assumption-based argumentation
+URL: https://github.com/gorczyca/aba-dd-rule-based
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: >-
+  Scala Parser Combinators version 2.2.0 from org.scala-lang.modules. ScalaTest
+  version 3.2.15 from org.scalatest (for testing). Scopt version 4.1.0 from
+  com.github.scopt. PureConfig version 0.17.2 from com.github.pureconfig.
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

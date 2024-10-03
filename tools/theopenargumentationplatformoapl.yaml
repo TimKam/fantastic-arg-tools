@@ -3,17 +3,17 @@ Description: >-
   Platform providing a collection tools to manipulate and visualize
   Argumentation Frameworks
 Found in: COMMA 2020
-Implementation Language(s): 'Yes'
-Type of Tool: Python
-Tests?: Visualizer, Utility, Solver
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Visualizer, Utility, Solver
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: GPL-3
-Year of Update: '2022-01-01'
-Logic Solver Approach: '2022'
-Region: NA
-Bibtex Entry: UK
-Argumentation Approach: |-
+License: GPL-3
+Last Update: '2022-01-01'
+Year of Update: '2022'
+Logic Solver Approach: NA
+Region: UK
+Bibtex Entry: |-
   @incollection{wells2020open,
     title={The open argumentation platform (OAPL)},
     author={Wells, Simon},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     year={2020},
     publisher={IOS Press}
    }
-URL: NA
-Bug Tracker: http://openargumentation.org/
+Argumentation Approach: NA
+URL: http://openargumentation.org/
+Bug Tracker: NA
 Application: NA
-Dependencies: ''
-Continuous Integration: NA
+Dependencies: NA
+Continuous Integration: ''
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

@@ -4,26 +4,28 @@ Description: >-
   in a matrix style and the corresponding rows and columns
    of the matrix are reduced according to the chosen semantics
 Found in: ICCMA 2021
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2021-04-14'
-Logic Solver Approach: '2021'
-Region: Tailored Matrix translation
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2021-04-14'
+Year of Update: '2021'
+Logic Solver Approach: Tailored Matrix translation
+Region: Germany
+Bibtex Entry: |-
   @article{heinrich2021matrixx,
     title={The MatrixX solver for argumentation frameworks},
     author={Heinrich, Maximilian},
     journal={arXiv preprint arXiv:2109.14732},
     year={2021}
   }
-URL: Matrix-based solution
-Bug Tracker: https://github.com/kmax-tech/MatrixX
+Argumentation Approach: Matrix-based solution
+URL: https://github.com/kmax-tech/MatrixX
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

@@ -4,17 +4,17 @@ Description: >-
   recently-proposed SAT-with-preferences to computing the backbone of a
   propositional encoding of admissible sets of a given argumentation framework
 Found in: ICCMA 2019
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2019-03-14'
-Logic Solver Approach: '2019'
-Region: SAT solver
-Bibtex Entry: Finland
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2019-03-14'
+Year of Update: '2019'
+Logic Solver Approach: SAT solver
+Region: Finland
+Bibtex Entry: |-
   @article{argpref,
     title={Argpref:
   A SAT-with-Preferences Approach to Ideal Semantics},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     journal={The 3rd International Competition on Computational Models of Argumentation (ICCMA’19)},
     year={2019}
   }
-URL: Tailored SAT solution
-Bug Tracker: https://hub.docker.com/r/elsandp/argpref
+Argumentation Approach: Tailored SAT solution
+URL: https://hub.docker.com/r/elsandp/argpref
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

@@ -1,0 +1,24 @@
+Name: argmat-dvisat
+Description: >-
+  argmat-dvisat provides a division-based algorithm framework for solving the
+  reasoning tasks in abstract argumentation using a SAT solver
+Found in: ICCMA 2017
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: NA
+License: NA
+Last Update: NA
+Year of Update: '2017'
+Logic Solver Approach: SAT solver
+Region: China
+Bibtex Entry: ''
+Argumentation Approach: Tailored SAT solution
+URL: NA
+Bug Tracker: NA
+Application: NA
+Dependencies: CryptoMiniSat
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'

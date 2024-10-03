@@ -3,17 +3,17 @@ Description: >-
   ASSA performs reasoning tasks based on matrix operations, that can answer
   whether a given set of arguments is part of an argumentation extension.
 Found in: ICCMA 2015
-Implementation Language(s): NA
-Type of Tool: Java
-Tests?: Solver
+Documentation: NA
+Implementation Language(s): Java
+Type of Tool: Solver
+Tests?: NA
 Source Code: NA
 License: NA
 Last Update: NA
-Year of Update: NA
-Logic Solver Approach: '2015'
-Region: Corgias (dynamic) argumentation
-Bibtex Entry: Cyprus
-Argumentation Approach: |-
+Year of Update: '2015'
+Logic Solver Approach: Corgias (dynamic) argumentation
+Region: Cyprus
+Bibtex Entry: |-
   @article{hadjisoteriou2015assa,
     title={ASSA: Computing stable extensions with matrices},
     author={Hadjisoteriou, Evgenios and Georgiou, Michael},
@@ -21,9 +21,11 @@ Argumentation Approach: |-
     pages={62--65},
     year={2015}
   }
-URL: Matrix dynamic argumentation computation
+Argumentation Approach: Matrix dynamic argumentation computation
+URL: NA
 Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

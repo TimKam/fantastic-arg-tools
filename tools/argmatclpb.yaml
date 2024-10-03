@@ -1,0 +1,25 @@
+Name: argmat-clpb
+Description: >-
+  argmat-clpb uses Constraint Logic Programming over Boolean variables as its
+  logic engine to encode and solve argumentation problems based on Boolean
+  matrix algebra
+Found in: ICCMA 2017
+Documentation: NA
+Implementation Language(s): C++, Prolog
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: Copyright 2015 Tsinghua University.
+Last Update: '2017-05-01'
+Year of Update: '2017'
+Logic Solver Approach: Constraint-based solver
+Region: China
+Bibtex Entry: ''
+Argumentation Approach: Constraint programming
+URL: https://github.com/xixicat/argmat-clpb
+Bug Tracker: NA
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'

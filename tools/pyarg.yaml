@@ -5,25 +5,27 @@ Description: >-
   formalisms and makes (potential) applications of these algorithms visible in a
   web interface.
 Found in: COMMA 2022
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Solver, visualiser, benchmark generator, exercise generator
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver, visualiser, benchmark generator, exercise generator
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: MIT
-Year of Update: '2024-04-15'
-Logic Solver Approach: '2024'
-Region: Various techniques, ASP
-Bibtex Entry: Netherlands
-Argumentation Approach: >-
+License: MIT
+Last Update: '2024-04-15'
+Year of Update: '2024'
+Logic Solver Approach: Various techniques, ASP
+Region: Netherlands
+Bibtex Entry: >-
   @inproceedings{odekerken2023demonstrating,   title={Demonstrating PyArg
   2.0.},   author={Odekerken, Daphne and Borg, AnneMarie and Berthold, Matti},  
   booktitle={AI$^3$@ AI* IA},   year={2023} }
-URL: >-
+Argumentation Approach: >-
   Abstract Argumentation Frameworks, ASPIC+, ABA, Incomplete Argumentation
   Frameworks, ASPIC+ with incomplete knowledge bases
-Bug Tracker: https://daphneodekerken.github.io/PyArg/
+URL: https://daphneodekerken.github.io/PyArg/
+Bug Tracker: NA
 Application: NA
-Dependencies: 'Yes'
-Continuous Integration: NA
+Dependencies: Clingo + various Python packages (see requirements.txt)
+Continuous Integration: 'Yes'
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

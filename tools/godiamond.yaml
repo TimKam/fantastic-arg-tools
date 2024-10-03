@@ -3,24 +3,26 @@ Description: >-
   goDIAMOND reduces ADF problems to ASP problems and solves them using an ASP
   solver
 Found in: ICCMA 2017
-Implementation Language(s): 'Yes'
-Type of Tool: Go
-Tests?: Solver
+Documentation: 'Yes'
+Implementation Language(s): Go
+Type of Tool: Solver
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: ''
-Year of Update: '2015-04-22'
-Logic Solver Approach: '2015'
-Region: SAT solver
-Bibtex Entry: Germany
-Argumentation Approach: |-
+License: ''
+Last Update: '2015-04-22'
+Year of Update: '2015'
+Logic Solver Approach: SAT solver
+Region: Germany
+Bibtex Entry: |-
   @article{strassiccma,
     title={ICCMA 2017 System Description},
     author={Strass, Hannes and Ellmauthaler, Stefan}
    }
-URL: Tailored SAT solution
-Bug Tracker: https://sourceforge.net/p/diamond-adf/
-Application: 'Yes'
-Dependencies: NA
-Continuous Integration: 'Yes'
+Argumentation Approach: Tailored SAT solution
+URL: https://sourceforge.net/p/diamond-adf/
+Bug Tracker: 'Yes'
+Application: NA
+Dependencies: Clingo
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

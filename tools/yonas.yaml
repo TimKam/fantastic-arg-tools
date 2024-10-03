@@ -5,17 +5,17 @@ Description: |-
    train a deep reinforcement learning model that is used in MCTS at runtime to guide the tree search in
    finding solutions
 Found in: ICCMA 2019
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2019-03-27'
-Logic Solver Approach: '2019'
-Region: Hybrid (Deep Learning - Search)
-Bibtex Entry: UK
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2019-03-27'
+Year of Update: '2019'
+Logic Solver Approach: Hybrid (Deep Learning - Search)
+Region: UK
+Bibtex Entry: |-
   @article{malmqvist2019yonas,
     title={Yonas: An experimental neural argumentation solver},
     author={Malmqvist, Lars},
@@ -23,9 +23,11 @@ Argumentation Approach: |-
     volume={295},
     year={2019}
   }
-URL: Deep Reinforcement Learning (DRL) and Monte Carlo Tree Search (MCTS)
-Bug Tracker: https://hub.docker.com/r/lmalmqvist/yonas
+Argumentation Approach: Deep Reinforcement Learning (DRL) and Monte Carlo Tree Search (MCTS)
+URL: https://hub.docker.com/r/lmalmqvist/yonas
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

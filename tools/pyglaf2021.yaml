@@ -3,26 +3,28 @@ Description: >-
   pyglaf uses circumscription to solve computational problems of abstract
   argumentation frameworks via an external circumscription solver
 Found in: ICCMA 2021
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Solver
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: NA
-Year of Update: '2021-01-01'
-Logic Solver Approach: '2021'
-Region: SAT solver
-Bibtex Entry: Italy
-Argumentation Approach: |-
+License: NA
+Last Update: '2021-01-01'
+Year of Update: '2021'
+Logic Solver Approach: SAT solver
+Region: Italy
+Bibtex Entry: |-
   @article{alviano2021pyglaf,
     title={The PYGLAF argumentation reasoner (ICCMA2021)},
     author={Alviano, Mario},
     journal={arXiv preprint arXiv:2109.03162},
     year={2021}
   }
-URL: Tailored SAT solution
-Bug Tracker: http://archives.alviano.net/pyglaf/pyglaf-iccma2021.zip
+Argumentation Approach: Tailored SAT solution
+URL: http://archives.alviano.net/pyglaf/pyglaf-iccma2021.zip
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: Circumscriptino, Glucose
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

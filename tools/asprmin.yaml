@@ -4,20 +4,22 @@ Description: >-
   encoding for admissible extensions and setting the heuristics in a way such
   that a subset maximal answer set is found first
 Found in: ICCMA 2017
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: MIT
-Year of Update: '2017-04-15'
-Logic Solver Approach: '2017'
-Region: ASP solver
-Bibtex Entry: UK
-Argumentation Approach: ''
-URL: ASP satisfiability
-Bug Tracker: https://helios.hud.ac.uk/scommv/storage/ASPrMin-v1.0.tar.gz
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: MIT
+Last Update: '2017-04-15'
+Year of Update: '2017'
+Logic Solver Approach: ASP solver
+Region: UK
+Bibtex Entry: ''
+Argumentation Approach: ASP satisfiability
+URL: https://helios.hud.ac.uk/scommv/storage/ASPrMin-v1.0.tar.gz
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

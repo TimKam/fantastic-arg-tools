@@ -1,17 +1,17 @@
 Name: ArgNav
 Description: Visual navigation of argumentative structures
 Found in: COMMA 2020
-Implementation Language(s): NA
-Type of Tool: Python
-Tests?: Visualizer
-Source Code: NA
-License: 'Yes'
-Last Update: Apache 2.0
-Year of Update: '2021-06-01'
-Logic Solver Approach: '2021'
-Region: NA
-Bibtex Entry: UK
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Visualizer
+Tests?: NA
+Source Code: 'Yes'
+License: Apache 2.0
+Last Update: '2021-06-01'
+Year of Update: '2021'
+Logic Solver Approach: NA
+Region: UK
+Bibtex Entry: |-
   @inproceedings{duthie2020navigating,
     title={Navigating arguments and hypotheses at scale},
     author={Duthie, Rory and Lawrence, John and Reed, Chris and Visser, Jacky and Zografistou, Dimitra},
@@ -20,9 +20,11 @@ Argumentation Approach: |-
     year={2020},
     organization={IOS Press}
    }
-URL: AF Visualization
-Bug Tracker: https://github.com/roryduthie/ArgNav
+Argumentation Approach: AF Visualization
+URL: https://github.com/roryduthie/ArgNav
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

@@ -3,20 +3,22 @@ Description: >-
   LaTeX-package build on TikZ that provides a simplified syntax for creating
   many types of argumentation frameworks in LaTeX-documents.
 Found in: '-'
-Implementation Language(s): 'Yes'
-Type of Tool: ''
-Tests?: Utility
-Source Code: NA
-License: 'Yes'
-Last Update: LaTeX Project Public License 1.3c
-Year of Update: '2024-09-25'
-Logic Solver Approach: '2024'
-Region: NA
-Bibtex Entry: Germany
-Argumentation Approach: NA
-URL: AFs, BAFs, ADFs, WAFs, etc.
-Bug Tracker: https://github.com/aig-hagen/tikz_argumentation
-Application: ''
-Dependencies: NA
+Documentation: 'Yes'
+Implementation Language(s): ''
+Type of Tool: Utility
+Tests?: NA
+Source Code: 'Yes'
+License: LaTeX Project Public License 1.3c
+Last Update: '2024-09-25'
+Year of Update: '2024'
+Logic Solver Approach: NA
+Region: Germany
+Bibtex Entry: NA
+Argumentation Approach: AFs, BAFs, ADFs, WAFs, etc.
+URL: https://github.com/aig-hagen/tikz_argumentation
+Bug Tracker: ''
+Application: NA
+Dependencies: None
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

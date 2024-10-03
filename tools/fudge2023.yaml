@@ -4,20 +4,22 @@ Description: >-
   satisfiability solving technology to solve a series of abstract argumentation
   problems.
 Found in: ICCMA 2023
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: GPL-3
-Year of Update: '2023-11-10'
-Logic Solver Approach: '2023'
-Region: SAT solver
-Bibtex Entry: Germany
-Argumentation Approach: ''
-URL: Tailored SAT solution
-Bug Tracker: https://argumentationcompetition.org/2023/solvers/fudge.zip
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: GPL-3
+Last Update: '2023-11-10'
+Year of Update: '2023'
+Logic Solver Approach: SAT solver
+Region: Germany
+Bibtex Entry: ''
+Argumentation Approach: Tailored SAT solution
+URL: https://argumentationcompetition.org/2023/solvers/fudge.zip
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: CaDiCaL
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

@@ -1,17 +1,17 @@
 Name: probo2
 Description: Benchmark framework for Argumentation Solvers
 Found in: COMMA 2022
-Implementation Language(s): 'Yes'
-Type of Tool: Python
-Tests?: Benchmarks
-Source Code: NA
-License: 'Yes'
-Last Update: MIT
-Year of Update: '2024-03-01'
-Logic Solver Approach: '2024'
-Region: NA
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Benchmarks
+Tests?: NA
+Source Code: 'Yes'
+License: MIT
+Last Update: '2024-03-01'
+Year of Update: '2024'
+Logic Solver Approach: NA
+Region: Germany
+Bibtex Entry: |-
   @inproceedings{klein2022probo2,
     title={probo2: A Benchmark Framework for Argumentation Solvers.},
     author={Klein, Jonas and Thimm, Matthias},
@@ -19,9 +19,11 @@ Argumentation Approach: |-
     pages={363--364},
     year={2022}
    }
-URL: NA
-Bug Tracker: https://github.com/aig-hagen/probo2
+Argumentation Approach: NA
+URL: https://github.com/aig-hagen/probo2
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
+Dependencies: see requirements.txt
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

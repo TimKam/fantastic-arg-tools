@@ -3,17 +3,17 @@ Description: |-
   Web-Based Implementation
    of the Preferred Game and of the Grounded Discussion Game
 Found in: COMMA 2018
-Implementation Language(s): 'Yes'
-Type of Tool: JavaScript
-Tests?: Solver, Visualizer
+Documentation: 'Yes'
+Implementation Language(s): JavaScript
+Type of Tool: Solver, Visualizer
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: GPL-3
-Year of Update: '2017-04-01'
-Logic Solver Approach: '2017'
-Region: ''
-Bibtex Entry: UK
-Argumentation Approach: |-
+License: GPL-3
+Last Update: '2017-04-01'
+Year of Update: '2017'
+Logic Solver Approach: ''
+Region: UK
+Bibtex Entry: |-
   @incollection{booth2018disco,
     title={DISCO: A web-based implementation of discussion games for grounded and preferred semantics},
     author={Booth, Richard and Caminada, Martin and Marshall, Braden},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     year={2018},
     publisher={IOS Press}
    }
-URL: Preferred Game and of the Grounded Discussion Game
-Bug Tracker: https://disco.cs.cf.ac.uk/
+Argumentation Approach: Preferred Game and of the Grounded Discussion Game
+URL: https://disco.cs.cf.ac.uk/
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
+Dependencies: Gulp, Bower
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

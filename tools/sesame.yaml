@@ -1,17 +1,17 @@
 Name: SESAME
 Description: A System for Specifying Semantics in Abstract Argumentation
 Found in: SAFA 2016
-Implementation Language(s): 'Yes'
-Type of Tool: Java
-Tests?: Utility
+Documentation: 'Yes'
+Implementation Language(s): Java
+Type of Tool: Utility
+Tests?: NA
 Source Code: NA
 License: NA
-Last Update: NA
-Year of Update: '2017-01-30'
-Logic Solver Approach: '2017'
-Region: SAT
-Bibtex Entry: France
-Argumentation Approach: |-
+Last Update: '2017-01-30'
+Year of Update: '2017'
+Logic Solver Approach: SAT
+Region: France
+Bibtex Entry: |-
   @inproceedings{besnard2016sesame,
     title={SESAME-a system for specifying semantics in abstract argumentation},
     author={Besnard, Philippe and Doutre, Sylvie and Longin, Dominique and others},
@@ -20,9 +20,11 @@ Argumentation Approach: |-
     pages={40--51},
     year={2016}
   }
-URL: Abstract argumentation, Extension based
-Bug Tracker: https://www.irit.fr/SESAME/
-Application: NA
+Argumentation Approach: Abstract argumentation, Extension based
+URL: https://www.irit.fr/SESAME/
+Bug Tracker: NA
+Application: GUI that allows users specifying abstract argumentation semantics
 Dependencies: NA
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

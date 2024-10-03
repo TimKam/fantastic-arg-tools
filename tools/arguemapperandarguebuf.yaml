@@ -3,17 +3,17 @@ Description: >-
   Tools for manual argument mining and to serialize argument structures (eg in
   JSON)
 Found in: COMMA 2022
-Implementation Language(s): 'Yes'
-Type of Tool: Typescript, Python
-Tests?: Utility
-Source Code: NA
-License: 'Yes'
-Last Update: MIT
-Year of Update: '2024-03-01'
-Logic Solver Approach: '2024'
-Region: NA
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Documentation: 'Yes'
+Implementation Language(s): Typescript, Python
+Type of Tool: Utility
+Tests?: NA
+Source Code: 'Yes'
+License: MIT
+Last Update: '2024-03-01'
+Year of Update: '2024'
+Logic Solver Approach: NA
+Region: Germany
+Bibtex Entry: |-
   @incollection{lenz2022user,
     title={User-Centric Argument Mining with ArgueMapper and Arguebuf},
     author={Lenz, Mirko and Bergmann, Ralph},
@@ -22,11 +22,13 @@ Argumentation Approach: |-
     year={2022},
     publisher={IOS Press}
    }
-URL: NA
-Bug Tracker: >-
+Argumentation Approach: NA
+URL: >-
   https://github.com/recap-utr/arguemapper,
   https://github.com/recap-utr/arguebuf
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

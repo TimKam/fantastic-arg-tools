@@ -1,17 +1,17 @@
 Name: Game of Argumentation web platform
 Description: Platform to play games of argumentation
 Found in: COMMA 2018
+Documentation: NA
 Implementation Language(s): NA
-Type of Tool: NA
-Tests?: Solver, Visualizer
+Type of Tool: Solver, Visualizer
+Tests?: NA
 Source Code: NA
 License: NA
 Last Update: NA
-Year of Update: NA
-Logic Solver Approach: '2018'
-Region: ASP solver
-Bibtex Entry: Italy
-Argumentation Approach: |-
+Year of Update: '2018'
+Logic Solver Approach: ASP solver
+Region: Italy
+Bibtex Entry: |-
   @inproceedings{baroni2018games,
     title={The" Games of Argumentation" Web Platform.},
     author={Baroni, Pietro and Borsato, Serena and Rago, Antonio and Toni, Francesca and others},
@@ -19,9 +19,11 @@ Argumentation Approach: |-
     pages={447--448},
     year={2018}
    }
-URL: Bipolar Argumentation Framework
+Argumentation Approach: Bipolar Argumentation Framework
+URL: NA
 Bug Tracker: NA
 Application: NA
-Dependencies: NA
+Dependencies: Aspartix
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

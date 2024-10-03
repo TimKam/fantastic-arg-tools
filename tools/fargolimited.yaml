@@ -3,17 +3,17 @@ Description: >-
   The solver relies on a variant of the DPLL-algorithm for searching for
   admissible sets and includes a maximum search depth.
 Found in: ICCMA 2023
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: GPL-3
-Year of Update: '2022-11-25'
-Logic Solver Approach: '2022'
-Region: SAT
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: GPL-3
+Last Update: '2022-11-25'
+Year of Update: '2022'
+Logic Solver Approach: SAT
+Region: Germany
+Bibtex Entry: |-
   @article{thimm2023fargo,
     title={FARGO-LIMITED V1. 1.1},
     author={Thimm, Matthias},
@@ -21,12 +21,14 @@ Argumentation Approach: |-
     journal={ICCMA 2023},
     pages={21}
   }
-URL: >-
+Argumentation Approach: >-
   This solver uses the Davis–Putnam–Logemann–Loveland (DLL) algorithm that is a
   backtracking-based search algorithm for deciding the satisfiability of
   propositional logic formulae
-Bug Tracker: https://github.com/aig-hagen/taas-fargo
+URL: https://github.com/aig-hagen/taas-fargo
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
+Dependencies: 'No'
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: 'Yes'

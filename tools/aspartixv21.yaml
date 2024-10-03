@@ -5,17 +5,17 @@ Description: >-
   with answer set programs encoding the argumentation semantics and reasoning
   tasks
 Found in: ICCMA 2021
-Implementation Language(s): NA
-Type of Tool: ASP
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2021-03-31'
-Logic Solver Approach: '2021'
-Region: ASP solver
-Bibtex Entry: Austria
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): ASP
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2021-03-31'
+Year of Update: '2021'
+Logic Solver Approach: ASP solver
+Region: Austria
+Bibtex Entry: |-
   @inproceedings{dvovrak2021aspartix,
     title={ASPARTIX-V-A Solver for Argumentation Tasks Using ASP},
     author={Dvo{\v{r}}{\'a}k, Wolfgang and K{\"o}nig, Matthias and Rapberger, Anna and Wallner, Johannes P and Woltran, Stefan},
@@ -23,9 +23,11 @@ Argumentation Approach: |-
     pages={1--12},
     year={2021}
   }
-URL: ASP-based argumentation
-Bug Tracker: https://www.dbai.tuwien.ac.at/research/argumentation/aspartix/
+Argumentation Approach: ASP-based argumentation
+URL: https://www.dbai.tuwien.ac.at/research/argumentation/aspartix/
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

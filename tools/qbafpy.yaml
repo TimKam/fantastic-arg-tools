@@ -1,17 +1,17 @@
 Name: QBAF-Py
 Description: A CPython implementation for explainable quantitative bipolar argumentation.
 Found in: COMMA 2024
-Implementation Language(s): 'Yes'
-Type of Tool: C, Python
-Tests?: Solver, Visualizer
+Documentation: 'Yes'
+Implementation Language(s): C, Python
+Type of Tool: Solver, Visualizer
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: GPL-2
-Year of Update: '2023-12-03'
-Logic Solver Approach: '2023'
-Region: Algorithms have been implemented from scratch
-Bibtex Entry: Sweden
-Argumentation Approach: |-
+License: GPL-2
+Last Update: '2023-12-03'
+Year of Update: '2023'
+Logic Solver Approach: Algorithms have been implemented from scratch
+Region: Sweden
+Bibtex Entry: |-
   @incollection{alarconQBAFPy,
     title={QBAF-Py: Quantitative Bipolar Argumentation in C with Python Bindings},
     author={Ruiz Alarcon, Jose and Kampik, Timotheus},
@@ -21,9 +21,11 @@ Argumentation Approach: |-
     doi = {10.3233/FAIA240340},
     publisher={IOS Press}
    }
-URL: Quantitative Bipolar Argumentation
-Bug Tracker: https://github.com/TimKam/Quantitative-Bipolar-Argumentation
+Argumentation Approach: Quantitative Bipolar Argumentation
+URL: https://github.com/TimKam/Quantitative-Bipolar-Argumentation
+Bug Tracker: NA
 Application: NA
-Dependencies: 'Yes'
+Dependencies: None (for solver)
 Continuous Integration: 'Yes'
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: NA

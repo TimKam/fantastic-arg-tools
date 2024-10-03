@@ -5,17 +5,17 @@ Description: >-
   program user application using a predefined AF library, study property of
   semantics and AFs.
 Found in: ICCMA 2021
-Implementation Language(s): 'Yes'
-Type of Tool: C++
-Tests?: Solver, Visualizer, Utility
+Documentation: 'Yes'
+Implementation Language(s): C++
+Type of Tool: Solver, Visualizer, Utility
+Tests?: NA
 Source Code: NA
 License: NA
-Last Update: NA
-Year of Update: '2021-01-01'
-Logic Solver Approach: '2021'
-Region: Constraint Programming
-Bibtex Entry: Italy
-Argumentation Approach: >-
+Last Update: '2021-01-01'
+Year of Update: '2021'
+Logic Solver Approach: Constraint Programming
+Region: Italy
+Bibtex Entry: >-
   @inproceedings{DBLP:conf/ictai/BistarelliS11,   author    = {Stefano
   Bistarelli and                Francesco Santini},   title     = {ConArg: {A}
   Constraint-Based Computational Framework for Argumentation               
@@ -25,11 +25,13 @@ Argumentation Approach: >-
   crossref  = {DBLP:conf/ictai/2011},   url       =
   {https://doi.org/10.1109/ICTAI.2011.96},   doi       = {10.1109/ICTAI.2011.96}
   }
-URL: >-
+Argumentation Approach: >-
   Abstract Argumentation Frameworks, Weighted Abstract Argumentation Frameworks,
   Probabilistic Abstract Argumentation Frameworks
-Bug Tracker: https://conarg.dmi.unipg.it/documentation.html
+URL: https://conarg.dmi.unipg.it/documentation.html
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: Gecode
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

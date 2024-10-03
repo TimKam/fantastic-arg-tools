@@ -3,17 +3,17 @@ Description: >-
   Heureka solver is a general-purpose solver based on a backtracking approach
   and makes use of various heuristics to optimize the search.
 Found in: ICCMA 2017
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: LGPL v3.0
-Year of Update: '2017-08-25'
-Logic Solver Approach: '2017'
-Region: Tailored labelling solver
-Bibtex Entry: Germany
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: LGPL v3.0
+Last Update: '2017-08-25'
+Year of Update: '2017'
+Logic Solver Approach: Tailored labelling solver
+Region: Germany
+Bibtex Entry: |-
   @inproceedings{geilen2018heureka,
     title={Heureka: a general heuristic backtracking solver for abstract argumentation},
     author={Geilen, Nils and Thimm, Matthias},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     year={2018},
     organization={Springer}
    }
-URL: Heuristic-based backtracking
-Bug Tracker: https://github.com/nilsgeilen/heureka
+Argumentation Approach: Heuristic-based backtracking
+URL: https://github.com/nilsgeilen/heureka
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

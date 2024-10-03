@@ -4,17 +4,17 @@ Description: >-
   with respect to grounded, complete, preferred, and stable semantics. It is
   built based on GECODE, a generic CSP solver.
 Found in: ICCMA 2015
-Implementation Language(s): NA
-Type of Tool: LISP, CLOS, C++
-Tests?: Solver
+Documentation: NA
+Implementation Language(s): LISP, CLOS, C++
+Type of Tool: Solver
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: NA
-Year of Update: '2019-01-01'
-Logic Solver Approach: '2019'
-Region: Constraint-based solver
-Bibtex Entry: Germany
-Argumentation Approach: |-
+License: NA
+Last Update: '2019-01-01'
+Year of Update: '2019'
+Logic Solver Approach: Constraint-based solver
+Region: Germany
+Bibtex Entry: |-
   @article{sprotte2015asgl,
     title={ASGL: Argumentation Semantics in Gecode and Lisp},
     author={Sprotte, Kilian},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     pages={41--44},
     year={2015}
   }
-URL: Constraint programming
-Bug Tracker: https://github.com/kisp/asgl
+Argumentation Approach: Constraint programming
+URL: https://github.com/kisp/asgl
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: Gecode
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

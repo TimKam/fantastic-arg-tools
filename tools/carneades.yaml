@@ -3,26 +3,28 @@ Description: >-
   Carneades is an evaluator for structured arguments, based on the Carneades
   Argument Evaluation Structures (CAES) formal model of argument.
 Found in: ICCMA 2015
-Implementation Language(s): NA
-Type of Tool: Go
-Tests?: Solver, Visualizer
+Documentation: NA
+Implementation Language(s): Go
+Type of Tool: Solver, Visualizer
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: Mozilla Public License Version 2.0
-Year of Update: '2024-08-27'
-Logic Solver Approach: '2024'
-Region: Custom
-Bibtex Entry: UK
-Argumentation Approach: >-
+License: Mozilla Public License Version 2.0
+Last Update: '2024-08-27'
+Year of Update: '2024'
+Logic Solver Approach: Custom
+Region: UK
+Bibtex Entry: >-
   @InProceedings{Gordon:2016b,   author =       {Gordon, Thomas F. and Walton,
   Douglas},   title =        {Formalizing Balancing Arguments},   booktitle =   
   {Proceeding of the 2016 conference on Computational                   Models
   of Argument (COMMA 2016)},   pages =        {327--338},   doi =         
   {10.3233/978-1-61499-686-6-327},   year =         2016,   publisher =    {IOS
   Press} }
-URL: Structured argumentation
-Bug Tracker: https://carneades.github.io/
+Argumentation Approach: Structured argumentation
+URL: https://carneades.github.io/
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

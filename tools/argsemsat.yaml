@@ -4,20 +4,22 @@ Description: >-
   identify also preferred, stable and the grounded extensions (enumeration
   problems) as well as solving decisions problems associated to those semantic
 Found in: ICCMA 2017
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'Yes'
-Last Update: MIT
-Year of Update: '2020-10-06'
-Logic Solver Approach: '2020'
-Region: SAT solver
-Bibtex Entry: UK
-Argumentation Approach: ''
-URL: Labelling argumentation
-Bug Tracker: https://github.com/federicocerutti/ArgSemSAT
+License: MIT
+Last Update: '2020-10-06'
+Year of Update: '2020'
+Logic Solver Approach: SAT solver
+Region: UK
+Bibtex Entry: ''
+Argumentation Approach: Labelling argumentation
+URL: https://github.com/federicocerutti/ArgSemSAT
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
-Continuous Integration: 'Yes'
+Dependencies: MiniSAT, AllSAT
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

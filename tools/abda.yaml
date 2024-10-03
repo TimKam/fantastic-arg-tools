@@ -3,17 +3,17 @@ Description: |-
   implementation of the
    Grounded Discussion Game
 Found in: COMMA 2020
-Implementation Language(s): 'Yes'
-Type of Tool: Python
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2021-05-01'
-Logic Solver Approach: '2021'
-Region: ASPIC solver
-Bibtex Entry: UK
-Argumentation Approach: |-
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2021-05-01'
+Year of Update: '2021'
+Logic Solver Approach: ASPIC solver
+Region: UK
+Bibtex Entry: |-
   @incollection{caminada2020implementation,
     title={An implementation of argument-based discussion using ASPIC},
     author={Caminada, Martin and Uebis, S{\"o}ren},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     year={2020},
     publisher={IOS Press}
    }
-URL: Grounded Discussion Game
-Bug Tracker: https://github.com/Schirmi136/ABDA
+Argumentation Approach: Grounded Discussion Game
+URL: https://github.com/Schirmi136/ABDA
+Bug Tracker: NA
 Application: NA
-Dependencies: NA
+Dependencies: Flask
 Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
 Benchmarks: NA

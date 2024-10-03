@@ -3,17 +3,17 @@ Description: >-
   It usses the Prover9 and Mace4 search algorithms for the specific task of
   labelling abstract argumentation frameworks
 Found in: ICCMA 2019
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: NA
-Year of Update: '2019-03-17'
-Logic Solver Approach: '2019'
-Region: Search-based approach
-Bibtex Entry: Romania
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: NA
+Last Update: '2019-03-17'
+Year of Update: '2019'
+Logic Solver Approach: Search-based approach
+Region: Romania
+Bibtex Entry: |-
   @inproceedings{bistarelli2020first,
     title={A First Overview of ICCMA'19.},
     author={Bistarelli, Stefano and Kotthoff, Lars and Santini, Francesco and Taticchi, Carlo and others},
@@ -21,9 +21,11 @@ Argumentation Approach: |-
     pages={90--102},
     year={2020}
   }
-URL: Search-based approach
-Bug Tracker: https://hub.docker.com/r/sportacus/iccma19
+Argumentation Approach: Search-based approach
+URL: https://hub.docker.com/r/sportacus/iccma19
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

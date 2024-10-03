@@ -4,17 +4,17 @@ Description: >-
   initial values from [0, 1] from which equilibrium values are calculated
   iteratively yielding traditional extensions
 Found in: ICCMA 2015
-Implementation Language(s): NA
-Type of Tool: C++
-Tests?: Solver
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
 Source Code: NA
 License: NA
 Last Update: NA
-Year of Update: NA
-Logic Solver Approach: '2015'
-Region: Caminada/Gabbay-Rodrigues Translation
-Bibtex Entry: NA
-Argumentation Approach: |-
+Year of Update: '2015'
+Logic Solver Approach: Caminada/Gabbay-Rodrigues Translation
+Region: NA
+Bibtex Entry: |-
   @article{rodrigues2015gris,
     title={GRIS: Computing traditional argumentation semantics through numerical iterations.},
     author={Rodrigues, Odinaldo},
@@ -22,9 +22,11 @@ Argumentation Approach: |-
     pages={37--40},
     year={2015}
   }
-URL: Numerical transformation of argumentation labeling systems
-Bug Tracker: ''
+Argumentation Approach: Numerical transformation of argumentation labeling systems
+URL: ''
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

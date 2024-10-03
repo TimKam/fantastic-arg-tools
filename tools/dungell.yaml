@@ -1,17 +1,17 @@
 Name: Dungell
 Description: "The Dungell application and its accompanying library provide a Haskell imple\x02mentation of Dung’s argumentation frameworks [2"
 Found in: ICCMA 2015
-Implementation Language(s): NA
-Type of Tool: Haskell
-Tests?: Solver
-Source Code: NA
-License: 'Yes'
-Last Update: BSD3
-Year of Update: '2015-03-01'
-Logic Solver Approach: '2015'
-Region: NA
-Bibtex Entry: UK
-Argumentation Approach: |-
+Documentation: NA
+Implementation Language(s): Haskell
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: BSD3
+Last Update: '2015-03-01'
+Year of Update: '2015'
+Logic Solver Approach: NA
+Region: UK
+Bibtex Entry: |-
   @article{van2015dungell,
     title={Dungell: A reference implementation of Dung’s argumentation frameworks in Haskell},
     author={van Gijzel, Bas},
@@ -19,9 +19,11 @@ Argumentation Approach: |-
     pages={15--18},
     year={2015}
    }
-URL: Dung AF
-Bug Tracker: https://github.com/nebasuke/DungICCMA
+Argumentation Approach: Dung AF
+URL: https://github.com/nebasuke/DungICCMA
+Bug Tracker: NA
 Application: NA
 Dependencies: NA
-Continuous Integration: 'Yes'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'
