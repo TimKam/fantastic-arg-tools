@@ -1,3 +1,5 @@
+const YAML = jsyaml
+
 function showData(dataArray){
     const table = $('#data-table').DataTable({
         data: dataArray,
