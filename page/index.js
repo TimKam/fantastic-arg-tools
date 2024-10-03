@@ -1,5 +1,14 @@
 const YAML = jsyaml
 
+function showDiv(id) {
+    Array.from(document.getElementsByClassName('content')).forEach(element => {
+        element.style.visibility = 'hidden'
+        element.style.display = 'none'
+    })
+    document.getElementById(id).style.visibility = 'visible'
+    document.getElementById(id).style.display = 'block' 
+}
+
 function showData(dataArray){
     const table = $('#data-table').DataTable({
         data: dataArray,
@@ -40,6 +49,8 @@ function showData(dataArray){
     })
 }
 $(document).ready(function(){
+    document.getElementById('analysis').style.visibility = 'hidden'
+    document.getElementById('analysis').style.display = 'none' 
     Promise.all(
         tools.map(
             tool => fetch(`../tools/${tool}.yaml`)
@@ -48,11 +59,36 @@ $(document).ready(function(){
             Promise.all(responses.map(res => res.text()))
         ).then(yTools => {
             const jTools = yTools.map(yTool => {
-                console.log(Object.values(YAML.load(yTool)).length)
                 return Object.values(YAML.load(yTool))
-            }
-            )
+            })
+            renderCharts(yTools.map(yTool => YAML.load(yTool)))
             showData(jTools)
         })
 })
+
+function renderCharts(toolData){
+    const ctx = document.getElementById('countries');
+    const countries = { }
+    toolData.forEach(tool => {
+       country = tool['Region']
+       if(!countries[country]) {
+        countries[country] = 1
+       } else {
+        countries[country] +=1
+       }
+    })
+    console.log(countries)
+    new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: Object.keys(countries),
+        datasets: [{
+        label: '# Tools by Country',
+        data: Object.values(countries),
+        borderWidth: 1
+        }]
+    }
+    })
+}
+
 

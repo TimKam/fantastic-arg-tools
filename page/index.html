@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="./index.css">
 
     <script src=" https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <script src="./tools.js"></script>
     <script src="./index.js"></script>
 </head>
@@ -37,6 +39,8 @@
     <div class="sidenav">
         <a href="#" onclick="showDiv('home')">Home</a>
 
+        <a href="#" onclick="showDiv('analysis')">Analysis</a>
+
         <a href="https://forms.office.com/e/8qMSFL3Zgf">Add a new arg-tool</a>
 
     </div>
@@ -47,6 +51,13 @@
   <p>This sidenav is always shown.</p>
 </div>
    -->
+   
+   <div id="analysis" class="content" style="visibility: hidden;">
+        <h2 style="text-align:center;">Tools by Country</h2>
+        <canvas id="countries"></canvas>
+        <!--<h2 style="text-align:center;">Tools by Programming Language</h2>
+        <canvas id="countries"></canvas>-->
+   </div>
 
    <div id="home" class="content">
         <h2></h2>
