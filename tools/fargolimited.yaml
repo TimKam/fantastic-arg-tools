@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: GPL-3
 Last Update: '2022-11-25'
 Year of Update: '2022'
-Logic Solver Approach: SAT
+Solver Approach: SAT
 Region: Germany
 Bibtex Entry: |-
   @article{thimm2023fargo,

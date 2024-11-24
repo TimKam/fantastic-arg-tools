@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: ''
 Last Update: '2015-04-22'
 Year of Update: '2015'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: Germany
 Bibtex Entry: |-
   @article{strassiccma,

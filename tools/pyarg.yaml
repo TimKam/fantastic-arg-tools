@@ -13,7 +13,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2024-04-15'
 Year of Update: '2024'
-Logic Solver Approach: Various techniques, ASP
+Solver Approach: Various techniques, ASP
 Region: Netherlands
 Bibtex Entry: >-
   @inproceedings{odekerken2023demonstrating,   title={Demonstrating PyArg
@@ -24,7 +24,9 @@ Argumentation Approach: >-
   Frameworks, ASPIC+ with incomplete knowledge bases
 URL: https://daphneodekerken.github.io/PyArg/
 Bug Tracker: NA
-Application: NA
+Application: >-
+  Visualisation of argumentation theories/frameworks, solving, benchmark
+  generation, practicing with AF semantics, inquiry dialogue.
 Dependencies: Clingo + various Python packages (see requirements.txt)
 Continuous Integration: 'Yes'
 Empirical (Runtime) Evaluation: NA

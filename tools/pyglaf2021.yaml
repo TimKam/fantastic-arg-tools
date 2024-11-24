@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2021-01-01'
 Year of Update: '2021'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: Italy
 Bibtex Entry: |-
   @article{alviano2021pyglaf,

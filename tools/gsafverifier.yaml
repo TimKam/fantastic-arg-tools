@@ -1,0 +1,32 @@
+Name: GSAF Verifier
+Description: >-
+  A tool for verifying RUP-style inconsistency proofs for abstract argumentation
+  frameworks with collective attacks (SETAF).
+Found in: COMMA 2024
+Documentation: 'Yes'
+Implementation Language(s): Rust
+Type of Tool: Verifier
+Tests?: 'No'
+Source Code: 'Yes'
+License: MIT
+Last Update: '2023'
+Year of Update: '2023'
+Solver Approach: NA
+Region: Austria
+Bibtex Entry: |-
+  "@inproceedings{Gressler24GSAF,
+    title={The GSAF Solver and Verifier},
+    author={Gressler, Alexander and Dvorak, Wolfgang and Woltran, Stefan},
+    booktitle={Computational Models of Argument, Proceedings of COMMA 2024},
+    volume={388},
+    pages={353--354},
+    year={2024}
+   }"
+Argumentation Approach: SETAFs
+URL: https://github.com/agressle/GSAFVerifier
+Bug Tracker: 'No'
+Application: None
+Dependencies: Rust Toolchain
+Continuous Integration: 'No'
+Empirical (Runtime) Evaluation: ''
+Benchmarks: ''

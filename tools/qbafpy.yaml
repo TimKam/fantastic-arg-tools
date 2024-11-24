@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: GPL-2
 Last Update: '2023-12-03'
 Year of Update: '2023'
-Logic Solver Approach: Algorithms have been implemented from scratch
+Solver Approach: Algorithms have been implemented from scratch
 Region: Sweden
 Bibtex Entry: |-
   @incollection{alarconQBAFPy,
@@ -24,7 +24,7 @@ Bibtex Entry: |-
 Argumentation Approach: Quantitative Bipolar Argumentation
 URL: https://github.com/TimKam/Quantitative-Bipolar-Argumentation
 Bug Tracker: NA
-Application: NA
+Application: Everything that QBAGs can be used for, e.g. explainable recommendation systems
 Dependencies: None (for solver)
 Continuous Integration: 'Yes'
 Empirical (Runtime) Evaluation: 'Yes'

@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: BSD 2-Clause License
 Last Update: '2024-02-11'
 Year of Update: '2024'
-Logic Solver Approach: Tweety's argumentation solvers
+Solver Approach: Tweety's argumentation solvers
 Region: Sweden
 Bibtex Entry: |-
   @inproceedings{kampik2020diarg,

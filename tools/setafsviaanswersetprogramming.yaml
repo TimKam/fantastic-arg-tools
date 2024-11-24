@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2018-01-01'
 Year of Update: '2018'
-Logic Solver Approach: ASP solver
+Solver Approach: ASP solver
 Region: Austria
 Bibtex Entry: |-
   @inproceedings{dvorak2018evaluating,

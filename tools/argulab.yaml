@@ -1,0 +1,39 @@
+Name: ArguLab
+Description: >-
+  ArguLab is a collection of basic argumentation components that can be applied
+  in the context of multi-agent systems.
+Found in: 2018 Survey
+Documentation: 'Yes'
+Implementation Language(s): NA
+Type of Tool: Solver
+Tests?: NA
+Source Code: NA
+License: NA
+Last Update: May 2011
+Year of Update: '2011'
+Solver Approach: NA
+Region: Luxembourg
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/atal/PodlaszewskiCP11,
+    author       = {Mikolaj Podlaszewski and
+                    Martin Caminada and
+                    Gabriella Pigozzi},
+    editor       = {Liz Sonenberg and
+                    Peter Stone and
+                    Kagan Tumer and
+                    Pinar Yolum},
+    title        = {An implementation of basic argumentation components},
+    booktitle    = {10th International Conference on Autonomous Agents and Multiagent
+                    Systems {(AAMAS} 2011), Taipei, Taiwan, May 2-6, 2011, Volume 1-3},
+    pages        = {1307--1308},
+    publisher    = {{IFAAMAS}},
+    year         = {2011}
+  }
+Argumentation Approach: Abstract Argumentation
+URL: NA
+Bug Tracker: NA
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'No'
+Benchmarks: 'No'

@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2023-03-17'
 Year of Update: '2023'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: France
 Bibtex Entry: |-
   @article{declercq2023portsat,

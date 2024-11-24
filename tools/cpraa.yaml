@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2024-09-17'
 Year of Update: '2024'
-Logic Solver Approach: SMT solvers, convex optimization solvers
+Solver Approach: SMT solvers, convex optimization solvers
 Region: Germany
 Bibtex Entry: >-
   @inproceedings{Kafer2022,   title     = {CPrAA -- A Checker for Probabilistic
@@ -26,7 +26,11 @@ Bibtex Entry: >-
 Argumentation Approach: Probabilistic abstract argumentation
 URL: https://dgit.cs.uni-saarland.de/Nikolai/cpraa/-/tree/master
 Bug Tracker: NA
-Application: NA
+Application: >-
+  Find distributions satisfying numerous probabilistic argumentation semantics,
+  check for credulous or skeptical acceptance of arguments, maximize or minimize
+  the marginal probability of certain arguments, generate labelings according to
+  different labeling schemes
 Dependencies: NA
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: NA

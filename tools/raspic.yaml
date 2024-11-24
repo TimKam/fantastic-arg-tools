@@ -1,0 +1,29 @@
+Name: RASPIC
+Description: >-
+  RASPIC provides efficient algorithms for finding the stability and relevance
+  status of literals in (a fragment of) incomplete ASPIC+ frameworks with and
+  without preferences. A literal is stable if it is justified (or defeated, etc)
+  in every completion of the incomplete framework. A literal q is relevant for
+  another literal l if adding q as fact makes l stable.
+Found in: Form submission
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: 'Yes'
+Source Code: https://bitbucket.org/coreo-group/raspic/
+License: MIT
+Last Update: February 2024
+Year of Update: '2024'
+Solver Approach: Answer Set Programming
+Region: Finland
+Bibtex Entry: '  @inproceedings{DBLP:conf/kr/OdekerkenLBWJ23,   author       = {Daphne Odekerken and                   Tuomo Lehtonen and                   AnneMarie Borg and                   Johannes Peter Wallner and                   Matti J{\"{a}}rvisalo},   editor       = {Pierre Marquis and                   Tran Cao Son and                   Gabriele Kern{-}Isberner},   title        = {Argumentative Reasoning in {ASPIC+} under Incomplete Information},   booktitle    = {Proceedings of the 20th International Conference on Principles of                   Knowledge Representation and Reasoning, {KR} 2023, Rhodes, Greece,                   September 2-8, 2023},   pages        = {531--541},   year         = {2023},   url          = {https://doi.org/10.24963/kr.2023/52},   doi          = {10.24963/KR.2023/52}}'
+Argumentation Approach: ASPIC+
+URL: ''
+Bug Tracker: ''
+Application: >-
+  The problem setting is rooted in inquiry dialogues for criminal investigation
+  by Netherlands Police
+Dependencies: clingo
+Continuous Integration: 'No'
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'No'

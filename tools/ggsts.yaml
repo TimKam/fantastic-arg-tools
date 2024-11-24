@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2017-03-16'
 Year of Update: '2017'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   @article{tasharrofigg,

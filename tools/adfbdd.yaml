@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2024-01-01'
 Year of Update: '2024'
-Logic Solver Approach: Binary Decision Diagrams
+Solver Approach: Binary Decision Diagrams
 Region: Germany
 Bibtex Entry: |-
   @inproceedings{ellmauthaler2022adf,

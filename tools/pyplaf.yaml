@@ -1,0 +1,30 @@
+Name: PyPLAF
+Description: Probabilistic Logical Argumentation Frameworks in Python
+Found in: COMMA 2024
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: 'No'
+Source Code: 'Yes'
+License: MIT
+Last Update: March 2024
+Year of Update: '2024'
+Solver Approach: SAT
+Region: Sweden
+Bibtex Entry: |-
+  "@inproceedings{persiani24PyPLAF,
+    title={PyPLAF: Probabilistic Logical Argumentation Frameworks in Python},
+    author={Persiani, Michele},
+    booktitle={Computational Models of Argument, Proceedings of COMMA 2024},
+    volume={388},
+    pages={357--358},
+    year={2024}
+   }"
+Argumentation Approach: PLAF
+URL: https://github.com/michele-persiani/PyPLAF?tab=readme-ov-file
+Bug Tracker: 'No'
+Application: None
+Dependencies: https://github.com/dtetruash/solved-af
+Continuous Integration: 'No'
+Empirical (Runtime) Evaluation: ''
+Benchmarks: ''

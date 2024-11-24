@@ -13,7 +13,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2021-03-31'
 Year of Update: '2021'
-Logic Solver Approach: ASP solver
+Solver Approach: ASP solver
 Region: Austria
 Bibtex Entry: |-
   @inproceedings{dvovrak2021aspartix,

@@ -1,0 +1,32 @@
+Name: LEPAn
+Description: >-
+  Logos-Ethos-Pathos Analytics, which offers analysis of statistical patterns in
+  the use of rhetorical arguments in public discussions on polarised issues.
+Found in: COMMA 2024
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Rhetoric Analytics/Visualizer
+Tests?: N/A
+Source Code: 'No'
+License: N/A
+Last Update: N/A
+Year of Update: N/A
+Solver Approach: NA
+Region: Poland
+Bibtex Entry: |-
+  "@inproceedings{Gajewska24LEPAn,
+    title={Analytics for Rhetorical Arguments in Discussions on Polarised Issues},
+    author={Gajewska, Ewelina and Budzynska, Katarzyna and Konat, Barbara},
+    booktitle={Computational Models of Argument, Proceedings of COMMA 2024},
+    volume={388},
+    pages={351--352},
+    year={2024}
+   }"
+Argumentation Approach: ''
+URL: https://lepan-v01.streamlit.app/,
+Bug Tracker: N/A
+Application: iTRUST
+Dependencies: N/A
+Continuous Integration: N/A
+Empirical (Runtime) Evaluation: ''
+Benchmarks: ''

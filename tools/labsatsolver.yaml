@@ -12,7 +12,7 @@ Source Code: 'Yes'
 License: LGPL-3.0
 Last Update: '2022-11-01'
 Year of Update: '2022'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: Germany
 Bibtex Entry: |-
   @article{brons2015labsat,

@@ -13,7 +13,7 @@ Source Code: NA
 License: NA
 Last Update: '2021-01-01'
 Year of Update: '2021'
-Logic Solver Approach: Constraint Programming
+Solver Approach: Constraint Programming
 Region: Italy
 Bibtex Entry: >-
   @inproceedings{DBLP:conf/ictai/BistarelliS11,   author    = {Stefano
@@ -30,7 +30,10 @@ Argumentation Approach: >-
   Probabilistic Abstract Argumentation Frameworks
 URL: https://conarg.dmi.unipg.it/documentation.html
 Bug Tracker: NA
-Application: NA
+Application: >-
+  Compute semantics, visualize Argumentation Frameworks (AF) and computed
+  extensions, program user application using a predefined AF library, study
+  property of Semantics and AFs.
 Dependencies: Gecode
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'

@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2023-03-16'
 Year of Update: '2023'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   @inproceedings{niskanen2020mu,

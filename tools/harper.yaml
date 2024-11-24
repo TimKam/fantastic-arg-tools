@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: GPL-3
 Last Update: '2022-07-19'
 Year of Update: '2022'
-Logic Solver Approach: Tailored labelling solver
+Solver Approach: Tailored labelling solver
 Region: Germany
 Bibtex Entry: |-
   @article{thimm2021harper++,

@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2022-01-01'
 Year of Update: '2022'
-Logic Solver Approach: Gradual semantics
+Solver Approach: Gradual semantics
 Region: UK
 Bibtex Entry: |-
   @inproceedings{potyka2022attractor,

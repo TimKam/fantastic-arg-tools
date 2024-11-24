@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: Mozilla Public License Version 2.0
 Last Update: '2024-08-27'
 Year of Update: '2024'
-Logic Solver Approach: Custom
+Solver Approach: Custom
 Region: UK
 Bibtex Entry: >-
   @InProceedings{Gordon:2016b,   author =       {Gordon, Thomas F. and Walton,
@@ -23,7 +23,7 @@ Bibtex Entry: >-
 Argumentation Approach: Structured argumentation
 URL: https://carneades.github.io/
 Bug Tracker: NA
-Application: NA
+Application: Practical reasoning, legal reasoning
 Dependencies: NA
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'

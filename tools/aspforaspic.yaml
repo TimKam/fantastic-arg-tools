@@ -1,0 +1,46 @@
+Name: ASPforASPIC
+Description: >-
+  ASPforASPIC is a solver for deciding credulous and skeptical acceptance and
+  finding (an arbitrary number of) extensions in ASPIC+, via reductions to
+  answer set programming. Supports reasoning without preferences, many semantics
+  under last-link principle and stable semantics under weakest-link principle.
+Found in: Form submission
+Documentation: NA
+Implementation Language(s): Python
+Type of Tool: Solver
+Tests?: 'No'
+Source Code: https://bitbucket.org/coreo-group/aspforaspic
+License: MIT
+Last Update: August 2023
+Year of Update: '2023'
+Solver Approach: Answer Set Programming
+Region: Finland
+Bibtex Entry: |-
+
+
+  @inproceedings{DBLP:conf/kr/LehtonenWJ22,
+    author       = {Tuomo Lehtonen and
+                    Johannes Peter Wallner and
+                    Matti J{\"{a}}rvisalo},
+    editor       = {Gabriele Kern{-}Isberner and
+                    Gerhard Lakemeyer and
+                    Thomas Meyer},
+    title        = {Computing Stable Conclusions under the Weakest-Link Principle in the
+                    {ASPIC+} Argumentation Formalism},
+    booktitle    = {Proceedings of the 19th International Conference on Principles of
+                    Knowledge Representation and Reasoning, {KR} 2022, Haifa, Israel,
+                    July 31 - August 5, 2022},
+    year         = {2022},
+    url          = {https://proceedings.kr.org/2022/22/},
+    timestamp    = {Tue, 05 Sep 2023 14:47:29 +0200},
+    biburl       = {https://dblp.org/rec/conf/kr/LehtonenWJ22.bib},
+    bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: ASPIC+
+URL: ''
+Bug Tracker: ''
+Application: Fundamental reasoning problems in ASPIC+
+Dependencies: clingo
+Continuous Integration: 'No'
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'No'

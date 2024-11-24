@@ -1,0 +1,32 @@
+Name: AERA Visualizer
+Description: >-
+  The AERA Visualizer is a GUI application for visualizing the behavior of AERA
+  (Auto-catalytic Endogenous Reflective Architecture).
+Found in: COMMA 2024
+Documentation: 'Yes'
+Implementation Language(s): C++ / Replicode
+Type of Tool: Visualizer
+Tests?: 'No'
+Source Code: 'Yes'
+License: Specific License
+Last Update: March 2024
+Year of Update: '2024'
+Solver Approach: N/A
+Region: Iceland
+Bibtex Entry: |-
+  "@inproceedings{tompson24AERA,
+    title={ABA Argument Graphs with Constraints},
+    author={Thompson, Jeff and Thorisson, Kristinn R.},
+    booktitle={Computational Models of Argument, Proceedings of COMMA 2024},
+    volume={388},
+    pages={369--370},
+    year={2024}
+   }"
+Argumentation Approach: Assumption-based Argumentation
+URL: https://github.com/IIIM-IS/AERA_Visualizer
+Bug Tracker: 'No'
+Application: AERA
+Dependencies: None
+Continuous Integration: 'No'
+Empirical (Runtime) Evaluation: ''
+Benchmarks: ''

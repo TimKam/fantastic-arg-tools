@@ -1,0 +1,33 @@
+Name: CompArg
+Description: CompArg computes credulous acceptance and rejection in abstract argumentation.
+Found in: 2018 Survey
+Documentation: 'Yes'
+Implementation Language(s): Dephi
+Type of Tool: Solver
+Tests?: 'Yes'
+Source Code: https://www.ai.rug.nl/~verheij/comparg/
+License: NA
+Last Update: May 2009
+Year of Update: '2009'
+Solver Approach: NA
+Region: Netherlands
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/ijcai/Verheij07,
+    author       = {Bart Verheij},
+    editor       = {Manuela M. Veloso},
+    title        = {A Labeling Approach to the Computation of Credulous Acceptance in
+                    Argumentation},
+    booktitle    = {{IJCAI} 2007, Proceedings of the 20th International Joint Conference
+                    on Artificial Intelligence, Hyderabad, India, January 6-12, 2007},
+    pages        = {623--628},
+    year         = {2007},
+    url          = {http://ijcai.org/Proceedings/07/Papers/099.pdf}
+  }
+Argumentation Approach: Abstract Argumentation
+URL: https://www.ai.rug.nl/~verheij/comparg/
+Bug Tracker: NA
+Application: NA
+Dependencies: NA
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'No'
+Benchmarks: 'No'

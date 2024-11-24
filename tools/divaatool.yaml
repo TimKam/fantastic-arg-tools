@@ -1,0 +1,32 @@
+Name: DIVAA Tool
+Description: >-
+  Documents with integrated visually annotated arguments tool for visualizing
+  annotations from various argument mining systems
+Found in: COMMA 2024
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Annotation Tool
+Tests?: 'No'
+Source Code: 'Yes'
+License: N/A
+Last Update: May 2024
+Year of Update: '2024'
+Solver Approach: NA
+Region: Switzerland
+Bibtex Entry: |-
+  "@inproceedings{ruosch24DIVAA,
+    title={Documents with Integrated Visually Annotated Arguments},
+    author={Ruosch, Florian and Watter, Joel and Sarasua, Cristina and Bernstein, Abraham},
+    booktitle={Computational Models of Argument, Proceedings of COMMA 2024},
+    volume={388},
+    pages={367--368},
+    year={2024}
+   }"
+Argumentation Approach: Argument Mining
+URL: https://gitlab.ifi.uzh.ch/DDIS-Public/divaa
+Bug Tracker: 'No'
+Application: None
+Dependencies: https://www.tug.org/texlive/acquire-netinstall.html
+Continuous Integration: Git
+Empirical (Runtime) Evaluation: ''
+Benchmarks: ''

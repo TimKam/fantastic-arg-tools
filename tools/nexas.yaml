@@ -1,0 +1,63 @@
+Name: Nexas
+Description: >-
+  Nexas is a tool to compare and explore the solution spaces of two selected
+  semantics, NEXAS visually supports the user, via a combination of
+  dimensionality reduction of argumentation extensions and a projection of
+  extensions to sets of accepted or rejected arguments. NEXAS allows for an
+  interactive exploration of the solution space together with a statistical
+  analysis of the acceptance of individual arguments for the selected semantics,
+  as well as provides an interactive correlation matrix for the acceptance of
+  arguments.
+Found in: COMMA 2022
+Documentation: 'Yes'
+Implementation Language(s): JavaScript, Python, ASP
+Type of Tool: Visualizer
+Tests?: 'No'
+Source Code: https://github.com/imldresden/nexas
+License: LGPL 2.1
+Last Update: December 2023
+Year of Update: '2023'
+Solver Approach: Answer Set Programming
+Region: Germany
+Bibtex Entry: >-
+  @inproceedings{DGKMRY2022,   author    = {Raimund Dachselt and Sarah Alice
+  Gaggl and Markus Kr{\"{o}}tzsch and Juli{\'{a}}n M{\'{e}}ndez and Dominik
+  Rusovac and Mei Yang},   title     = {NEXAS: A Visual Tool for Navigating and
+  Exploring Argumentation Solution Spaces},   editor    = {Francesca Toni},  
+  booktitle = {Proceedings of the 9th International Conference on Computational
+  Models of Argument (COMMA 2022)},   series    = {FAIA},   volume    =
+  {220146},   publisher = {IOS Press},   year      = {2022},   month     =
+  {September},   pages     = {116-127},   doi       = {10.3233/FAIA220146} }
+Argumentation Approach: Abstract Argumentation
+URL: https://imld.de/nexas
+Bug Tracker: NA
+Application: Analysis of argumentation semantics
+Dependencies: |-
+  altair==5.4.1
+  attrs==24.2.0
+  cffi==1.17.1
+  clingo==5.7.1
+  Jinja2==3.1.4
+  joblib==1.4.2
+  jsonschema==4.23.0
+  jsonschema-specifications==2024.10.1
+  MarkupSafe==3.0.1
+  narwhals==1.9.3
+  numpy==2.1.2
+  packaging==24.1
+  pandas==2.2.3
+  prince==0.13.1
+  pycparser==2.22
+  python-dateutil==2.9.0.post0
+  pytz==2024.2
+  referencing==0.35.1
+  rpds-py==0.20.0
+  scikit-learn==1.5.2
+  scipy==1.14.1
+  six==1.16.0
+  threadpoolctl==3.5.0
+  typing_extensions==4.12.2
+  tzdata==2024.2
+Continuous Integration: 'No'
+Empirical (Runtime) Evaluation: 'No'
+Benchmarks: 'Yes'

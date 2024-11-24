@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2019-03-15'
 Year of Update: '2019'
-Logic Solver Approach: Tailored labelling solver
+Solver Approach: Tailored labelling solver
 Region: UK
 Bibtex Entry: >-
   @inbook{b01aa916e2fe4c84a68788edc44cf57e, title = "EqArgSolver – System

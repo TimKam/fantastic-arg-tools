@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: GPL-3
 Last Update: '2017-03-13'
 Year of Update: '2017'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: Austria
 Bibtex Entry: >-
   @article{dvorak2017cegartix, title={Cegartix v2017-3-13: A satbased

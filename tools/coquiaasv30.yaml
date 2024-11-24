@@ -12,7 +12,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2019-03-27'
 Year of Update: '2019'
-Logic Solver Approach: SAT solver
+Solver Approach: SAT solver
 Region: France
 Bibtex Entry: |-
   @article{lagniez2019coquiaas,

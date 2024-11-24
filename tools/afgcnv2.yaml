@@ -12,7 +12,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2023-06-26'
 Year of Update: '2023'
-Logic Solver Approach: Graph Convolutional Network
+Solver Approach: Graph Convolutional Network
 Region: UK
 Bibtex Entry: |-
   @article{malmqvist2021afgcn,

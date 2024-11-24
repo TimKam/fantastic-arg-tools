@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: Apache 2.0
 Last Update: '2020-02-06'
 Year of Update: '2020'
-Logic Solver Approach: ASP solver
+Solver Approach: ASP solver
 Region: UK
 Bibtex Entry: >-
   @InProceedings{10.1007/978-3-319-69131-2_25, author="Bao, Ziyi and
@@ -22,7 +22,7 @@ Bibtex Entry: >-
 Argumentation Approach: Assumption-Based Argumentation with Preferences
 URL: https://github.com/kcyras/ABAplus
 Bug Tracker: NA
-Application: NA
+Application: Computing ABA+ frameworks
 Dependencies: numpy, Django 2.2, clingo 4.5.4, DLV 2012-12-17
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: NA
