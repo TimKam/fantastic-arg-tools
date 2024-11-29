@@ -3,7 +3,7 @@ Description: >-
   Solver for weighted bipolar argumentation problems with continuous dynamical
   systems
 Found in: COMMA 2022
-Documentation: NA
+Documentation: Yes
 Implementation Language(s): Java
 Type of Tool: Solver
 Tests?: NA
@@ -27,5 +27,5 @@ Bug Tracker: NA
 Application: NA
 Dependencies: NA
 Continuous Integration: NA
-Empirical (Runtime) Evaluation: NA
-Benchmarks: NA
+Empirical (Runtime) Evaluation: Yes
+Benchmarks: Yes
