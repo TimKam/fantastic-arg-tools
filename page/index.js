@@ -32,7 +32,8 @@ function showData(dataArray){
             {"title":"Bibtex Entry", "className": "bibtex"},
             {"title":"Argumentation Approach"},
             {"title":"URL",
-            render: function ( data, type, row) {
+            render: function (data) {
+                if(data === 'NA') return data
                 return '<a href="'+data+'" target="_blank">'+data+'</a>';
             }},
             //{"title":"Maintainers"},
