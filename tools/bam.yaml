@@ -1,0 +1,33 @@
+Name: BAM
+Description: A benchmark for argument mining on scientific documents.
+Found in: Scientific Document Understanding 2022
+Documentation: 'Yes'
+Implementation Language(s): Python
+Type of Tool: Benchmark
+Tests?: 'NA'
+Source Code: 'Yes'
+License: NA
+Last Update: '2023-11-28'
+Year of Update: '2023'
+Solver Approach: Not applicable
+Region: Switzerland
+Bibtex Entry: |-
+  @inproceedings{ruosch2022bam,
+  title={BAM: Benchmarking argument mining on scientific documents},
+  author={Ruosch, Florian and Sarasua, Cristina and Bernstein, Abraham},
+  year={2022},
+  organization={CEUR Workshop Proceedings}
+  }
+Argumentation Approach: Not applicable
+URL: https://gitlab.ifi.uzh.ch/DDIS-Public/bam
+Bug Tracker: NA
+Application: Benchmarking argument mining approaches
+Dependencies: |-
+  nervaluate==0.1.8
+  nltk==3.6.2
+  pytokenizations==0.8.3
+  segeval==2.0.11
+  sklearn==0.0
+Continuous Integration: 'NA'
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'
