@@ -8,17 +8,17 @@ Implementation Language(s): Go
 Type of Tool: Solver
 Tests?: 'Yes'
 Source Code: 'Yes'
-License: ''
-Last Update: '2015-04-22'
-Year of Update: '2015'
-Solver Approach: SAT solver
+License: 'GPL-v3'
+Last Update: '2017-06-26'
+Year of Update: '2017'
+Solver Approach: ASP solver
 Region: Germany
 Bibtex Entry: |-
   @article{strassiccma,
     title={ICCMA 2017 System Description},
     author={Strass, Hannes and Ellmauthaler, Stefan}
    }
-Argumentation Approach: Tailored SAT solution
+Argumentation Approach: Abstract Dialectical Frameworks
 URL: https://sourceforge.net/p/diamond-adf/
 Bug Tracker: 'Yes'
 Application: NA
