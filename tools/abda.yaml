@@ -8,7 +8,7 @@ Implementation Language(s): Python
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
-License: NA
+License: GPL version 3
 Last Update: '2021-05-01'
 Year of Update: '2021'
 Solver Approach: ASPIC solver
@@ -25,8 +25,8 @@ Bibtex Entry: |-
 Argumentation Approach: Grounded Discussion Game
 URL: https://github.com/Schirmi136/ABDA
 Bug Tracker: NA
-Application: NA
-Dependencies: Flask
+Application: ASPIC- frameworks
+Dependencies: Self contained
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: NA
 Benchmarks: NA
