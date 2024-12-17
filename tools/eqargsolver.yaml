@@ -1,33 +1,24 @@
 Name: EqArgSolver
 Description: >-
-  EqArgSolver requires the decomposition of the framework into SCCs and the
-  arrangement of these into layers following the direction of attacks.
+  EqArgSolver is a fast argumentation solver, implemented in C++ and without the use of external SAT solvers, for decision and enumeration problems of argumentation frameworks.
 Found in: ICCMA 2019
-Documentation: NA
+Documentation: https://nms.kcl.ac.uk/odinaldo.rodrigues/solvers.html
 Implementation Language(s): C++
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
-License: NA
+License: GPL
 Last Update: '2019-03-15'
 Year of Update: '2019'
-Solver Approach: Tailored labelling solver
+Solver Approach: Decomposition into SCCs with custom-made algorithm.
 Region: UK
 Bibtex Entry: >-
-  @inbook{b01aa916e2fe4c84a68788edc44cf57e, title = "EqArgSolver – System
-  Description", abstract = "This paper provides a general overview of
-  EqArgSolver, a solver forenumeration and decision problems in argumentation
-  theory. The solveris implemented from the ground up as aself-contained
-  application in C++ without the use of any otherexternal solver (e.g., SAT,
-  ASP, CSP) or libraries.", author = "Rodrigues, {Odinaldo Teixeira}", year =
-  "2017", language = "English", booktitle = "Proceedings of the 4th Intl.
-  Conference on Theory and Applications of Formal Argumentation", publisher =
-  "Springer"}
-Argumentation Approach: Tailored graph-oriented approach
+  @inproceedings{eqargsolver:17,   author = {Odinaldo Rodrigues},   title = {EqArgSolver -- System Description},   booktitle = {Proceedings of the 4th Intl. Conference on Theory and Applications of Formal Argumentation},   year = {2018},   pages = {150-158},   doi = {https://doi.org/10.1007/978-3-319-75553-3_11} }
+Argumentation Approach: AAF
 URL: https://hub.docker.com/r/odinaldo/eqargsolver
 Bug Tracker: NA
-Application: NA
-Dependencies: NA
+Application: Enumeration of grounded, complete, preferred and stable semantics and decision problems there.
+Dependencies: None
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'
