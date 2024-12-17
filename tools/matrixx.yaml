@@ -1,28 +1,21 @@
 Name: MatrixX
 Description: >-
-  Offensive and defensive properties of an Argumentation Framework are notated
-  in a matrix style and the corresponding rows and columns
-   of the matrix are reduced according to the chosen semantics
+  Matrix Style Solver for Dung Style Argumentation Frameworks
 Found in: ICCMA 2021
-Documentation: NA
+Documentation: https://github.com/kmax-tech/MatrixX/blob/main/README.md
 Implementation Language(s): Python
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
-License: NA
-Last Update: '2021-04-14'
-Year of Update: '2021'
-Solver Approach: Tailored Matrix translation
+License: MIT License
+Last Update: '2024'
+Year of Update: '2024'
+Solver Approach: Algorithm inspired by Donald Knuth's Algorithm X
 Region: Germany
 Bibtex Entry: |-
-  @article{heinrich2021matrixx,
-    title={The MatrixX solver for argumentation frameworks},
-    author={Heinrich, Maximilian},
-    journal={arXiv preprint arXiv:2109.14732},
-    year={2021}
-  }
-Argumentation Approach: Matrix-based solution
-URL: https://github.com/kmax-tech/MatrixX
+  @article{DBLP:journals/corr/abs-2109-14732,   author       = {Maximilian Heinrich},   title        = {The MatrixX Solver For Argumentation Frameworks},   journal      = {CoRR},   volume       = {abs/2109.14732},   year         = {2021},   url          = {https://arxiv.org/abs/2109.14732},   eprinttype    = {arXiv},   eprint       = {2109.14732},   timestamp    = {Mon, 04 Oct 2021 17:22:25 +0200},   biburl       = {https://dblp.org/rec/journals/corr/abs-2109-14732.bib},   bibsource    = {dblp computer science bibliography, https://dblp.org} }
+Argumentation Approach: Argumentation Frameworks (stable and complete semantics)
+URL: https://github.com/kmax-tech/MatrixX/tree/main
 Bug Tracker: NA
 Application: NA
 Dependencies: NA
