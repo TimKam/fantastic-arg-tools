@@ -1,32 +1,24 @@
-Name: μ-toksia 2023
+Name: μ-toksia
 Description: >-
-  The μ-toksia system is a SAT-based implementation supporting both the
-  classical and dynamic reasoning tasks
+  μ-toksia is a SAT-based tool for reasoning in abstract argumentation frameworks with support for dynamic changes (additions and deletions of arguments and attacks).
 Found in: ICCMA 2023
 Documentation: NA
 Implementation Language(s): C++
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
-License: NA
-Last Update: '2023-03-16'
-Year of Update: '2023'
+License: MIT
+Last Update: '2024-06-14'
+Year of Update: '2024'
 Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
-  @inproceedings{niskanen2020mu,
-    title={$\mu$-toksia: an efficient abstract argumentation reasoner},
-    author={Niskanen, Andreas and J{\"a}rvisalo, Matti},
-    booktitle={International Conference on Principles of Knowledge Representation and Reasoning},
-    pages={800--804},
-    year={2020},
-    organization={International Joint Conference on Artificial Intelligence, Inc}
-  }
-Argumentation Approach: Tailored SAT solution
-URL: https://argumentationcompetition.org/2023/solvers/mu-toksia.zip
+  @inproceedings{DBLP:conf/kr/NiskanenJ20a, author = {Andreas Niskanen and Matti J{\"{a}}rvisalo}, editor = {Diego Calvanese and Esra Erdem and Michael Thielscher}, title = {{\(\mathrm{\mu}\)}-toksia: An Efficient Abstract Argumentation Reasoner}, booktitle = {Proceedings of the 17th International Conference on Principles of Knowledge Representation and Reasoning, {KR} 2020, Rhodes, Greece, September 12-18, 2020}, pages = {800--804}, year = {2020}, url = {https://doi.org/10.24963/kr.2020/82}, doi = {10.24963/KR.2020/82}, timestamp = {Fri, 09 Apr 2021 18:52:15 +0200}, biburl = {https://dblp.org/rec/conf/kr/NiskanenJ20a.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }
+Argumentation Approach: Abstract argumentation
+URL: https://bitbucket.org/andreasniskanen/mu-toksia/
 Bug Tracker: NA
-Application: NA
-Dependencies: NA
+Application: Standard and dynamic reasoning tasks for abstract argumentation (as covered by e.g. ICCMA)
+Dependencies: CaDiCaL (or any alternative SAT solver supporting IPASIR)
 Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

@@ -1,0 +1,24 @@
+Name: joukko
+Description: >-
+  joukko is a tool for reasoning with argumentation frameworks with collective attacks (SETAFs).
+Found in: Form submission
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: MIT
+Last Update: '2020-03-24'
+Year of Update: '2020'
+Solver Approach: SAT solver
+Region: Finland
+Bibtex Entry: |-
+  NA
+Argumentation Approach: Argumentation Frameworks with Collective Attacks
+URL: https://bitbucket.org/andreasniskanen/joukko/
+Bug Tracker: NA
+Application: NA
+Dependencies: Glucose
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA
