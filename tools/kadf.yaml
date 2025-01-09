@@ -1,0 +1,24 @@
+Name: k++ADF
+Description: >-
+  k++ADF is a tool for reasoning with abstract dialectical frameworks.
+Found in: Form submission
+Documentation: NA
+Implementation Language(s): C++
+Type of Tool: Solver
+Tests?: NA
+Source Code: 'Yes'
+License: MIT
+Last Update: '2022-01-26'
+Year of Update: '2022'
+Solver Approach: SAT solver
+Region: Finland
+Bibtex Entry: |-
+  @article{DBLP:journals/ai/LinsbichlerMNWW22, author = {Thomas Linsbichler and Marco Maratea and Andreas Niskanen and Johannes Peter Wallner and Stefan Woltran}, title = {Advanced algorithms for abstract dialectical frameworks based on complexity analysis of subclasses and {SAT} solving}, journal = {Artif. Intell.}, volume = {307}, pages = {103697}, year = {2022}, url = {https://doi.org/10.1016/j.artint.2022.103697}, doi = {10.1016/J.ARTINT.2022.103697}, timestamp = {Fri, 29 Apr 2022 14:50:32 +0200}, biburl = {https://dblp.org/rec/journals/ai/LinsbichlerMNWW22.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }
+Argumentation Approach: Abstract Dialectical Frameworks
+URL: https://bitbucket.org/andreasniskanen/k-adf/
+Bug Tracker: NA
+Application: NA
+Dependencies: MiniSat
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'
