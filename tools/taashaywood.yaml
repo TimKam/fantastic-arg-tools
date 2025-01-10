@@ -1,0 +1,43 @@
+Name: taas-haywood
+Description: >-
+  taas-haywood is a solver for abstract argumentation implementing stochastic local search algorithms to find a single stable extension (SE-ST).
+Found in: Author email
+Documentation: 'No'
+Implementation Language(s): C
+Type of Tool: Solver
+Tests?: 'No'
+Source Code: 'Yes'
+License: 'GPL-v3'
+Last Update: '2022-7-19'
+Year of Update: '2022'
+Solver Approach: 'Custom'
+Region: 'Germany'
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/Thimm18,
+  author       = {Matthias Thimm},
+  editor       = {Sanjay Modgil and
+                  Katarzyna Budzynska and
+                  John Lawrence},
+  title        = {Stochastic Local Search Algorithms for Abstract Argumentation Under
+                  Stable Semantics},
+  booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2018, Warsaw,
+                  Poland, 12-14 September 2018},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {305},
+  pages        = {169--180},
+  publisher    = {{IOS} Press},
+  year         = {2018},
+  url          = {https://doi.org/10.3233/978-1-61499-906-5-169},
+  doi          = {10.3233/978-1-61499-906-5-169},
+  timestamp    = {Fri, 29 Jan 2021 21:15:48 +0100},
+  biburl       = {https://dblp.org/rec/conf/comma/Thimm18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: Abstract Argumentation
+URL: https://github.com/aig-hagen/taas-haywood
+Bug Tracker: NA
+Application: NA
+Dependencies: None
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'

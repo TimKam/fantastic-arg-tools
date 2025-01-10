@@ -81,5 +81,22 @@ var tools = [
    'afsynth',
    'kadf',
    'joukko',
-   'vaeite'
+   'vaeite',
+   'serialisationsolver',
+   'algorithmsforacceptablearguments',
+   'taashaywood',
+   'tweetyabstract',
+   'tweetyaba',
+   'tweetyadf',
+   'tweetybipolar',
+   'tweetydeductive',
+   'tweetyextended',
+   'tweetyweighted',
+   'tweetysocial',
+   'tweetystructured',
+   'tweetyset',
+   'tweetydefeasible',
+   'tweetylogic',
+   'tweetyprobab',
+   'tweetyranked'
 ]

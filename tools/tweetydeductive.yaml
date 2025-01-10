@@ -1,0 +1,42 @@
+Name: Tweety/Deductive Argumentation
+Description: >-
+  Tweety's deductive argumentation library implements deductive argumentation, where an argument is
+  composed of a set of propositional formulas that derive the claim of the argument. Attack between
+  arguments is derived from classical unsatisfiability.
+Found in: Author email
+Documentation: 'Yes'
+Implementation Language(s): 'Java'
+Type of Tool: Solver
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: GPL-v3
+Last Update: '2024-12-27'
+Year of Update: '2024'
+Solver Approach: Custom
+Region: Germany
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/kr/Thimm14,
+  author       = {Matthias Thimm},
+  editor       = {Chitta Baral and
+                  Giuseppe De Giacomo and
+                  Thomas Eiter},
+  title        = {Tweety: {A} Comprehensive Collection of Java Libraries for Logical
+                  Aspects of Artificial Intelligence and Knowledge Representation},
+  booktitle    = {Principles of Knowledge Representation and Reasoning: Proceedings
+                  of the Fourteenth International Conference, {KR} 2014, Vienna, Austria,
+                  July 20-24, 2014},
+  publisher    = {{AAAI} Press},
+  year         = {2014},
+  url          = {http://www.aaai.org/ocs/index.php/KR/KR14/paper/view/7811},
+  timestamp    = {Tue, 09 Feb 2021 08:33:43 +0100},
+  biburl       = {https://dblp.org/rec/conf/kr/Thimm14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: Deductive Argumentation
+URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-deductive
+Bug Tracker: 'Yes'
+Application: NA
+Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-deductive/pom.xml'
+Continuous Integration: NA
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA
