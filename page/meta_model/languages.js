@@ -1,0 +1,1 @@
+const languages = ['ASP', 'C', 'C++', 'CLOS', 'Delphi', 'Go', 'Haskell', 'Java', 'JavaScript', 'LaTeX', 'Lisp', 'Prolog', 'Python', 'Replicode', 'Rust', 'Typescript']

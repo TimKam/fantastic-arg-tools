@@ -1,0 +1,1 @@
+const licenses = ['Apache 2.0', 'GPL 2.0', 'GPL 3.0', 'MIT', 'MPL 2.0', 'BSD 2 Clause', 'BSD 3 Clause', 'BSD with CADIA Clause', 'LGPL 2.1', 'LGPL 3.0', 'LPPL 1.3c']
