@@ -9,7 +9,7 @@ Implementation Language(s): [C++, Prolog]
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
-License: Copyright 2015 Tsinghua University.
+License: MIT
 Last Update: '2017-05-01'
 Year of Update: '2017'
 Solver Approach: Constraint-based solver
