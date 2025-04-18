@@ -4,7 +4,7 @@ Description: >-
   abstract and ABA argumentation appraoches, as well as DC-CO, DC-ST, and DS-ST.
 Found in: ICCMA 2023
 Documentation: NA
-Implementation Language(s): Rust, C++
+Implementation Language(s): [Rust, C++]
 Type of Tool: Solver
 Tests?: 'Yes'
 Source Code: 'Yes'

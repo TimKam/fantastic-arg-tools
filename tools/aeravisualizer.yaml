@@ -4,7 +4,7 @@ Description: >-
   (Auto-catalytic Endogenous Reflective Architecture).
 Found in: COMMA 2024
 Documentation: 'Yes'
-Implementation Language(s): C++ / Replicode
+Implementation Language(s): [C++, Replicode]
 Type of Tool: Visualizer
 Tests?: 'No'
 Source Code: 'Yes'

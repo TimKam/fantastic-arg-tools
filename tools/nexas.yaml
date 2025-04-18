@@ -10,7 +10,7 @@ Description: >-
   arguments.
 Found in: COMMA 2022
 Documentation: 'Yes'
-Implementation Language(s): JavaScript, Python, ASP
+Implementation Language(s): [JavaScript, Python, ASP]
 Type of Tool: Visualizer
 Tests?: 'No'
 Source Code: https://github.com/imldresden/nexas

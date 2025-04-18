@@ -5,7 +5,7 @@ Description: >-
   matrix algebra
 Found in: ICCMA 2017
 Documentation: NA
-Implementation Language(s): C++, Prolog
+Implementation Language(s): [C++, Prolog]
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'

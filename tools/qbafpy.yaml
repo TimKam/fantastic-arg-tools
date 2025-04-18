@@ -2,7 +2,7 @@ Name: QBAF-Py
 Description: A CPython implementation for explainable quantitative bipolar argumentation.
 Found in: COMMA 2024
 Documentation: 'Yes'
-Implementation Language(s): C, Python
+Implementation Language(s): [C, Python]
 Type of Tool: Solver, Visualizer
 Tests?: 'Yes'
 Source Code: 'Yes'
