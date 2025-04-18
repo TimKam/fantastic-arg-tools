@@ -1,4 +1,7 @@
 # A Survey of Computational Argumentation Tools
+
+![Node tests](https://github.com/TimKam/fantastic-arg-tools/actions/workflows/node.js.yml/badge.svg)
+
 This survey contains the content and code for *Fantastic Argumentation Tools And Where To Find Them*--a continuously ongoing survey of tools and libraries for computational argumentation.
 
 The survey webpage is available at [https://people.cs.umu.se/~tkampik/argtools/](https://people.cs.umu.se/~tkampik/argtools/).
