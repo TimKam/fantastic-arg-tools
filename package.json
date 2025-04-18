@@ -1,0 +1,27 @@
+{
+  "name": "fantastic-arg-tools",
+  "version": "0.0.1",
+  "description": "'Ongoing survey of computational argumentation tools'",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimKam/fantastic-arg-tools.git"
+  },
+  "keywords": [
+    "computational",
+    "argumentation"
+  ],
+  "author": "Timotheus Kampik et al.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TimKam/fantastic-arg-tools/issues"
+  },
+  "homepage": "https://github.com/TimKam/fantastic-arg-tools#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "yaml": "^2.7.1"
+  }
+}
