@@ -6,6 +6,7 @@ const toolList = eval(fs.readFileSync('./page/meta_model/tools.js').toString().s
 const countries = eval(fs.readFileSync('./page/meta_model/countries.js').toString().split('=').pop())
 const languages = eval(fs.readFileSync('./page/meta_model/languages.js').toString().split('=').pop())
 const licenses = eval(fs.readFileSync('./page/meta_model/licenses.js').toString().split('=').pop())
+const toolTypes = eval(fs.readFileSync('./page/meta_model/toolTypes.js').toString().split('=').pop())
 const toolsFolder = './tools'
 
 
@@ -59,5 +60,14 @@ test('Any entry of "Implementation Language(s)" should be in the list of languag
             toolLanguages = Array.isArray(toolLanguages) ? toolLanguages : [toolLanguages]
             toolLanguages.forEach(language => expect(languages).toContain(language))
         }
+    })
+})
+
+test('Any entry of "Type of Tool" should be in the list of tool types', () => {
+    testFiles(data => {
+        let types = yaml.parse(data)['Type of Tool']
+        types = Array.isArray(types) ? types : [types]
+        types.forEach(type => expect(toolTypes).toContain(type))
+        if(types.includes['Utility']) expect(types.length).toEqual(1)
     })
 })
