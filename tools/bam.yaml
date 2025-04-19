@@ -1,6 +1,6 @@
 Name: BAM
 Description: A benchmark for argument mining on scientific documents.
-Found in: Scientific Document Understanding 2022
+Found in: COMMA 2024
 Documentation: 'Yes'
 Implementation Language(s): Python
 Type of Tool: Benchmark

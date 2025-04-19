@@ -2,7 +2,7 @@ Name: CompArg
 Description: CompArg computes credulous acceptance and rejection in abstract argumentation.
 Found in: 2018 Survey
 Documentation: 'Yes'
-Implementation Language(s): Dephi
+Implementation Language(s): Delphi
 Type of Tool: Solver
 Tests?: 'Yes'
 Source Code: https://www.ai.rug.nl/~verheij/comparg/

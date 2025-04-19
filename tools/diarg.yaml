@@ -5,10 +5,10 @@ Description: >-
 Found in: SAFA 2020
 Documentation: 'Yes'
 Implementation Language(s): Java
-Type of Tool: Solver, Utility
+Type of Tool: Solver
 Tests?: 'Yes'
 Source Code: 'Yes'
-License: BSD 2-Clause License
+License: BSD 2 Clause
 Last Update: '2024-02-11'
 Year of Update: '2024'
 Solver Approach: Tweety's argumentation solvers

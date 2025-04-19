@@ -1,0 +1,1 @@
+const toolTypes = ['Annotation Tool', 'Benchmark', 'Solver', 'Utility', 'Verifier', 'Visualizer']

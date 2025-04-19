@@ -1,50 +1,28 @@
-Name: serialisation-solver
+Name: algorithms for acceptable arguments
 Description: >-
-  Serialisation solver implements algorithms for computing serialisation sequences for argumentation frameworks.
+  Algorithms for acceptable arguments implements several SAT-based algorithms for enumerating credulously/skeptically accepted arguments for abstract argumentation frameworks.
 Found in: Author email
 Documentation: 'Yes'
 Implementation Language(s): C++
 Type of Tool: Solver
-Tests?: 'No'
+Tests?: 'Yes'
 Source Code: 'Yes'
-License: 'GPL-v3'
-Last Update: '2024-10-11'
+License: GPL 3.0
+Last Update: '2024-05-13'
 Year of Update: '2024'
 Solver Approach: 'SAT solver'
 Region: 'Germany'
 Bibtex Entry: |-
-  @inproceedings{DBLP:conf/ecai/BengelST24,
-  author       = {Lars Bengel and
-                  Julian Sander and
-                  Matthias Thimm},
-  editor       = {Ulle Endriss and
-                  Francisco S. Melo and
-                  Kerstin Bach and
-                  Alberto Jos{\'{e}} Bugar{\'{\i}}n Diz and
-                  Jose Maria Alonso{-}Moral and
-                  Sen{\'{e}}n Barro and
-                  Fredrik Heintz},
-  title        = {Characterising Serialisation Equivalence for Abstract Argumentation},
-  booktitle    = {{ECAI} 2024 - 27th European Conference on Artificial Intelligence,
-                  19-24 October 2024, Santiago de Compostela, Spain - Including 13th
-                  Conference on Prestigious Applications of Intelligent Systems {(PAIS}
-                  2024)},
-  series       = {Frontiers in Artificial Intelligence and Applications},
-  volume       = {392},
-  pages        = {3340--3347},
-  publisher    = {{IOS} Press},
-  year         = {2024},
-  url          = {https://doi.org/10.3233/FAIA240883},
-  doi          = {10.3233/FAIA240883},
-  timestamp    = {Fri, 25 Oct 2024 12:13:46 +0200},
-  biburl       = {https://dblp.org/rec/conf/ecai/BengelST24.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  @article{bengel5062003algorithms,
+  title={Algorithms for Computing the Set of Acceptable Arguments},
+  author={Bengel, Lars and Thimm, Matthias and Cerutti, Federico and Vallati, Mauro},
+  journal={Available at SSRN 5062003}
   }
 Argumentation Approach: Abstract Argumentation
 URL: https://github.com/aig-hagen/algorithms_for_acceptable_arguments
 Bug Tracker: NA
 Application: NA
-Dependencies: CaDiCaL
+Dependencies: CaDiCal, Glucose, CryptoMiniSat, CGSS2
 Continuous Integration: NA
-Empirical (Runtime) Evaluation: NA
-Benchmarks: NA
+Empirical (Runtime) Evaluation: 'Yes'
+Benchmarks: 'Yes'

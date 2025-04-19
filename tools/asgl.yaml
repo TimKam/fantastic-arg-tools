@@ -5,7 +5,7 @@ Description: >-
   built based on GECODE, a generic CSP solver.
 Found in: ICCMA 2015
 Documentation: NA
-Implementation Language(s): LISP, CLOS, C++
+Implementation Language(s): [Lisp, CLOS, C++]
 Type of Tool: Solver
 Tests?: 'Yes'
 Source Code: 'Yes'

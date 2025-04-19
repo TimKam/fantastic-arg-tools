@@ -5,10 +5,10 @@ Description: |-
 Found in: COMMA 2018
 Documentation: 'Yes'
 Implementation Language(s): JavaScript
-Type of Tool: Solver, Visualizer
+Type of Tool: [Solver, Visualizer]
 Tests?: 'Yes'
 Source Code: 'Yes'
-License: GPL-3
+License: GPL 3.0
 Last Update: '2017-04-01'
 Year of Update: '2017'
 Solver Approach: ''

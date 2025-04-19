@@ -2,7 +2,7 @@ Name: PORTSAT
 Description: ''
 Found in: ICCMA 2023
 Documentation: NA
-Implementation Language(s): Rust, C++
+Implementation Language(s): [Rust, C++]
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
