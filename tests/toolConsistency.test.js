@@ -7,6 +7,7 @@ const countries = eval(fs.readFileSync('./page/meta_model/countries.js').toStrin
 const languages = eval(fs.readFileSync('./page/meta_model/languages.js').toString().split('=').pop())
 const licenses = eval(fs.readFileSync('./page/meta_model/licenses.js').toString().split('=').pop())
 const toolTypes = eval(fs.readFileSync('./page/meta_model/toolTypes.js').toString().split('=').pop())
+const venues = eval(fs.readFileSync('./page/meta_model/venues.js').toString().split('=').pop())
 const toolsFolder = './tools'
 
 
@@ -69,5 +70,12 @@ test('Any entry of "Type of Tool" should be in the list of tool types', () => {
         types = Array.isArray(types) ? types : [types]
         types.forEach(type => expect(toolTypes).toContain(type))
         if(types.includes['Utility']) expect(types.length).toEqual(1)
+    })
+})
+
+test('Any entry of "Found in" should be in the list of venues/channel', () => {
+    testFiles(data => {
+        const venue = yaml.parse(data)['Found in']
+        expect(venues).toContain(venue)
     })
 })
