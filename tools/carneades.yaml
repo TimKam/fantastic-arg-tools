@@ -5,7 +5,7 @@ Description: >-
 Found in: ICCMA 2015
 Documentation: NA
 Implementation Language(s): Go
-Type of Tool: Solver, Visualizer
+Type of Tool: [Solver, Visualizer]
 Tests?: 'Yes'
 Source Code: 'Yes'
 License: MPL 2.0

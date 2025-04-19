@@ -5,7 +5,7 @@ Description: >-
 Found in: COMMA 2020
 Documentation: 'Yes'
 Implementation Language(s): Python
-Type of Tool: Visualizer, Utility, Solver
+Type of Tool: [Visualizer, Solver]
 Tests?: 'Yes'
 Source Code: 'Yes'
 License: GPL 3.0
