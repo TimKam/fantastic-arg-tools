@@ -7,7 +7,7 @@ Description: >-
 Found in: COMMA 2022
 Documentation: NA
 Implementation Language(s): Python
-Type of Tool: Solver, visualiser, benchmark generator, exercise generator
+Type of Tool: [Solver, Visualizer, Benchmark]
 Tests?: 'Yes'
 Source Code: 'Yes'
 License: MIT

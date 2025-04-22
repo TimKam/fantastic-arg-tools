@@ -4,11 +4,11 @@ Description: >-
   many types of argumentation frameworks in LaTeX-documents.
 Found in: Form submission
 Documentation: 'Yes'
-Implementation Language(s): ''
+Implementation Language(s): LaTeX
 Type of Tool: Utility
 Tests?: NA
 Source Code: 'Yes'
-License: LaTeX Project Public License 1.3c
+License: LPPL 1.3c
 Last Update: '2024-09-25'
 Year of Update: '2024'
 Solver Approach: NA
