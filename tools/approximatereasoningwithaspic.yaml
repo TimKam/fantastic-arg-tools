@@ -3,14 +3,14 @@ Description: >-
   Approximation algorithms for reasoning in structured argumentation approaches
   such as ASPIC+
 Found in: SAFA 2020
-Documentation: NA
+Documentation: 'Yes'
 Implementation Language(s): Java
 Type of Tool: Solver
-Tests?: NA
-Source Code: NA
-License: NA
-Last Update: NA
-Year of Update: '2020'
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: GPL 3.0
+Last Update: '07-02-2024'
+Year of Update: '2024'
 Solver Approach: Tweety's argumentation solvers
 Region: Germany
 Bibtex Entry: |-
@@ -23,10 +23,10 @@ Bibtex Entry: |-
     year={2020}
   }
 Argumentation Approach: Structured argumentation, ASPIC
-URL: http://tweetyproject.org/r/?r=aspic_reasoner
-Bug Tracker: NA
+URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-aspic
+Bug Tracker: 'Yes'
 Application: NA
-Dependencies: NA
-Continuous Integration: NA
+Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-aspic/pom.xml'
+Continuous Integration: 'Yes'
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

@@ -35,6 +35,6 @@ URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproj
 Bug Tracker: 'Yes'
 Application: NA
 Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-aba/pom.xml'
-Continuous Integration: NA
+Continuous Integration: 'Yes'
 Empirical (Runtime) Evaluation: NA
 Benchmarks: NA
