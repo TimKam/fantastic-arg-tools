@@ -79,3 +79,30 @@ test('Any entry of "Found in" should be in the list of venues/channel', () => {
         expect(venues).toContain(venue)
     })
 })
+
+test('Year of update should be parse-able as a number between 2000 and the current year', () => {
+    testFiles(data => {
+        const year = parseInt(yaml.parse(data)['Year of Update'])
+        expect(year).toBeLessThanOrEqual(new Date().getFullYear())
+    })
+})
+
+test('Date of update should, if available, be parse-able as a date between 01.01.2000 and the current date', () => {
+    testFiles(data => {
+        if (yaml.parse(data)['Last Update'] !== 'NA') {
+            const date = Date.parse(yaml.parse(data)['Last Update'])
+            expect(Number(date)).toBeLessThanOrEqual(Number(new Date()))
+        }
+    })
+})
+
+test('Date of update and year of update should be consistent', () => {
+    testFiles(data => {
+         if (yaml.parse(data)['Last Update'] !== 'NA') {
+            const year = parseInt(yaml.parse(data)['Year of Update'])
+            const date = new Date(Date.parse(yaml.parse(data)['Last Update']))
+            expect(date.getFullYear()).toEqual(year)
+         }
+    })
+})
+
