@@ -43,6 +43,6 @@ Dependencies: |-
   psutil
   pytest
   python-sat
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'No'

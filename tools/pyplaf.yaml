@@ -4,7 +4,7 @@ Found in: COMMA 2024
 Documentation: 'Yes'
 Implementation Language(s): Python
 Type of Tool: Solver
-Tests?: 'No'
+Tests?: NA
 Source Code: 'Yes'
 License: MIT
 Last Update: March 2024
@@ -25,6 +25,6 @@ URL: https://github.com/michele-persiani/PyPLAF?tab=readme-ov-file
 Bug Tracker: 'No'
 Application: None
 Dependencies: https://github.com/dtetruash/solved-af
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: ''
 Benchmarks: ''

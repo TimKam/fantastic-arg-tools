@@ -12,7 +12,7 @@ Found in: COMMA 2022
 Documentation: 'Yes'
 Implementation Language(s): [JavaScript, Python, ASP]
 Type of Tool: Visualizer
-Tests?: 'No'
+Tests?: NA
 Source Code: https://github.com/imldresden/nexas
 License: LGPL 2.1
 Last Update: December 2023
@@ -58,6 +58,6 @@ Dependencies: |-
   threadpoolctl==3.5.0
   typing_extensions==4.12.2
   tzdata==2024.2
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'No'
 Benchmarks: 'Yes'

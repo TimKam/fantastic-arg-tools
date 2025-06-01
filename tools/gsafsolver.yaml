@@ -7,7 +7,7 @@ Found in: COMMA 2024
 Documentation: 'Yes'
 Implementation Language(s): C++
 Type of Tool: Solver
-Tests?: 'No'
+Tests?: NA
 Source Code: 'Yes'
 License: MIT
 Last Update: '2023'
@@ -28,6 +28,6 @@ URL: https://github.com/agressle/GSAFSolver
 Bug Tracker: 'No'
 Application: None
 Dependencies: https://fmt.dev/11.0/
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: ''
 Benchmarks: ''

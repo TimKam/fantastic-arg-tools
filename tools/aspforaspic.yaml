@@ -8,7 +8,7 @@ Found in: Form submission
 Documentation: NA
 Implementation Language(s): Python
 Type of Tool: Solver
-Tests?: 'No'
+Tests?: NA
 Source Code: https://bitbucket.org/coreo-group/aspforaspic
 License: MIT
 Last Update: August 2023
@@ -37,10 +37,10 @@ Bibtex Entry: |-
     bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
 Argumentation Approach: ASPIC+
-URL: ''
+URL: 'https://bitbucket.org/coreo-group/aspforaspic'
 Bug Tracker: ''
 Application: Fundamental reasoning problems in ASPIC+
 Dependencies: clingo
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'No'
