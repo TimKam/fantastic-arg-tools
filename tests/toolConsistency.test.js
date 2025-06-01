@@ -79,3 +79,26 @@ test('Any entry of "Found in" should be in the list of venues/channel', () => {
         expect(venues).toContain(venue)
     })
 })
+
+test('Any entry of "Tests?" should be either "Yes" or "NA"', () => {
+    testFiles(data => {
+        const tests = yaml.parse(data)['Tests?']
+        expect(['Yes', 'NA']).toContain(tests)
+    })
+})
+
+test('Any entry of "Continuous Integration" should be either "Yes" or "NA"', () => {
+    testFiles(data => {
+        const ci = yaml.parse(data)['Continuous Integration']
+        expect(['Yes', 'NA']).toContain(ci)
+    })
+})
+
+test('If "Continuous Integration" is "Yes" then "Tests?" should be "Yes", too.', () => {
+    testFiles(data => {
+        if (yaml.parse(data)['Continuous Integration'] === 'Yes') {
+            const tests = yaml.parse(data)['Tests?']
+            expect(tests).toEqual("Yes")
+         }
+    })
+})
