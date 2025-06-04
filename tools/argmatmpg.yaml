@@ -14,7 +14,12 @@ Last Update: NA
 Year of Update: '2017'
 Solver Approach: Constraint-based solver
 Region: China
-Bibtex Entry: ''
+Bibtex Entry: >-
+  @article{puargmat,
+    title={argmat-mpg: Modeling and Programming Argumentation Problems with Gecode},
+    author={Pu, Fuan and Ya, Hang and Luo, Guiming},
+    url={https://argumentationcompetition.org/2017/argmat-mpg.pdf}
+  }
 Argumentation Approach: Constraint programming
 URL: NA
 Bug Tracker: NA
