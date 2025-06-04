@@ -6,7 +6,7 @@ Found in: COMMA 2024
 Documentation: 'Yes'
 Implementation Language(s): Python
 Type of Tool: [Solver, Visualizer]
-Tests?: N/A
+Tests?: NA
 Source Code: 'No'
 License: NA
 Last Update: NA
@@ -27,6 +27,6 @@ URL: https://lepan-v01.streamlit.app/,
 Bug Tracker: N/A
 Application: iTRUST
 Dependencies: N/A
-Continuous Integration: N/A
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: ''
 Benchmarks: ''

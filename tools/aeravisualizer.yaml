@@ -6,7 +6,7 @@ Found in: COMMA 2024
 Documentation: 'Yes'
 Implementation Language(s): [C++, Replicode]
 Type of Tool: Visualizer
-Tests?: 'No'
+Tests?: NA
 Source Code: 'Yes'
 License: BSD with CADIA Clause
 Last Update: March 2024
@@ -27,6 +27,6 @@ URL: https://github.com/IIIM-IS/AERA_Visualizer
 Bug Tracker: 'No'
 Application: AERA
 Dependencies: None
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: ''
 Benchmarks: ''

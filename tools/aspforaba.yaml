@@ -21,6 +21,6 @@ URL: ''
 Bug Tracker: ''
 Application: Fundamental reasoning problems in ABA
 Dependencies: clingo
-Continuous Integration: 'No'
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: 'Yes'
 Benchmarks: 'Yes'

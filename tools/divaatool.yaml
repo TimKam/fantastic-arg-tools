@@ -6,7 +6,7 @@ Found in: COMMA 2024
 Documentation: 'Yes'
 Implementation Language(s): Python
 Type of Tool: Annotation Tool
-Tests?: 'No'
+Tests?: Yes
 Source Code: 'Yes'
 License: NA
 Last Update: May 2024
@@ -27,6 +27,6 @@ URL: https://gitlab.ifi.uzh.ch/DDIS-Public/divaa
 Bug Tracker: 'No'
 Application: None
 Dependencies: https://www.tug.org/texlive/acquire-netinstall.html
-Continuous Integration: Git
+Continuous Integration: NA
 Empirical (Runtime) Evaluation: ''
 Benchmarks: ''
