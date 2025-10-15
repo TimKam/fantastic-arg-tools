@@ -33,7 +33,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: Abstract Argumentation Frameworks with Collective Attacks
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-setaf
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA
 Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-setaf/pom.xml'
 Continuous Integration: 'Yes'

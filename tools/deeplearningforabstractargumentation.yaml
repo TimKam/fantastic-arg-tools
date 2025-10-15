@@ -25,7 +25,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: Abstract Argumentation
 URL: https://github.com/DennisCraandijk/DL-abstract-argumentation
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/DennisCraandijk/DL-abstract-argumentation/issues
 Application: ''
 Dependencies: |-
   torch

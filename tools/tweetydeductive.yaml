@@ -34,7 +34,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: Deductive Argumentation
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-deductive
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA
 Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-deductive/pom.xml'
 Continuous Integration: 'Yes'
