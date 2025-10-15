@@ -12,7 +12,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2019-01-01'
 Year of Update: '2019'
-Solver Approach: Constraint-based solver
+Solver Approach: Constraint programming
 Region: Germany
 Bibtex Entry: |-
   @article{sprotte2015asgl,

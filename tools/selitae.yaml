@@ -10,7 +10,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2022-09-06'
 Year of Update: '2022'
-Solver Approach: (Quantified) MaxSAT solving and smallest MUS computation
+Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   @inproceedings{DBLP:conf/kr/NiskanenJ20, author = {Andreas Niskanen and Matti J{\"{a}}rvisalo}, editor = {Diego Calvanese and Esra Erdem and Michael Thielscher}, title = {Smallest Explanations and Diagnoses of Rejection in Abstract Argumentation}, booktitle = {Proceedings of the 17th International Conference on Principles of Knowledge Representation and Reasoning, {KR} 2020, Rhodes, Greece, September 12-18, 2020}, pages = {667--671}, year = {2020}, url = {https://doi.org/10.24963/kr.2020/67}, doi = {10.24963/KR.2020/67}, timestamp = {Fri, 09 Apr 2021 18:52:15 +0200}, biburl = {https://dblp.org/rec/conf/kr/NiskanenJ20.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }
