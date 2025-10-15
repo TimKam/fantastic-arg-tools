@@ -128,3 +128,10 @@ test('Date of update and year of update should be consistent', () => {
          }
     })
 })
+
+test('Every tool should have a name', () => {
+    testFiles(data => {
+        const name = yaml.parse(data).Name
+        expect(typeof name).toEqual('string')
+    })
+})
