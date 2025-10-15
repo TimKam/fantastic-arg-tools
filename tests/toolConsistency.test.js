@@ -150,3 +150,10 @@ test('Bug tracker should be "NA" or valid HTTP url', () => {
         }
     })
 })
+
+test('Every tool should have a name', () => {
+    testFiles(data => {
+        const name = yaml.parse(data).Name
+        expect(typeof name).toEqual('string')
+    })
+})
