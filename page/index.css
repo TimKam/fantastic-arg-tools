@@ -76,7 +76,7 @@ body, html {
     margin-left: 350px; /* Same as the width of the sidenav */
   }
   .content {
-    margin-left: 350px; /* Same as the width of the sidenav */
+    margin-left: 220px;
   }
   
   .paragr {
@@ -89,3 +89,49 @@ body, html {
   .container {
     margin-left: 220px !important;
   }
+
+
+
+/* *************** */
+/* ANALYSIS CHARTS */
+/* *************** */
+.charts-grid {
+  margin: 0 auto;                  /* center horizontally */
+  max-width: 1100px;               /* constrain width so it centers */
+  padding: 10px 16px 30px 16px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+}
+
+@media (max-width: 1400px) {
+  .charts-grid { grid-template-columns: repeat(2, minmax(280px, 1fr)); }
+}
+@media (max-width: 900px) {
+  .charts-grid { grid-template-columns: 1fr; }
+}
+
+.chart-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  padding: 12px 16px 6px 16px;
+  min-height: 360px;
+}
+
+.chart-card h2 {
+  font-size: 18px;
+  margin: 6px 0 8px 0;
+  text-align: center;
+}
+
+.chart-card canvas {
+  width: 100% !important;
+  height: 280px !important;
+}
+
+.chart-card .download {
+  padding: 4px 0;
+}
+
+.chart-card canvas { height: 240px !important; }

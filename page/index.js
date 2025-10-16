@@ -72,7 +72,7 @@ function renderCharts(toolData){
     const countryCtx = document.getElementById('countries');
     countries = aggregatePie(toolData, 'Region')
     new Chart(countryCtx, {
-    type: 'pie',
+    type: 'bar',
     data: {
         labels: Object.keys(countries),
         datasets: [{
@@ -98,11 +98,11 @@ function renderCharts(toolData){
     }
     })
 
-    /* DOCUMENTATION */
+    /* LICENSE */
     const licenseCtx = document.getElementById('license');
     licenses = aggregatePie(toolData, 'License')
     new Chart(licenseCtx, {
-    type: 'pie',
+    type: 'bar',
     data: {
         labels: Object.keys(licenses),
         datasets: [{
@@ -127,5 +127,3 @@ function aggregatePie(toolData, id) {
     })
     return aggregate
 }
-
-
