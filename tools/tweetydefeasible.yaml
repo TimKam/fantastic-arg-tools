@@ -35,7 +35,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: Defeasible Logic Programming
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-delp
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA
 Dependencies: 'args4j and some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-delp/pom.xml'
 Continuous Integration: 'Yes'
