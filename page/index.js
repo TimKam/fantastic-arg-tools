@@ -85,7 +85,7 @@ function renderCharts(toolData){
 
     /* DOCUMENTATION */
     const documentationCtx = document.getElementById('documentation');
-    documentations = aggregatePie(toolData, 'Documentation')
+    documentations = aggregateDocumentationData(toolData, 'Documentation')
     new Chart(documentationCtx, {
     type: 'pie',
     data: {
@@ -126,4 +126,23 @@ function aggregatePie(toolData, id) {
        }
     })
     return aggregate
+}
+
+function aggregateDocumentationData(toolData, id) {
+    const YES = "Yes";
+    const NO = "No";
+    const aggregate = { [YES]: 0, [NO]: 0 };
+    
+    const isValidUrl = str => {
+        try { new URL(str); return true; } catch { return false; }
+    };
+    
+    toolData.forEach(tool => {
+        const value = tool[id];
+        if      (typeof value === "string" && isValidUrl(value))             aggregate[YES]++;
+        else if (typeof value === "string" && value.toLowerCase() === "yes") aggregate[YES]++;
+        else                                                                 aggregate[NO]++;
+    });
+    
+    return aggregate;
 }
