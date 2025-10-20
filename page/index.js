@@ -72,45 +72,57 @@ function renderCharts(toolData){
     const countryCtx = document.getElementById('countries');
     countries = aggregatePie(toolData, 'Region')
     new Chart(countryCtx, {
-    type: 'bar',
-    data: {
-        labels: Object.keys(countries),
-        datasets: [{
-        label: '# Tools by Country',
-        data: Object.values(countries),
-        borderWidth: 1
-        }]
-    }
+        type: 'bar',
+        data: {
+            labels: Object.keys(countries),
+            datasets: [{
+            label: '# Tools by Country',
+            data: Object.values(countries),
+            borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'top' } }
+        },
     })
 
     /* DOCUMENTATION */
     const documentationCtx = document.getElementById('documentation');
     documentations = aggregateDocumentationData(toolData, 'Documentation')
     new Chart(documentationCtx, {
-    type: 'pie',
-    data: {
-        labels: Object.keys(documentations),
-        datasets: [{
-        label: '# Tools by Documentation Availability',
-        data: Object.values(documentations),
-        borderWidth: 1
-        }]
-    }
+        type: 'pie',
+        data: {
+            labels: Object.keys(documentations),
+            datasets: [{
+            label: '# Tools by Documentation Availability',
+            data: Object.values(documentations),
+            borderWidth: 1
+            }]
+        },
     })
 
     /* LICENSE */
     const licenseCtx = document.getElementById('license');
     licenses = aggregatePie(toolData, 'License')
     new Chart(licenseCtx, {
-    type: 'bar',
-    data: {
-        labels: Object.keys(licenses),
-        datasets: [{
-        label: '# Tools by License',
-        data: Object.values(licenses),
-        borderWidth: 1
-        }]
-    }
+        type: 'bar',
+        data: {
+            labels: Object.keys(licenses),
+            datasets: [{
+            label: '# Tools by License',
+            data: Object.values(licenses),
+            borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'top' } }
+        },
     })
 
 }
