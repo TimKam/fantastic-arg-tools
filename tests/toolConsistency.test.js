@@ -27,6 +27,19 @@ const testFiles = condition => {
     })
 }
 
+const isHttpUrl = string => {
+    /**
+     * Checks if string is valid HTTP URL
+     */
+  let url  
+  try {
+    const url = new URL(string)
+  } catch (_) {
+    return false
+  }
+  return true
+}
+
 test('Any file in the tools folder should be in the tool list', () => {
     testFiles((_, file) => {
         expect(toolList).toContain(path.parse(file).name)
@@ -126,6 +139,15 @@ test('Date of update and year of update should be consistent', () => {
             const date = new Date(Date.parse(yaml.parse(data)['Last Update']))
             expect(date.getFullYear()).toEqual(year)
          }
+    })
+})
+
+test('Bug tracker should be "NA" or valid HTTP url', () => {
+    testFiles(data => {
+        const bugTracker = yaml.parse(data)['Bug Tracker']
+        if (bugTracker !== 'NA') {
+            expect(isHttpUrl(bugTracker)).toBe(true)
+        }
     })
 })
 

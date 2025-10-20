@@ -21,7 +21,7 @@ Bibtex Entry: |-
    }
 Argumentation Approach: Abstract Dialectical Frameworks
 URL: https://github.com/ellmau/adf-obdd
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/ellmau/adf-obdd/issues
 Application: NA
 Dependencies: Self contained
 Continuous Integration: NA

@@ -34,7 +34,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: Abstract Dialectical Frameworks
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-adf
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA
 Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-adf/pom.xmll'
 Continuous Integration: 'Yes'

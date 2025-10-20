@@ -34,7 +34,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: Social Abstract Argumentation
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-social
-Bug Tracker: 'Yes'
+Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA
 Dependencies: 'Some Tweety dependencies: https://github.com/TweetyProjectTeam/TweetyProject/blob/main/org-tweetyproject-arg-social/pom.xml'
 Continuous Integration: 'Yes'
