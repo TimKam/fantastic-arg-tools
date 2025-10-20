@@ -130,7 +130,7 @@ function aggregatePie(toolData, id) {
 
 function aggregateDocumentationData(toolData, id) {
     const YES = "Yes";
-    const NO = "No";
+    const NO = "NA";
     const aggregate = { [YES]: 0, [NO]: 0 };
     
     const isValidUrl = str => {
