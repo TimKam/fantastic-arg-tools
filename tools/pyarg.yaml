@@ -13,7 +13,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2024-04-15'
 Year of Update: '2024'
-Solver Approach: Various techniques, ASP
+Solver Approach: Custom
 Region: Netherlands
 Bibtex Entry: >-
   @inproceedings{odekerken2023demonstrating,   title={Demonstrating PyArg

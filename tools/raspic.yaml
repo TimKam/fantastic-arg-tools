@@ -14,7 +14,7 @@ Source Code: https://bitbucket.org/coreo-group/raspic/
 License: MIT
 Last Update: February 2024
 Year of Update: '2024'
-Solver Approach: Answer Set Programming
+Solver Approach: ASP solver
 Region: Finland
 Bibtex Entry: '  @inproceedings{DBLP:conf/kr/OdekerkenLBWJ23,   author       = {Daphne Odekerken and                   Tuomo Lehtonen and                   AnneMarie Borg and                   Johannes Peter Wallner and                   Matti J{\"{a}}rvisalo},   editor       = {Pierre Marquis and                   Tran Cao Son and                   Gabriele Kern{-}Isberner},   title        = {Argumentative Reasoning in {ASPIC+} under Incomplete Information},   booktitle    = {Proceedings of the 20th International Conference on Principles of                   Knowledge Representation and Reasoning, {KR} 2023, Rhodes, Greece,                   September 2-8, 2023},   pages        = {531--541},   year         = {2023},   url          = {https://doi.org/10.24963/kr.2023/52},   doi          = {10.24963/KR.2023/52}}'
 Argumentation Approach: ASPIC+

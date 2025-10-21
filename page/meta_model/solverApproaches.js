@@ -1,0 +1,1 @@
+const solverApproaches = ['ASP solver', 'ASPIC solver', 'Binary decision diagrams', 'Constraint programming', 'Custom', 'Neural networks', 'Linear and SMT solvers', 'Reinforcement learning', 'SAT solver']

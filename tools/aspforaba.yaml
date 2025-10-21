@@ -13,7 +13,7 @@ Source Code: https://bitbucket.org/coreo-group/aspforaba
 License: MIT
 Last Update: August 2024
 Year of Update: '2024'
-Solver Approach: Answer Set Programming
+Solver Approach: ASP solver
 Region: Finland
 Bibtex Entry: '  @article{DBLP:journals/jair/LehtonenWJ21,   author       = {Tuomo Lehtonen and                   Johannes Peter Wallner and                   Matti J{\"{a}}rvisalo},   title        = {Declarative Algorithms and Complexity Results for Assumption-Based                   Argumentation},   journal      = {J. Artif. Intell. Res.},   volume       = {71},   pages        = {265--318},   year         = {2021},   url          = {https://doi.org/10.1613/jair.1.12479},   doi          = {10.1613/JAIR.1.12479}}'
 Argumentation Approach: Assumption-based Argumentation

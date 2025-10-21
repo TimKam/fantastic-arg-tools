@@ -10,7 +10,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2020-07-17'
 Year of Update: '2020'
-Solver Approach: MaxSAT solver
+Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   @inproceedings{DBLP:conf/jelia/NiskanenWJ16, author = {Andreas Niskanen and Johannes Peter Wallner and Matti J{\"{a}}rvisalo}, editor = {Loizos Michael and Antonis C. Kakas}, title = {Pakota: {A} System for Enforcement in Abstract Argumentation}, booktitle = {Logics in Artificial Intelligence - 15th European Conference, {JELIA} 2016, Larnaca, Cyprus, November 9-11, 2016, Proceedings}, series = {Lecture Notes in Computer Science}, volume = {10021}, pages = {385--400}, year = {2016}, url = {https://doi.org/10.1007/978-3-319-48758-8\_25}, doi = {10.1007/978-3-319-48758-8\_25}, timestamp = {Tue, 14 May 2019 10:00:44 +0200}, biburl = {https://dblp.org/rec/conf/jelia/NiskanenWJ16.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }

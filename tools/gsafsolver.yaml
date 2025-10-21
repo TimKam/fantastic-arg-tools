@@ -12,7 +12,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2023'
 Year of Update: '2023'
-Solver Approach: CDCL-based solver
+Solver Approach: SAT solver
 Region: Austria
 Bibtex Entry: |-
   "@inproceedings{Gressler24GSAF,

@@ -7,10 +7,10 @@ Implementation Language(s): C++
 Type of Tool: Solver
 Tests?: NA
 Source Code: 'Yes'
-License: GPL
+License: NA
 Last Update: '2019-03-15'
 Year of Update: '2019'
-Solver Approach: Decomposition into SCCs with custom-made algorithm.
+Solver Approach: Custom
 Region: UK
 Bibtex Entry: >-
   @inproceedings{eqargsolver:17,   author = {Odinaldo Rodrigues},   title = {EqArgSolver -- System Description},   booktitle = {Proceedings of the 4th Intl. Conference on Theory and Applications of Formal Argumentation},   year = {2018},   pages = {150-158},   doi = {https://doi.org/10.1007/978-3-319-75553-3_11} }

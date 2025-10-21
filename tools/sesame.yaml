@@ -9,7 +9,7 @@ Source Code: NA
 License: NA
 Last Update: '2017-01-30'
 Year of Update: '2017'
-Solver Approach: SAT
+Solver Approach: SAT solver
 Region: France
 Bibtex Entry: |-
   @inproceedings{besnard2016sesame,
