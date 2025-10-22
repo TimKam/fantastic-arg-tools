@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2024-09-17'
 Year of Update: '2024'
-Solver Approach: SMT solvers, convex optimization solvers
+Solver Approach: Linear and SMT solvers
 Region: Germany
 Bibtex Entry: >-
   @inproceedings{Kafer2022,   title     = {CPrAA -- A Checker for Probabilistic

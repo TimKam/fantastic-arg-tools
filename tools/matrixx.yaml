@@ -10,7 +10,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2024'
 Year of Update: '2024'
-Solver Approach: Algorithm inspired by Donald Knuth's Algorithm X
+Solver Approach: Custom
 Region: Germany
 Bibtex Entry: |-
   @article{DBLP:journals/corr/abs-2109-14732,   author       = {Maximilian Heinrich},   title        = {The MatrixX Solver For Argumentation Frameworks},   journal      = {CoRR},   volume       = {abs/2109.14732},   year         = {2021},   url          = {https://arxiv.org/abs/2109.14732},   eprinttype    = {arXiv},   eprint       = {2109.14732},   timestamp    = {Mon, 04 Oct 2021 17:22:25 +0200},   biburl       = {https://dblp.org/rec/journals/corr/abs-2109-14732.bib},   bibsource    = {dblp computer science bibliography, https://dblp.org} }

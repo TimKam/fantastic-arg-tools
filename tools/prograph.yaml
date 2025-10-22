@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2015-03-01'
 Year of Update: '2015'
-Solver Approach: Labelling
+Solver Approach: Custom
 Region: Romania
 Bibtex Entry: |-
   @article{groza2015prograph,
@@ -23,7 +23,7 @@ Bibtex Entry: |-
   }
 Argumentation Approach: ['Abstract Argumentation']
 URL: >-
-  https://www.researchgate.net/profile/Adrian-Groza?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlQ29udGVudCJ9fQ
+  https://argumentationcompetition.org/2015/pdf/paper_15.pdf
 Bug Tracker: NA
 Application: NA
 Dependencies: Prolog

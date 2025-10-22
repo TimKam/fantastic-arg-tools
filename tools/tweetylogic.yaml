@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: GPL 3.0
 Last Update: '2024-12-27'
 Year of Update: '2024'
-Solver Approach: ASP
+Solver Approach: ASP solver
 Region: Germany
 Bibtex Entry: |-
   @inproceedings{DBLP:conf/kr/Thimm14,

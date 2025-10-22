@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: GPL 3.0
 Last Update: '2021-09-01'
 Year of Update: '2021'
-Solver Approach: ''
+Solver Approach: 'Custom'
 Region: Germany
 Bibtex Entry: |-
   @inproceedings{baumann2020python,

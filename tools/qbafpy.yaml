@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: GPL 2.0
 Last Update: '2023-12-03'
 Year of Update: '2023'
-Solver Approach: Algorithms have been implemented from scratch
+Solver Approach: Custom
 Region: Sweden
 Bibtex Entry: |-
   @incollection{alarconQBAFPy,

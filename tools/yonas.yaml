@@ -13,7 +13,7 @@ Source Code: 'Yes'
 License: NA
 Last Update: '2019-03-27'
 Year of Update: '2019'
-Solver Approach: Hybrid (Deep Learning - Search)
+Solver Approach: Reinforcement learning
 Region: UK
 Bibtex Entry: |-
   @article{malmqvist2019yonas,

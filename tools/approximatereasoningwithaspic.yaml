@@ -11,7 +11,7 @@ Source Code: 'Yes'
 License: GPL 3.0
 Last Update: '07-02-2024'
 Year of Update: '2024'
-Solver Approach: Tweety's argumentation solvers
+Solver Approach: Custom
 Region: Germany
 Bibtex Entry: |-
   @article{thimm2020approximate,

@@ -17,7 +17,7 @@ Source Code: https://github.com/imldresden/nexas
 License: LGPL 2.1
 Last Update: December 2023
 Year of Update: '2023'
-Solver Approach: Answer Set Programming
+Solver Approach: ASP solver
 Region: Germany
 Bibtex Entry: >-
   @inproceedings{DGKMRY2022,   author    = {Raimund Dachselt and Sarah Alice

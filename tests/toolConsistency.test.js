@@ -6,6 +6,7 @@ const toolList = eval(fs.readFileSync('./page/meta_model/tools.js').toString().s
 const countries = eval(fs.readFileSync('./page/meta_model/countries.js').toString().split('=').pop())
 const languages = eval(fs.readFileSync('./page/meta_model/languages.js').toString().split('=').pop())
 const licenses = eval(fs.readFileSync('./page/meta_model/licenses.js').toString().split('=').pop())
+const solverApproaches = eval(fs.readFileSync('./page/meta_model/solverApproaches.js').toString().split('=').pop())
 const toolTypes = eval(fs.readFileSync('./page/meta_model/toolTypes.js').toString().split('=').pop())
 const venues = eval(fs.readFileSync('./page/meta_model/venues.js').toString().split('=').pop())
 const approaches = eval(fs.readFileSync('./page/meta_model/argumentationApproaches.js').toString().split('=').pop())
@@ -64,7 +65,7 @@ test('Any entry of "Region" should be in the list of countries', () => {
 test('Any entry of "License" should be in the list of licenses', () => {
     testFiles(data => {
         const license = yaml.parse(data).License
-        expect(licenses + ['NA']).toContain(license)
+        expect([...licenses, 'NA']).toContain(license)
     })
 })
 
@@ -159,7 +160,7 @@ test('Every tool should have a name', () => {
     })
 })
 
-test('Any entry of "Argumentation Approach" should be in the list of argumentation approaches', () => {
+test('Any entry of "Argumentation Approach" should be a sublist of the list of argumentation approaches', () => {
     testFiles(data => {
         let argumentationApproaches = yaml.parse(data)['Argumentation Approach']
         if (argumentationApproaches !=='NA') {
@@ -168,3 +169,11 @@ test('Any entry of "Argumentation Approach" should be in the list of argumentati
         }
     })
 })
+
+test('Any entry of "Solver Approach" should be in the list of solver approaches', () => {
+     testFiles(data => {
+        const solverApproach = yaml.parse(data)['Solver Approach']
+        expect([...solverApproaches , 'NA']).toContain(solverApproach)
+    })
+})
+

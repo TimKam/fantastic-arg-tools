@@ -10,7 +10,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: '2020-08-11'
 Year of Update: '2020'
-Solver Approach: SAT solver, QBF solver
+Solver Approach: SAT solver # QBF solver
 Region: Finland
 Bibtex Entry: |-
   @article{DBLP:journals/ai/BaumeisterJNNR21, author = {Dorothea Baumeister and Matti J{\"{a}}rvisalo and Daniel Neugebauer and Andreas Niskanen and J{\"{o}}rg Rothe}, title = {Acceptance in incomplete argumentation frameworks}, journal = {Artif. Intell.}, volume = {295}, pages = {103470}, year = {2021}, url = {https://doi.org/10.1016/j.artint.2021.103470}, doi = {10.1016/J.ARTINT.2021.103470}, timestamp = {Sun, 16 May 2021 00:14:24 +0200}, biburl = {https://dblp.org/rec/journals/ai/BaumeisterJNNR21.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }

@@ -9,7 +9,7 @@ Source Code: 'Yes'
 License: MIT
 Last Update: March 2024
 Year of Update: '2024'
-Solver Approach: SAT
+Solver Approach: SAT solver
 Region: Sweden
 Bibtex Entry: |-
   "@inproceedings{persiani24PyPLAF,
