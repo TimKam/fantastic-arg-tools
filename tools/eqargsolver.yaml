@@ -14,7 +14,7 @@ Solver Approach: Decomposition into SCCs with custom-made algorithm.
 Region: UK
 Bibtex Entry: >-
   @inproceedings{eqargsolver:17,   author = {Odinaldo Rodrigues},   title = {EqArgSolver -- System Description},   booktitle = {Proceedings of the 4th Intl. Conference on Theory and Applications of Formal Argumentation},   year = {2018},   pages = {150-158},   doi = {https://doi.org/10.1007/978-3-319-75553-3_11} }
-Argumentation Approach: AAF
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://hub.docker.com/r/odinaldo/eqargsolver
 Bug Tracker: NA
 Application: Enumeration of grounded, complete, preferred and stable semantics and decision problems there.

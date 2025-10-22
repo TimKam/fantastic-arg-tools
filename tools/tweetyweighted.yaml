@@ -31,7 +31,7 @@ Bibtex Entry: |-
   biburl       = {https://dblp.org/rec/conf/kr/Thimm14.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
-Argumentation Approach: Weighted Argumentation
+Argumentation Approach: ['Weighted Abstract Argumentation']
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-weighted
 Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA

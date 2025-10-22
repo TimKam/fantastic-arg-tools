@@ -22,7 +22,7 @@ Bibtex Entry: |-
     pages={353--354},
     year={2024}
    }"
-Argumentation Approach: SETAFs
+Argumentation Approach: ['SETAFs']
 URL: https://github.com/agressle/GSAFVerifier
 Bug Tracker: 'NA'
 Application: None

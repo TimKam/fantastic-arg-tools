@@ -14,7 +14,7 @@ Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   NA
-Argumentation Approach: Claim-Augmented Argumentation Frameworks
+Argumentation Approach: ['Claim-Augmented Argumentation Frameworks']
 URL: https://bitbucket.org/andreasniskanen/vaeite/
 Bug Tracker: NA
 Application: NA

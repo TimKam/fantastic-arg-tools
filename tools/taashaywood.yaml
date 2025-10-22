@@ -33,7 +33,7 @@ Bibtex Entry: |-
   biburl       = {https://dblp.org/rec/conf/comma/Thimm18.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
-Argumentation Approach: Abstract Argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/aig-hagen/taas-haywood
 Bug Tracker: NA
 Application: NA

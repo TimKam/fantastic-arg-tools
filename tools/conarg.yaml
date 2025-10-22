@@ -25,9 +25,7 @@ Bibtex Entry: >-
   crossref  = {DBLP:conf/ictai/2011},   url       =
   {https://doi.org/10.1109/ICTAI.2011.96},   doi       = {10.1109/ICTAI.2011.96}
   }
-Argumentation Approach: >-
-  Abstract Argumentation Frameworks, Weighted Abstract Argumentation Frameworks,
-  Probabilistic Abstract Argumentation Frameworks
+Argumentation Approach: ['Abstract Argumentation', 'Weighted Abstract Argumentation', 'Probabilistic Argumentation']
 URL: https://conarg.dmi.unipg.it/documentation.html
 Bug Tracker: NA
 Application: >-

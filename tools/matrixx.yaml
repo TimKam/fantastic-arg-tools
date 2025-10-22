@@ -1,6 +1,6 @@
 Name: MatrixX
 Description: >-
-  Matrix Style Solver for Dung Style Argumentation Frameworks
+  Matrix Style Solver for abstract argumentation frameworks
 Found in: ICCMA 2021
 Documentation: https://github.com/kmax-tech/MatrixX/blob/main/README.md
 Implementation Language(s): Python
@@ -14,7 +14,7 @@ Solver Approach: Algorithm inspired by Donald Knuth's Algorithm X
 Region: Germany
 Bibtex Entry: |-
   @article{DBLP:journals/corr/abs-2109-14732,   author       = {Maximilian Heinrich},   title        = {The MatrixX Solver For Argumentation Frameworks},   journal      = {CoRR},   volume       = {abs/2109.14732},   year         = {2021},   url          = {https://arxiv.org/abs/2109.14732},   eprinttype    = {arXiv},   eprint       = {2109.14732},   timestamp    = {Mon, 04 Oct 2021 17:22:25 +0200},   biburl       = {https://dblp.org/rec/journals/corr/abs-2109-14732.bib},   bibsource    = {dblp computer science bibliography, https://dblp.org} }
-Argumentation Approach: Argumentation Frameworks (stable and complete semantics)
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/kmax-tech/MatrixX/tree/main
 Bug Tracker: NA
 Application: NA

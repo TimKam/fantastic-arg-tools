@@ -19,9 +19,7 @@ Bibtex Entry: >-
   @inproceedings{odekerken2023demonstrating,   title={Demonstrating PyArg
   2.0.},   author={Odekerken, Daphne and Borg, AnneMarie and Berthold, Matti},  
   booktitle={AI$^3$@ AI* IA},   year={2023} }
-Argumentation Approach: >-
-  Abstract Argumentation Frameworks, ASPIC+, ABA, Incomplete Argumentation
-  Frameworks, ASPIC+ with incomplete knowledge bases
+Argumentation Approach: ['Abstract Argumentation', 'ASPIC', 'Assumption-Based Argumentation', 'Incomplete Argumentation Frameworks']
 URL: https://daphneodekerken.github.io/PyArg/
 Bug Tracker: NA
 Application: >-

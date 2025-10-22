@@ -23,7 +23,7 @@ Bibtex Entry: |-
     volume={295},
     year={2019}
   }
-Argumentation Approach: Deep Reinforcement Learning (DRL) and Monte Carlo Tree Search (MCTS)
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://hub.docker.com/r/lmalmqvist/yonas
 Bug Tracker: NA
 Application: NA

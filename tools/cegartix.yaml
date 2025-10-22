@@ -16,7 +16,7 @@ Bibtex Entry: >-
   counter-example guided argumentation reasoning tool}, author={Dvor{\'a}k,
   Wolfgang and J{\"a}rvisalo, Matti and Wallner, Johannes P}, journal={Second
   ICCMA}, year={2017} }
-Argumentation Approach: Tailored SAT solution
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://www.dbai.tuwien.ac.at/proj/argumentation/cegartix/
 Bug Tracker: NA
 Application: NA

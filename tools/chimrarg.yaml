@@ -15,7 +15,7 @@ Year of Update: '2017'
 Solver Approach: SAT solver
 Region: UK
 Bibtex Entry: ''
-Argumentation Approach: ASP satisfiability
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/federicocerutti/Chimaerarg
 Bug Tracker: NA
 Application: NA

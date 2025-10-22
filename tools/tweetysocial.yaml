@@ -32,7 +32,7 @@ Bibtex Entry: |-
   biburl       = {https://dblp.org/rec/conf/kr/Thimm14.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
-Argumentation Approach: Social Abstract Argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-social
 Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA

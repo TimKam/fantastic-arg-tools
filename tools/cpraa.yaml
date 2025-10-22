@@ -23,7 +23,7 @@ Bibtex Entry: >-
   {https://ebooks.iospress.nl/doi/10.3233/FAIA220172},   urldate   =
   {2023-01-20},   isbn      = {978-1-64368-306-5 978-1-64368-307-2},   langid   
   = {english} }
-Argumentation Approach: Probabilistic abstract argumentation
+Argumentation Approach: ['Probabilistic Argumentation']
 URL: https://dgit.cs.uni-saarland.de/Nikolai/cpraa/-/tree/master
 Bug Tracker: NA
 Application: >-

@@ -21,10 +21,7 @@ Bibtex Entry: |-
     journal={ICCMA 2023},
     pages={21}
   }
-Argumentation Approach: >-
-  This solver uses the Davis–Putnam–Logemann–Loveland (DLL) algorithm that is a
-  backtracking-based search algorithm for deciding the satisfiability of
-  propositional logic formulae
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/aig-hagen/taas-fargo
 Bug Tracker: NA
 Application: NA

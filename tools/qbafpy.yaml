@@ -21,7 +21,7 @@ Bibtex Entry: |-
     doi = {10.3233/FAIA240340},
     publisher={IOS Press}
    }
-Argumentation Approach: Quantitative Bipolar Argumentation
+Argumentation Approach: ['Weighted Bipolar Argumentation']
 URL: https://github.com/TimKam/Quantitative-Bipolar-Argumentation
 Bug Tracker: NA
 Application: Everything that QBAGs can be used for, e.g. explainable recommendation systems

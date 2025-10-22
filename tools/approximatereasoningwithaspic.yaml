@@ -22,7 +22,7 @@ Bibtex Entry: |-
     pages={22--33},
     year={2020}
   }
-Argumentation Approach: Structured argumentation, ASPIC
+Argumentation Approach: ['ASPIC']
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-aspic
 Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA

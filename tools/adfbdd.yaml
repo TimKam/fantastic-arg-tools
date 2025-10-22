@@ -19,7 +19,7 @@ Bibtex Entry: |-
     pages={355--356},
     year={2022}
    }
-Argumentation Approach: Abstract Dialectical Frameworks
+Argumentation Approach: ['Abstract Dialectical Frameworks']
 URL: https://github.com/ellmau/adf-obdd
 Bug Tracker: https://github.com/ellmau/adf-obdd/issues
 Application: NA

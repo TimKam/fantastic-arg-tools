@@ -20,7 +20,7 @@ Bibtex Entry: |-
     journal={The Fourth International Competition on Computational Models of Argumentation (ICCMA’21)},
     year={2021}
   }
-Argumentation Approach: Tailored grounded semantics solution
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/aig-hagen/taas-harperpp
 Bug Tracker: NA
 Application: NA

@@ -23,7 +23,7 @@ Bibtex Entry: |-
     pages={5573--5581},
     year={2022}
   }
-Argumentation Approach: Abstract Argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/DennisCraandijk/DL-abstract-argumentation
 Bug Tracker: https://github.com/DennisCraandijk/DL-abstract-argumentation/issues
 Application: ''

@@ -14,7 +14,7 @@ Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   @inproceedings{DBLP:conf/kr/NiskanenJ20a, author = {Andreas Niskanen and Matti J{\"{a}}rvisalo}, editor = {Diego Calvanese and Esra Erdem and Michael Thielscher}, title = {{\(\mathrm{\mu}\)}-toksia: An Efficient Abstract Argumentation Reasoner}, booktitle = {Proceedings of the 17th International Conference on Principles of Knowledge Representation and Reasoning, {KR} 2020, Rhodes, Greece, September 12-18, 2020}, pages = {800--804}, year = {2020}, url = {https://doi.org/10.24963/kr.2020/82}, doi = {10.24963/KR.2020/82}, timestamp = {Fri, 09 Apr 2021 18:52:15 +0200}, biburl = {https://dblp.org/rec/conf/kr/NiskanenJ20a.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }
-Argumentation Approach: Abstract argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://bitbucket.org/andreasniskanen/mu-toksia/
 Bug Tracker: NA
 Application: Standard and dynamic reasoning tasks for abstract argumentation (as covered by e.g. ICCMA)

@@ -8,6 +8,7 @@ const languages = eval(fs.readFileSync('./page/meta_model/languages.js').toStrin
 const licenses = eval(fs.readFileSync('./page/meta_model/licenses.js').toString().split('=').pop())
 const toolTypes = eval(fs.readFileSync('./page/meta_model/toolTypes.js').toString().split('=').pop())
 const venues = eval(fs.readFileSync('./page/meta_model/venues.js').toString().split('=').pop())
+const approaches = eval(fs.readFileSync('./page/meta_model/argumentationApproaches.js').toString().split('=').pop())
 const toolsFolder = './tools'
 
 
@@ -70,7 +71,7 @@ test('Any entry of "License" should be in the list of licenses', () => {
 test('Any entry of "Implementation Language(s)" should be in the list of languages', () => {
     testFiles(data => {
         let toolLanguages = yaml.parse(data)['Implementation Language(s)']
-        if (toolLanguages !== "NA") {
+        if (toolLanguages !== 'NA') {
             toolLanguages = Array.isArray(toolLanguages) ? toolLanguages : [toolLanguages]
             toolLanguages.forEach(language => expect(languages).toContain(language))
         }
@@ -155,5 +156,15 @@ test('Every tool should have a name', () => {
     testFiles(data => {
         const name = yaml.parse(data).Name
         expect(typeof name).toEqual('string')
+    })
+})
+
+test('Any entry of "Argumentation Approach" should be in the list of argumentation approaches', () => {
+    testFiles(data => {
+        let argumentationApproaches = yaml.parse(data)['Argumentation Approach']
+        if (argumentationApproaches !=='NA') {
+            argumentationApproaches = Array.isArray(argumentationApproaches) ? argumentationApproaches : [argumentationApproaches]
+            argumentationApproaches.forEach(approach => expect(approaches).toContain(approach))
+        }
     })
 })

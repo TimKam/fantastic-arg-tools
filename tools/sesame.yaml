@@ -20,7 +20,7 @@ Bibtex Entry: |-
     pages={40--51},
     year={2016}
   }
-Argumentation Approach: Abstract argumentation, Extension based
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://www.irit.fr/SESAME/
 Bug Tracker: NA
 Application: GUI that allows users specifying abstract argumentation semantics

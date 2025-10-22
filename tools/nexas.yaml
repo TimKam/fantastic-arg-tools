@@ -28,7 +28,7 @@ Bibtex Entry: >-
   Models of Argument (COMMA 2022)},   series    = {FAIA},   volume    =
   {220146},   publisher = {IOS Press},   year      = {2022},   month     =
   {September},   pages     = {116-127},   doi       = {10.3233/FAIA220146} }
-Argumentation Approach: Abstract Argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://imld.de/nexas
 Bug Tracker: NA
 Application: Analysis of argumentation semantics

@@ -14,7 +14,7 @@ Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   NA
-Argumentation Approach: Argumentation Frameworks with Collective Attacks
+Argumentation Approach: ['SETAFs']
 URL: https://bitbucket.org/andreasniskanen/joukko/
 Bug Tracker: NA
 Application: NA
