@@ -72,45 +72,57 @@ function renderCharts(toolData){
     const countryCtx = document.getElementById('countries');
     countries = aggregatePie(toolData, 'Region')
     new Chart(countryCtx, {
-    type: 'pie',
-    data: {
-        labels: Object.keys(countries),
-        datasets: [{
-        label: '# Tools by Country',
-        data: Object.values(countries),
-        borderWidth: 1
-        }]
-    }
+        type: 'bar',
+        data: {
+            labels: Object.keys(countries),
+            datasets: [{
+            label: '# Tools by Country',
+            data: Object.values(countries),
+            borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'top' } }
+        },
     })
 
     /* DOCUMENTATION */
     const documentationCtx = document.getElementById('documentation');
-    documentations = aggregatePie(toolData, 'Documentation')
+    documentations = aggregateDocumentationData(toolData, 'Documentation')
     new Chart(documentationCtx, {
-    type: 'pie',
-    data: {
-        labels: Object.keys(documentations),
-        datasets: [{
-        label: '# Tools by Documentation Availability',
-        data: Object.values(documentations),
-        borderWidth: 1
-        }]
-    }
+        type: 'pie',
+        data: {
+            labels: Object.keys(documentations),
+            datasets: [{
+            label: '# Tools by Documentation Availability',
+            data: Object.values(documentations),
+            borderWidth: 1
+            }]
+        },
     })
 
-    /* DOCUMENTATION */
+    /* LICENSE */
     const licenseCtx = document.getElementById('license');
     licenses = aggregatePie(toolData, 'License')
     new Chart(licenseCtx, {
-    type: 'pie',
-    data: {
-        labels: Object.keys(licenses),
-        datasets: [{
-        label: '# Tools by License',
-        data: Object.values(licenses),
-        borderWidth: 1
-        }]
-    }
+        type: 'bar',
+        data: {
+            labels: Object.keys(licenses),
+            datasets: [{
+            label: '# Tools by License',
+            data: Object.values(licenses),
+            borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'top' } }
+        },
     })
 
 }
@@ -128,4 +140,21 @@ function aggregatePie(toolData, id) {
     return aggregate
 }
 
-
+function aggregateDocumentationData(toolData, id) {
+    const YES = "Yes";
+    const NO = "NA";
+    const aggregate = { [YES]: 0, [NO]: 0 };
+    
+    const isValidUrl = str => {
+        try { new URL(str); return true; } catch { return false; }
+    };
+    
+    toolData.forEach(tool => {
+        const value = tool[id];
+        if      (typeof value === "string" && isValidUrl(value))             aggregate[YES]++;
+        else if (typeof value === "string" && value.toLowerCase() === "yes") aggregate[YES]++;
+        else                                                                 aggregate[NO]++;
+    });
+    
+    return aggregate;
+}
