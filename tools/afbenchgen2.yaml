@@ -1,5 +1,5 @@
 Name: AFBenchGen2
-Description: Random generator of argumentation graphs for Dung AFs
+Description: Random generator of argumentation graphs for abstract argumentation
 Found in: COMMA 2016
 Documentation: NA
 Implementation Language(s): JavaScript
@@ -18,8 +18,8 @@ Bibtex Entry: |-
     booktitle={COMMA},
     pages={467--468},
     year={2016}
-   }
-Argumentation Approach: Dung AF
+   }'
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://sourceforge.net/projects/afbenchgen/
 Bug Tracker: NA
 Application: NA

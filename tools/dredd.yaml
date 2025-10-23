@@ -21,7 +21,7 @@ Bibtex Entry: |-
     journal={The Third International Competition on Computational Models of Argumentation},
     year={2019}
   }
-Argumentation Approach: Davis-Putnam-Logemann-Loveland DPLL-algorithm
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/aig-hagen/taas-dredd
 Bug Tracker: NA
 Application: NA

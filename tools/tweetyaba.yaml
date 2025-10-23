@@ -30,7 +30,7 @@ Bibtex Entry: |-
   biburl       = {https://dblp.org/rec/conf/kr/Thimm14.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
-Argumentation Approach: Assumption-based Argumentation
+Argumentation Approach: ['Assumption-Based Argumentation']
 URL: https://github.com/TweetyProjectTeam/TweetyProject/tree/main/org-tweetyproject-arg-aba
 Bug Tracker: https://github.com/TweetyProjectTeam/TweetyProject/issues
 Application: NA

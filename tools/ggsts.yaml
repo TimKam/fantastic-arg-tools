@@ -16,7 +16,7 @@ Bibtex Entry: |-
     title={GG-Sts: Argumentation Solver from Aalto University in ICCMA 2017},
     author={Tasharrofi, Shahab and Janhunen, Tomi}
    }
-Argumentation Approach: Tailored SAT solution
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://research.ics.aalto.fi/software/sat/gg-sts
 Bug Tracker: NA
 Application: NA

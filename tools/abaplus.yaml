@@ -19,7 +19,7 @@ Bibtex Entry: >-
   Preferences", booktitle="PRIMA 2017: Principles and Practice of Multi-Agent
   Systems", year="2017", publisher="Springer International Publishing",
   address="Cham", pages="420--437", isbn="978-3-319-69131-2" }
-Argumentation Approach: Assumption-Based Argumentation with Preferences
+Argumentation Approach: ['Assumption-Based Argumentation'] # with Preferences
 URL: https://github.com/kcyras/ABAplus
 Bug Tracker: NA
 Application: Computing ABA+ frameworks

@@ -36,7 +36,7 @@ Bibtex Entry: |-
     biburl       = {https://dblp.org/rec/conf/kr/LehtonenWJ22.bib},
     bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
-Argumentation Approach: ASPIC+
+Argumentation Approach: ['ASPIC'] #ASPIC+
 URL: 'https://bitbucket.org/coreo-group/aspforaspic'
 Bug Tracker: 'NA'
 Application: Fundamental reasoning problems in ASPIC+

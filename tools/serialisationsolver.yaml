@@ -40,7 +40,7 @@ Bibtex Entry: |-
   biburl       = {https://dblp.org/rec/conf/ecai/BengelST24.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
   }
-Argumentation Approach: Abstract Argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/aig-hagen/serialisation-solver
 Bug Tracker: NA
 Application: NA

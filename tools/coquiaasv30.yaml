@@ -21,7 +21,7 @@ Bibtex Entry: |-
     journal={System descriptions of the Third International Competition on Computational Models of Argumentation (ICCMA’19)},
     year={2019}
   }
-Argumentation Approach: Constraint programming
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://hub.docker.com/r/lonca/coquiaas_iccma2019
 Bug Tracker: NA
 Application: NA

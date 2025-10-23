@@ -1,7 +1,7 @@
 Name: Crustabri
 Description: >-
   Crustabri is a SAT-based solver—a rewritten version of CoQuiAAS supporting
-  abstract and ABA argumentation appraoches, as well as DC-CO, DC-ST, and DS-ST.
+  abstract and ABA argumentation approaches, as well as DC-CO, DC-ST, and DS-ST.
 Found in: ICCMA 2023
 Documentation: NA
 Implementation Language(s): [Rust, C++]
@@ -14,7 +14,7 @@ Year of Update: '2022'
 Solver Approach: SAT solver
 Region: France
 Bibtex Entry: ''
-Argumentation Approach: Tailored SAT solution
+Argumentation Approach: ['Abstract Argumentation', 'Assumption-Based Argumentation']
 URL: https://argumentationcompetition.org/2023/solvers/crustabri.zip
 Bug Tracker: NA
 Application: NA

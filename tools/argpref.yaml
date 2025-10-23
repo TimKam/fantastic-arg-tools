@@ -22,7 +22,7 @@ Bibtex Entry: |-
     journal={The 3rd International Competition on Computational Models of Argumentation (ICCMA’19)},
     year={2019}
   }
-Argumentation Approach: Tailored SAT solution
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://hub.docker.com/r/elsandp/argpref
 Bug Tracker: NA
 Application: NA

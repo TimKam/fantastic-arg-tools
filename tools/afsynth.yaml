@@ -14,7 +14,7 @@ Solver Approach: SAT solver
 Region: Finland
 Bibtex Entry: |-
   @article{DBLP:journals/jair/NiskanenWJ19, author = {Andreas Niskanen and Johannes Peter Wallner and Matti J{\"{a}}rvisalo}, title = {Synthesizing Argumentation Frameworks from Examples}, journal = {J. Artif. Intell. Res.}, volume = {66}, pages = {503--554}, year = {2019}, url = {https://doi.org/10.1613/jair.1.11758}, doi = {10.1613/JAIR.1.11758}, timestamp = {Fri, 27 Mar 2020 08:45:14 +0100}, biburl = {https://dblp.org/rec/journals/jair/NiskanenWJ19.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }
-Argumentation Approach: Abstract Argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://bitbucket.org/andreasniskanen/afsynth/
 Bug Tracker: NA
 Application: NA

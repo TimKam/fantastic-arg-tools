@@ -2,7 +2,7 @@ Name: ArgSemSAT
 Description: >-
   ArgSemSAT is a set of search algorithms in the space of complete extensions to
   identify also preferred, stable and the grounded extensions (enumeration
-  problems) as well as solving decisions problems associated to those semantic
+  problems) as well as solving decisions problems associated to those semantics
 Found in: ICCMA 2017
 Documentation: NA
 Implementation Language(s): C++
@@ -15,7 +15,7 @@ Year of Update: '2020'
 Solver Approach: SAT solver
 Region: UK
 Bibtex Entry: ''
-Argumentation Approach: Labelling argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/federicocerutti/ArgSemSAT
 Bug Tracker: NA
 Application: NA

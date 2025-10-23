@@ -15,7 +15,7 @@ Year of Update: '2017'
 Solver Approach: ASP solver
 Region: UK
 Bibtex Entry: ''
-Argumentation Approach: ASP satisfiability
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://helios.hud.ac.uk/scommv/storage/ASPrMin-v1.0.tar.gz
 Bug Tracker: NA
 Application: NA

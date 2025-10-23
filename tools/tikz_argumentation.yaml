@@ -14,7 +14,7 @@ Year of Update: '2024'
 Solver Approach: NA
 Region: Germany
 Bibtex Entry: NA
-Argumentation Approach: AFs, BAFs, ADFs, WAFs, etc.
+Argumentation Approach: ['Abstract Argumentation', 'Bipolar Abstract Argumentation', 'Weighted Abstract Argumentation', 'Abstract Dialectical Frameworks']
 URL: https://github.com/aig-hagen/tikz_argumentation
 Bug Tracker: NA
 Application: Creating all kinds of argumentation frameworks in LaTeX

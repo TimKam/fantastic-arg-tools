@@ -22,7 +22,7 @@ Bibtex Entry: |-
     pages={1},
     year={2015}
    }
-Argumentation Approach: Labelling argumentation
+Argumentation Approach: ['Abstract Argumentation']
 URL: https://github.com/fbrns/LabSATSolver
 Bug Tracker: NA
 Application: NA

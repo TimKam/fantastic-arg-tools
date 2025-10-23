@@ -14,7 +14,7 @@ Solver Approach: SAT solver # QBF solver
 Region: Finland
 Bibtex Entry: |-
   @article{DBLP:journals/ai/BaumeisterJNNR21, author = {Dorothea Baumeister and Matti J{\"{a}}rvisalo and Daniel Neugebauer and Andreas Niskanen and J{\"{o}}rg Rothe}, title = {Acceptance in incomplete argumentation frameworks}, journal = {Artif. Intell.}, volume = {295}, pages = {103470}, year = {2021}, url = {https://doi.org/10.1016/j.artint.2021.103470}, doi = {10.1016/J.ARTINT.2021.103470}, timestamp = {Sun, 16 May 2021 00:14:24 +0200}, biburl = {https://dblp.org/rec/journals/ai/BaumeisterJNNR21.bib}, bibsource = {dblp computer science bibliography, https://dblp.org} }
-Argumentation Approach: Incomplete Argumentation Frameworks, Control Argumentation Frameworks
+Argumentation Approach: ['Incomplete Argumentation Frameworks', 'Control Argumentation Frameworks']
 URL: https://bitbucket.org/andreasniskanen/taeydennae/
 Bug Tracker: NA
 Application: Standard and dynamic reasoning tasks for abstract argumentation (as covered by e.g. ICCMA)
