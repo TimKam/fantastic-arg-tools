@@ -1,0 +1,44 @@
+Name: Jiminy Engine
+Description: >-
+  Jiminy Engine is a Python implementation of a normative reasoning and argumentation framework for multi-stakeholder decision making.
+Found in: COMMA 2026
+Documentation: 'Yes'
+Implementation Language(s): 'Python'
+Type of Tool: Solver
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: MIT
+Last Update: '2026-09-18'
+Year of Update: '2026'
+Solver Approach: Custom
+Region: Spain
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/Rodriguez-LeraS26,
+  author       = {Francisco J. Rodr{\'{\i}}guez{-}Lera and
+                  Miguel {\'{A}}ngel Gonz{\'{a}}lez Santamarta and
+                  Pere Pardo},
+  editor       = {Katie Atkinson and
+                  Maria Vanina Martinez and
+                  Llu{\'{\i}}s Godo},
+  title        = {The Jiminy Moral Advisor: {A} Python Implementation},
+  booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2026, 9-13
+                  September 2026, Barcelona, Spain},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {428},
+  pages        = {522--523},
+  publisher    = {{IOS} Press},
+  year         = {2026},
+  url          = {https://doi.org/10.3233/FAIA260840},
+  doi          = {10.3233/FAIA260840},
+  timestamp    = {Thu, 17 Sep 2026 11:46:06 +0200},
+  biburl       = {https://dblp.org/rec/conf/comma/Rodriguez-LeraS26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: ['Structured Argumentation']
+URL: https://github.com/jiminy-framework/jiminy
+Bug Tracker: NA
+Application: Multi-stakeholder decision making
+Dependencies: 'Some Python dependencies: https://github.com/jiminy-framework/jiminy/blob/main/requirements.txt'
+Continuous Integration: 'Yes'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA

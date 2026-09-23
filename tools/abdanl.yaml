@@ -1,0 +1,46 @@
+Name: ABDA-NL
+Description: >-
+  ABDA-NL is a natural-language scenario explorer for argument-based reasoning, utilizing ASPIC-based structured argumentation and discussion games.
+Found in: COMMA 2026
+Documentation: 'Yes'
+Implementation Language(s): 'Python'
+Type of Tool: Visualizer
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: GPL 3.0
+Last Update: '2026-09-15'
+Year of Update: '2026'
+Solver Approach: ASPIC solver
+Region: USA
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/BowersCLL26,
+  author       = {Shawn Bowers and
+                  Martin Caminada and
+                  Haoyang Liu and
+                  Bertram Lud{\"{a}}scher},
+  editor       = {Katie Atkinson and
+                  Maria Vanina Martinez and
+                  Llu{\'{\i}}s Godo},
+  title        = {{ABDA-NL:} {A} Natural-Language Scenario Explorer for Argument-Based
+                  Reasoning},
+  booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2026, 9-13
+                  September 2026, Barcelona, Spain},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {428},
+  pages        = {526--527},
+  publisher    = {{IOS} Press},
+  year         = {2026},
+  url          = {https://doi.org/10.3233/FAIA260842},
+  doi          = {10.3233/FAIA260842},
+  timestamp    = {Thu, 17 Sep 2026 11:46:06 +0200},
+  biburl       = {https://dblp.org/rec/conf/comma/BowersCLL26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: ['Structured Argumentation']
+URL: https://github.com/idaks/ABDA-NL
+Bug Tracker: NA
+Application: NA
+Dependencies: 'https://github.com/idaks/ABDA-NL/blob/main/requirements.txt'
+Continuous Integration: 'Yes'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA

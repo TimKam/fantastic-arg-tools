@@ -1,0 +1,45 @@
+Name: SADN
+Description: >-
+  SADN is a declarative language for describing arguments. SADN is part of the Open Argumentation Platform (OAPl).
+Found in: COMMA 2026
+Documentation: 'Yes'
+Implementation Language(s): 'Python'
+Type of Tool: Utility
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: GPL 3.0
+Last Update: '2025-12-13'
+Year of Update: '2025'
+Solver Approach: NA
+Region: UK
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/cmna/WellsS25,
+  author       = {Simon Wells and
+                  Mark Snaith},
+  editor       = {Giulia D'Agostino and
+                  Floriana Grasso and
+                  Nancy L. Green and
+                  Roos Scheffers and
+                  Jodi Schneider and
+                  Simon Wells},
+  title        = {A Notation for Declaratively Describing Arguments},
+  booktitle    = {Proceedings of the 25th Workshop on Computational Models of Natural
+                  Argument, {CMNA} 2025, Virtual Event, UK, December 12th, 2025},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {4166},
+  pages        = {57--67},
+  publisher    = {CEUR-WS.org},
+  year         = {2025},
+  url          = {https://ceur-ws.org/Vol-4166/paper5.pdf},
+  timestamp    = {Mon, 20 Apr 2026 16:59:24 +0200},
+  biburl       = {https://dblp.org/rec/conf/cmna/WellsS25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: 'NA'
+URL: http://openargumentation.org/
+Bug Tracker: NA
+Application: NA
+Dependencies: None
+Continuous Integration: 'NA'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA
