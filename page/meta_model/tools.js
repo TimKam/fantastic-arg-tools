@@ -102,7 +102,6 @@ var tools = [
    'abdanl',
    'adict',
    'argblazer',
-   'arguscope',
    'causalreasoning',
    'jiminy',
    'sadn',
