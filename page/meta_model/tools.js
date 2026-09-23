@@ -98,5 +98,12 @@ var tools = [
    'tweetydefeasible',
    'tweetylogic',
    'tweetyprobab',
-   'tweetyranked'
+   'tweetyranked',
+   'abdanl',
+   'adict',
+   'argblazer',
+   'causalreasoning',
+   'jiminy',
+   'sadn',
+   'tagmemaybe'
 ]

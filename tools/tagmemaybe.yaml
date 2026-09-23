@@ -1,0 +1,42 @@
+Name: Tag Me Maybe
+Description: >-
+  Tag Me Maybe is browser-based tool for argument annotation.
+Found in: COMMA 2026
+Documentation: 'Yes'
+Implementation Language(s): 'NA'
+Type of Tool: Utility
+Tests?: 'NA'
+Source Code: 'NA'
+License: PolyForm Strict
+Last Update: 'NA'
+Year of Update: '2026'
+Solver Approach: 'NA'
+Region: Poland
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/Ziembicki26,
+  author       = {Daniel Ziembicki},
+  editor       = {Katie Atkinson and
+                  Maria Vanina Martinez and
+                  Llu{\'{\i}}s Godo},
+  title        = {Tag Me Maybe: {A} Flexible Environment for Annotating Argumentation},
+  booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2026, 9-13
+                  September 2026, Barcelona, Spain},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {428},
+  pages        = {528--529},
+  publisher    = {{IOS} Press},
+  year         = {2026},
+  url          = {https://doi.org/10.3233/FAIA260843},
+  doi          = {10.3233/FAIA260843},
+  timestamp    = {Thu, 17 Sep 2026 11:46:06 +0200},
+  biburl       = {https://dblp.org/rec/conf/comma/Ziembicki26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: 'NA'
+URL: https://tagmemaybe.org/
+Bug Tracker: https://tagmemaybe.org/
+Application: NA
+Dependencies: 'NA'
+Continuous Integration: 'NA'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA

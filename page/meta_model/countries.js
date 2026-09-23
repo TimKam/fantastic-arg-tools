@@ -12,7 +12,9 @@ const countries = [
    'Netherlands',
    'Poland',
    'Romania',
+   'Spain',
    'Sweden',
    'Switzerland',
    'UK',
+   'USA'
 ]

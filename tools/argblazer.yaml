@@ -1,0 +1,45 @@
+Name: ArgBlazer
+Description: >-
+  ArgBlazer is an interactive tool for constructing and visualizing abstract argumentation frameworks in a YAML-based notation.
+Found in: COMMA 2026
+Documentation: 'Yes'
+Implementation Language(s): 'Typescript'
+Type of Tool: Visualizer
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: MIT
+Last Update: '2026-09-09'
+Year of Update: '2026'
+Solver Approach: Custom
+Region: USA
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/LiMBL26,
+    author       = {Meng Li and
+                    Timothy M. McPhillips and
+                    Shawn Bowers and
+                    Bertram Lud{\"{a}}scher},
+    editor       = {Katie Atkinson and
+                    Maria Vanina Martinez and
+                    Llu{\'{\i}}s Godo},
+    title        = {ArgBlazer: Exploring Decision Landscapes Using Argumentation Frameworks},
+    booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2026, 9-13
+                    September 2026, Barcelona, Spain},
+    series       = {Frontiers in Artificial Intelligence and Applications},
+    volume       = {428},
+    pages        = {536--537},
+    publisher    = {{IOS} Press},
+    year         = {2026},
+    url          = {https://doi.org/10.3233/FAIA260847},
+    doi          = {10.3233/FAIA260847},
+    timestamp    = {Thu, 17 Sep 2026 11:46:06 +0200},
+    biburl       = {https://dblp.org/rec/conf/comma/LiMBL26.bib},
+    bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: ['Abstract Argumentation']
+URL: https://github.com/xai-ca/argblazer
+Bug Tracker: NA
+Application: NA
+Dependencies: 'https://github.com/xai-ca/argblazer/blob/main/package.json'
+Continuous Integration: 'Yes'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA

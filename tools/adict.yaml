@@ -1,0 +1,45 @@
+Name: ADICT
+Description: >-
+  ADICT is a tool that tracks convergence in natural language dialogues using bipolar argumentation.
+Found in: COMMA 2026
+Documentation: 'NA'
+Implementation Language(s): 'Python'
+Type of Tool: Verifier
+Tests?: 'NA'
+Source Code: 'Yes'
+License: NA
+Last Update: '2026-09-16'
+Year of Update: '2026'
+Solver Approach: Custom
+Region: France
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/GhodbaneGGC26,
+  author       = {Youcef Islam Ghodbane and
+                  Yann Gabay and
+                  Gowrishankar Ganesh and
+                  Madalina Croitoru},
+  editor       = {Katie Atkinson and
+                  Maria Vanina Martinez and
+                  Llu{\'{\i}}s Godo},
+  title        = {{ADICT:} Argumentative Dialogue Convergence Tracker},
+  booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2026, 9-13
+                  September 2026, Barcelona, Spain},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {428},
+  pages        = {532--533},
+  publisher    = {{IOS} Press},
+  year         = {2026},
+  url          = {https://doi.org/10.3233/FAIA260845},
+  doi          = {10.3233/FAIA260845},
+  timestamp    = {Thu, 17 Sep 2026 11:46:06 +0200},
+  biburl       = {https://dblp.org/rec/conf/comma/GhodbaneGGC26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+
+Argumentation Approach: ['Bipolar Abstract Argumentation']
+URL: https://github.com/GhodbaneYoucefIslam/ADICT
+Bug Tracker: NA
+Application: NA
+Dependencies: 'https://github.com/GhodbaneYoucefIslam/ADICT/blob/main/requirements.txt'
+Continuous Integration: 'NA'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA

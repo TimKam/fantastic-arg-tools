@@ -1,0 +1,46 @@
+Name: Argumentation-Based Causal Reasoning
+Description: >-
+  Argumentation-based causal reasoning is a tool for reasoning about causality using argumentation frameworks. It allows users to model causal relationships and reason about them using argumentation techniques.
+Found in: COMMA 2026
+Documentation: 'Yes'
+Implementation Language(s): 'Python'
+Type of Tool: Visualizer
+Tests?: 'Yes'
+Source Code: 'Yes'
+License: GPL 3.0
+Last Update: '2026-08-31'
+Year of Update: '2026'
+Solver Approach: Custom
+Region: Germany
+Bibtex Entry: |-
+  @inproceedings{DBLP:conf/comma/BengelDKST26,
+  author       = {Lars Bengel and
+                  Oleksandr Dzhychko and
+                  Myriam Kasten and
+                  Kai Sauerwald and
+                  Matthias Thimm},
+  editor       = {Katie Atkinson and
+                  Maria Vanina Martinez and
+                  Llu{\'{\i}}s Godo},
+  title        = {Argumentation-Based Causal Reasoning},
+  booktitle    = {Computational Models of Argument - Proceedings of {COMMA} 2026, 9-13
+                  September 2026, Barcelona, Spain},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {428},
+  pages        = {524--525},
+  publisher    = {{IOS} Press},
+  year         = {2026},
+  url          = {https://doi.org/10.3233/FAIA260841},
+  doi          = {10.3233/FAIA260841},
+  timestamp    = {Thu, 17 Sep 2026 11:46:06 +0200},
+  biburl       = {https://dblp.org/rec/conf/comma/BengelDKST26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  }
+Argumentation Approach: ['Structured Argumentation']
+URL: https://github.com/aig-hagen/aig-causal-knowledge-base-editor
+Bug Tracker: https://github.com/aig-hagen/aig-causal-knowledge-base-editor/issues
+Application: Simple application examples, e.g., of medical diagnosis
+Dependencies: 'Primarily Tweety, but also some other Java and JavaScript dependencies, e.g.: https://github.com/aig-hagen/aig-causal-knowledge-base-editor/blob/main/package.json'
+Continuous Integration: 'Yes'
+Empirical (Runtime) Evaluation: NA
+Benchmarks: NA
