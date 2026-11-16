@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +14,9 @@
 	<link rel="stylesheet" type="text/css"
 		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap">
     <link rel="stylesheet" type="text/css" href="./index.css">
 
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js "></script>
@@ -22,43 +25,117 @@
 
     <script src="./meta_model/tools.js"></script>
     <script src="./index.js"></script>
+    <script>
+      // Render the Bibtex column (index 13) as a copy button; the raw entry
+      // stays the cell's data, so search and sorting still use it.
+      $.extend(true, $.fn.dataTable.defaults, {
+        columnDefs: [{
+          targets: 13,
+          orderable: false,
+          render: function (data, type) {
+            if (type !== 'display') return data
+            if (!data || !String(data).trim() || data === 'NA') return 'NA'
+            return '<button type="button" class="copy-bibtex">Copy BibTeX</button>'
+          }
+        }]
+      })
+
+      function copyText(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          return navigator.clipboard.writeText(text)
+        }
+        const area = document.createElement('textarea')
+        area.value = text
+        area.style.position = 'fixed'
+        area.style.opacity = '0'
+        document.body.appendChild(area)
+        area.select()
+        document.execCommand('copy')
+        area.remove()
+        return Promise.resolve()
+      }
+
+      $(document).on('click', '#data-table .copy-bibtex', function () {
+        const button = this
+        const bibtex = String($('#data-table').DataTable().cell(button.closest('td')).data()).trim()
+        copyText(bibtex).then(() => {
+          button.textContent = 'Copied!'
+          button.classList.add('copied')
+          setTimeout(() => {
+            button.textContent = 'Copy BibTeX'
+            button.classList.remove('copied')
+          }, 1500)
+        })
+      })
+    </script>
 </head>
 
 <body>
-  <div class="hero-image">
-    <div class="hero-text">
-      <h1 style="font-size:50px">Fantastic Argumentation Tools</h1>
-      <p> And Where To Find Them</p>
-
-      <p>Michele PERSIANI, Esteban GUERRERO, Andreas BRANNSTRÖM, Kaan KILIC, Timotheus KAMPIK</p>
-      <p>Umeå University, Sweden</p>
-      
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="brand">
+        <h1>Fantastic Argumentation Tools</h1>
+        <p class="tagline">And Where To Find Them</p>
+      </div>
+      <nav class="sidenav">
+        <a href="#" onclick="showDiv('home')">Home</a>
+        <a href="#" onclick="showDiv('analysis')">Analysis</a>
+        <a href="https://github.com/TimKam/fantastic-arg-tools/issues/new?assignees=TimKam&labels=&projects=&template=new-tool.md&title=New+Tool%3A+%3CToolname%3E">Add a new arg-tool (GitHub)</a>
+        <a href="https://forms.office.com/e/8qMSFL3Zgf">Add a new arg-tool (form)</a>
+      </nav>
     </div>
-  </div>
-  
-  <div class="sidenav">
-    <a href="#" onclick="showDiv('home')">Home</a>
-    <a href="#" onclick="showDiv('analysis')">Analysis</a>
-    <a href="https://github.com/TimKam/fantastic-arg-tools/issues/new?assignees=TimKam&labels=&projects=&template=new-tool.md&title=New+Tool%3A+%3CToolname%3E">Add a new arg-tool (GitHub)</a>
-    <a href="https://forms.office.com/e/8qMSFL3Zgf">Add a new arg-tool (form)</a>
-  </div>
+  </header>
 
-    
+  <main>
   <div id="analysis" class="content" style="visibility: hidden;">
     <div class="charts-grid">
       <div class="chart-card">
         <h2>Tools by Country</h2>
-        <canvas id="countries"></canvas>
+        <div class="chart-box"><canvas id="countries"></canvas></div>
       </div>
 
       <div class="chart-card">
         <h2>Tools by Documentation Availability</h2>
-        <canvas id="documentation"></canvas>
+        <div class="chart-box"><canvas id="documentation"></canvas></div>
       </div>
 
       <div class="chart-card">
         <h2>Tools by License</h2>
-        <canvas id="license"></canvas>
+        <div class="chart-box"><canvas id="license"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Tools by Type of Tool</h2>
+        <p class="chart-note">A tool can have several types</p>
+        <div class="chart-box"><canvas id="toolTypes"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Tools by Implementation Language</h2>
+        <p class="chart-note">A tool can use several languages</p>
+        <div class="chart-box"><canvas id="languages"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Tools by Argumentation Approach</h2>
+        <p class="chart-note">A tool can support several approaches</p>
+        <div class="chart-box"><canvas id="argumentationApproaches"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Tools by Solver Approach</h2>
+        <div class="chart-box"><canvas id="solverApproaches"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Tools by Year of Last Update</h2>
+        <div class="chart-box"><canvas id="years"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Software Engineering Practices</h2>
+        <p class="chart-note">Share of tools that provide each</p>
+        <div class="chart-box"><canvas id="practices"></canvas></div>
       </div>
     </div>
   </div>
@@ -77,14 +154,19 @@
     </p>
   </div>
 
-  <div class="container">
-    <br>
+  <div class="container table-container">
     <div class="row">
       <table
         id="data-table" class="table table-striped table-sm table-hover table-bordered">
       </table>
     </div>
   </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Michele PERSIANI, Esteban GUERRERO, Andreas BRANNSTRÖM, Kaan KILIC, Timotheus KAMPIK</p>
+    <p>Umeå University, Sweden</p>
+  </footer>
 
   </body>
 </html>

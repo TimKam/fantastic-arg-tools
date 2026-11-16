@@ -1,96 +1,292 @@
+/* ************ */
+/* UMU THEME    */
+/* ************ */
+/* Colors and typography follow umu.se: dark blue #2a4765, light grays,
+   and Gotham (licensed) with Montserrat as the closest free substitute. */
+:root {
+  --umu-blue: #2a4765;
+  --umu-blue-dark: #1e3349;
+  --umu-blue-light: #d8e5ec;
+  --umu-text: #262626;
+  --umu-muted: #5c5c5c;
+  --umu-border: #eaeaea;
+  --umu-bg: #fafafa;
+  --umu-sand: #f3f3ec;
+  --umu-accent: #d7b17c;
+  --umu-font: "HCo Gotham SSm", "Montserrat", Verdana, sans-serif;
+}
+
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Norra_skenet%2C_av_Ernst_Nordin.JPG/1024px-Norra_skenet%2C_av_Ernst_Nordin.JPG");
-    height: 50%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: sticky;
-    flex-grow: 1;
-  } 
-  
-  td.bibtex {
-    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  
-  .hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .hero-text button:hover {
-    background-color: #555;
-    color: white;
-  }
-  
-  
-  .sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .sidenav a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  .main {
-    margin-left: 350px; /* Same as the width of the sidenav */
-  }
-  .content {
-    margin-left: 220px;
-  }
-  
-  .paragr {
-    margin-left: 250px;
-    margin-right: 350px;
-    text-align: justify;
-    text-justify: inter-word;  
-  }
-  
-  .container {
-    margin-left: 220px !important;
-  }
+  margin: 0;
+  font-family: var(--umu-font);
+  color: var(--umu-text);
+  background: var(--umu-bg);
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 15px;
+  line-height: 1.6;
+}
 
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  color: var(--umu-blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--umu-blue-dark);
+}
+
+h1, h2, h3 {
+  font-family: var(--umu-font);
+  font-weight: 500;
+}
+
+/* ************ */
+/* HEADER       */
+/* ************ */
+.site-header {
+  background: var(--umu-blue);
+  color: #fff;
+  border-bottom: 4px solid var(--umu-accent);
+}
+
+.site-header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 32px;
+}
+
+.brand h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.brand .tagline {
+  margin: 2px 0 0 0;
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.sidenav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.sidenav a {
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  transition: background-color .15s ease;
+}
+
+.sidenav a:hover,
+.sidenav a:focus {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+/* ************ */
+/* CONTENT      */
+/* ************ */
+.content {
+  max-width: 900px;
+  width: calc(100% - 32px);
+  margin: 32px auto 8px auto;
+  padding: 0 24px;
+}
+
+#home {
+  background: #fff;
+  border-left: 4px solid var(--umu-blue);
+  padding: 20px 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+#home h2:empty {
+  display: none;
+}
+
+#home p:last-child {
+  margin-bottom: 0;
+}
+
+#analysis {
+  max-width: 1400px;
+  background: none;
+}
+
+/* ************ */
+/* TABLE        */
+/* ************ */
+.container.table-container {
+  max-width: none;
+  margin: 24px 0 40px 0;
+  padding: 0 24px;
+}
+
+.table-container > .row {
+  margin: 0;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+#data-table {
+  /* DataTables sets a fixed px width and spreads leftover space over all
+     columns; let the column widths below decide instead */
+  width: auto !important;
+  font-size: 13px;
+  color: var(--umu-text);
+}
+
+#data-table thead th {
+  background: var(--umu-blue);
+  color: #fff;
+  font-weight: 500;
+  border-color: var(--umu-blue-dark);
+  vertical-align: middle;
+}
+
+#data-table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--umu-sand);
+}
+
+#data-table.table-hover tbody tr:hover {
+  background-color: var(--umu-blue-light);
+}
+
+#data-table td {
+  border-color: var(--umu-border);
+}
+
+/* Description: give it room */
+#data-table th:nth-child(2),
+#data-table td:nth-child(2) {
+  min-width: 340px !important;
+  width: 340px !important;
+}
+
+/* Yes/No columns: Documentation, Tests?, Source Code,
+   Continuous Integration, Empirical (Runtime) Evaluation, Benchmarks */
+#data-table th:nth-child(4),  #data-table td:nth-child(4),
+#data-table th:nth-child(7),  #data-table td:nth-child(7),
+#data-table th:nth-child(8),  #data-table td:nth-child(8),
+#data-table th:nth-child(20), #data-table td:nth-child(20),
+#data-table th:nth-child(21), #data-table td:nth-child(21),
+#data-table th:nth-child(22), #data-table td:nth-child(22) {
+  /* content width; Chrome adds the cell padding (incl. sort icon) on top.
+     Columns still grow to fit the longest header word. */
+  width: 60px !important;
+}
+
+/* a few of these cells contain URLs instead of Yes/No */
+#data-table td:nth-child(4),
+#data-table td:nth-child(8) {
+  overflow-wrap: anywhere;
+}
+
+td.bibtex {
+  white-space: nowrap;
+}
+
+.copy-bibtex {
+  font-family: var(--umu-font);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--umu-blue);
+  background: #fff;
+  border: 1px solid var(--umu-blue);
+  border-radius: 4px;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: background-color .15s ease, color .15s ease;
+}
+
+.copy-bibtex:hover,
+.copy-bibtex:focus {
+  background: var(--umu-blue);
+  color: #fff;
+}
+
+.copy-bibtex.copied {
+  background: var(--umu-blue);
+  border-color: var(--umu-blue);
+  color: #fff;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+  margin-bottom: 8px;
+}
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+  border: 1px solid #c8c8c8;
+  border-radius: 4px;
+  font-family: var(--umu-font);
+}
+
+.dataTables_wrapper .page-item.active .page-link {
+  background-color: var(--umu-blue);
+  border-color: var(--umu-blue);
+}
+
+.dataTables_wrapper .page-link {
+  color: var(--umu-blue);
+}
+
+/* ************ */
+/* FOOTER       */
+/* ************ */
+.site-footer {
+  background: var(--umu-blue);
+  color: #fff;
+  text-align: center;
+  padding: 20px 24px;
+  font-size: 13px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer p + p {
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+  .brand h1 { font-size: 21px; }
+  .site-header-inner { padding: 12px 16px; }
+  .content, .container.table-container { padding: 0 16px; }
+  #home { padding: 16px 20px; }
+}
 
 /* *************** */
 /* ANALYSIS CHARTS */
@@ -98,7 +294,7 @@ body, html {
 .charts-grid {
   margin: 0 auto;                  /* center horizontally */
   max-width: 1100px;               /* constrain width so it centers */
-  padding: 10px 16px 30px 16px;
+  padding: 10px 0 30px 0;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, minmax(280px, 1fr));
@@ -113,25 +309,31 @@ body, html {
 
 .chart-card {
   background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,.08);
-  padding: 12px 16px 6px 16px;
-  min-height: 360px;
+  border-top: 4px solid var(--umu-blue);
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  padding: 12px 16px 12px 16px;
 }
 
 .chart-card h2 {
-  font-size: 18px;
+  font-size: 16px;
+  color: var(--umu-blue);
   margin: 6px 0 8px 0;
   text-align: center;
 }
 
-.chart-card canvas {
-  width: 100% !important;
-  height: 280px !important;
+.chart-card .chart-note {
+  font-size: 12px;
+  color: var(--umu-muted);
+  margin: -4px 0 8px 0;
+  text-align: center;
+}
+
+/* Chart.js sizes the canvas to this box (maintainAspectRatio: false) */
+.chart-box {
+  position: relative;
+  height: 300px;
 }
 
 .chart-card .download {
   padding: 4px 0;
 }
-
-.chart-card canvas { height: 240px !important; }
